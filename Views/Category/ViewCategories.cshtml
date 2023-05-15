@@ -1,0 +1,21 @@
+@model IEnumerable<CategoryViewModel>
+
+<div>
+    @foreach (var category in Model)
+    {
+        <div class="container m-2">
+            <h1 class="title">@category.Title</h1>
+            <h3>@category.Description</h3>
+            <ul>
+                @foreach (var product in category.Products)
+                {
+                    <li>
+                        <div class="card">
+                            @product.Description
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
+    }
+</div>

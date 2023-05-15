@@ -479,3 +479,4 @@ $RECYCLE.BIN/
 # Uploads folder
 wwwroot/uploads/*
 wwwroot/lib/bulma/*
+appsettings.*
