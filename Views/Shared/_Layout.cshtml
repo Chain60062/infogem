@@ -1,24 +1,25 @@
 ﻿<!doctype html>
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en" dir="ltr" class="has-navbar-fixed-top">
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/bulma.css">
     <link rel="stylesheet" href="~/css/site.css">
-    <link rel="stylesheet" href="~/lib/bulma-calendar/dist/css/bulma-calendar.min.css" >
-  </head>
+    <link rel="stylesheet" href="~/css/product.css">
+</head>
+
 <body>
 
-<partial name="_NavbarPartial" />
+    <partial name="_Navbar" />
 
-<div>
-    @RenderBody()
-</div>
+    <div>
+        @RenderBody()
+    </div>
 
-  <script src="~/lib/bulma-calendar/dist/js/bulma-calendar.min.js"></script>
-  <script src="~/js/site.js"></script>
-  @await RenderSectionAsync("Scripts", required: false)
-  </body>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
 </html>

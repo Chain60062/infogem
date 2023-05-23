@@ -1,0 +1,41 @@
+.product-container {
+    background-color: crimson;
+    color: aqua;
+    height: 80vh;
+    width: 100%;
+    padding: 24px;
+    border-radius: 8px;
+}
+
+#imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#fullImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+#fullImage {
+  max-width: 500px;
+  max-height: 500px;
+  transition: transform 0.3s;
+  transform-origin: center center;
+}
+
+#fullImage.zoomed {
+  transform: scale(4);
+}

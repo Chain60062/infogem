@@ -21,15 +21,30 @@ public class CategoryService
 
         return categories!;
     }
-    
+    public async Task<IEnumerable<Product>> ListCategoryProducts(int categoryId)
+    {
+        List<Product> categories = await _db.Products.Where(p => p.CategoryId == categoryId).ToListAsync();
+
+        return categories!;
+    }
+
+    public async Task<Category> GetCategoryById(int categoryId)
+    {
+       var category = await _db.Categories.FindAsync(categoryId);
+
+       return category;
+    }
+
     public async Task<bool> CreateCategory(CategoryViewModel categoryViewModel)
     {
         var slug = categoryViewModel.Title.toSlug();
         var slugAlreadyExists = await _db.Categories.FirstOrDefaultAsync(c => c.Slug == slug);
 
-        if(slugAlreadyExists is not null){
+        if (slugAlreadyExists is not null)
+        {
             int randomNumber;
-            lock(random){
+            lock (random)
+            {
                 randomNumber = random.Next(1, 10_000);
             }
             slug = $"{slug}-{randomNumber}";
@@ -48,7 +63,7 @@ public class CategoryService
 
         return true;
     }
-public async Task<Category> EditCategory(int categoryId, Category updatedCategory)
+    public async Task<Category> EditCategory(int categoryId, Category updatedCategory)
     {
         var existingCategory = await _db.Categories.FirstOrDefaultAsync(c => c.CategoryId == categoryId);
 

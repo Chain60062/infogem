@@ -20,9 +20,9 @@ public class ProductService
     {
         _db = db;
     }
-    public async Task<Product> GetProductBySlug(string slug)
+    public async Task<Product> GetProductById(int productId)
     {
-        var product = await _db.Products.FirstOrDefaultAsync(p => p.Slug == slug);
+        var product = await _db.Products.Include("Images").FirstOrDefaultAsync(p => p.ProductId == productId);
 
         return product!;
     }
@@ -40,6 +40,12 @@ public class ProductService
             }
             slug = $"{slug}-{randomNumber}";
         }
+        var productCategory = await _db.Categories.FindAsync(productViewModel.CategoryId);
+
+        if (productCategory is null)
+        {
+            throw new ArgumentException("Desculpe, A categoria escolhida não foi encontrada.");
+        }
         var newProduct = new Product()
         {
             ProductName = productViewModel.ProductName,
@@ -52,7 +58,8 @@ public class ProductService
             Images = productViewModel.Images,
             Sku = productViewModel.Sku,
             DiscountStartAt = productViewModel.DiscountStartAt,
-            DiscountEndsAt = productViewModel.DiscountEndsAt
+            DiscountEndsAt = productViewModel.DiscountEndsAt,
+            CategoryId = productViewModel.CategoryId
         };
 
         await _db.Products.AddAsync(newProduct);
@@ -71,44 +78,18 @@ public class ProductService
                 }
 
                 var fileName = $"{Guid.NewGuid().ToString()}{DateTime.UtcNow.ToString("yyyyMMddHHmmssfff")}{fileExtension}";
-                var filePath = Path.Combine(_uploadsFolderPath, fileName);
+                var fullFilePath = Path.Combine(_uploadsFolderPath, fileName);
+                var databaseFilePath = Path.Combine("uploads", fileName);
 
-                using (var stream = System.IO.File.Create(filePath))
+                using (var stream = System.IO.File.Create(fullFilePath))
                 {
                     await image.CopyToAsync(stream);
                 }
-                newProduct.Images.Add(new Image { Url = filePath, AltText = "image", Product = newProduct });
+                newProduct.Images.Add(new Image { Url = databaseFilePath, AltText = "image", Product = newProduct });
             }
         }
         await _db.SaveChangesAsync();
 
         return newProduct;
     }
-    // public async Task<bool> CreateProduct(ProductViewModel productViewModel)
-    // {
-    // var slug = productViewModel.Title.toSlug();
-    // var slugAlreadyExists = await _db.Categories.FirstOrDefaultAsync(c => c.Slug == slug);
-
-    // if (slugAlreadyExists is not null)
-    // {
-    //     int randomNumber;
-    //     lock (random)
-    //     {
-    //         randomNumber = random.Next(1, 10_000);
-    //     }
-    //     slug = $"{slug}-{randomNumber}";
-    // }
-    // var newProduct = new Product
-    // {
-    //     Title = productViewModel.Title,
-    //     Description = productViewModel.Description,
-    //     Slug = slug
-    // };
-
-    // await _db.Categories.AddAsync(newCategory);
-
-    // await _db.SaveChangesAsync();
-
-    //     return true;
-    // }
 }

@@ -13,17 +13,17 @@ public class ProductController : Controller
     {
         _productService = productService;
     }
-    [Route("product/{slug}")]
-    public async Task<IActionResult> Product(string slug)
+    [Route("product/{slug}-{productId}")]
+    public async Task<IActionResult> Index(string slug, int productId)
     {
-        var product = await _productService.GetProductBySlug(slug);
+        var product = await _productService.GetProductById(productId);
 
         if (product is null)
         {
             return NotFound();
         }
-
-        ProductViewModel productModel = new()
+        
+        ProductViewModel productViewModel = new()
         {
             Slug = product.Slug,
             Description = product.Description,
@@ -32,26 +32,9 @@ public class ProductController : Controller
             Discount = product.Discount,
             AvailableUnits = product.AvailableUnits,
             Reviews = product.Reviews,
+            Images = product.Images
         };
 
-        return View(product);
-    }
-
-    [Route("product/create")]
-    public async Task<IActionResult> CreateProduct([FromForm] ProductViewModel product)
-    {
-        ProductViewModel productViewModel = new()
-        {
-            ProductName = product.ProductName,
-            Description = product.Description,
-            AvailableUnits = product.AvailableUnits,
-            Discount = product.Discount,
-            Price = product.Price,
-            FileUploadImages = product.FileUploadImages,
-            Slug = product.ProductName.toSlug(),
-        };
-        var isCreateSuccess = await _productService.CreateProduct(product);
-
-        return View(isCreateSuccess);
+        return View(productViewModel);
     }
 }

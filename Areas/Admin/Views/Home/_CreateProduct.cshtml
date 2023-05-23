@@ -1,109 +1,114 @@
-@* @model IEnumerable<Category> *@
+@model List<Category>
 <div class="container box mt-5 mb-5">
-  <form method="post" asp-area="Admin" asp-controller="Home" asp-action="CreateProduct" enctype="multipart/form-data">
-    <h1 class="title">Produtos</h1>
-  <div class="columns">
-    <div class="column field">
-    <label class="label">Nome</label>
-    <div class="control">
-      <input name="ProductName" class="input" type="text" placeholder="ex: GPUs">
-    </div>
-  </div>
-  
-  
-  <div class="column field">
-    <label class="label">Preço</label>
-    <div class="control">
-      <input name="Price" class="input" type="number" placeholder="ex: 34.00">
-    </div>
-  </div>
-  <div class="column">
-     <div class="field">
-    <label class="label">Desconto</label>
-    <div class="control">
-      <input name="Discount" class="input" type="number" placeholder="ex: 12.00">
-    </div>
-  </div>
-  </div>
-  </div>
-  <div class="columns">
-      <div class="column">
-          <div class="field">
-          <label class="label">Data de início do desconto</label>
-          <div class="control">
-            <input class="" type="datetime-local" name="DiscountStartAt" id="">
-          </div>
+    <form method="post" asp-area="Admin" asp-controller="Home" asp-action="CreateProduct" enctype="multipart/form-data">
+        <h1 class="title">Produtos</h1>
+        <div class="columns">
+            <div class="column field">
+                <label class="label">Nome</label>
+                <div class="control">
+                    <input name="ProductName" class="input" type="text" placeholder="ex: GPUs">
+                </div>
+            </div>
+
+            <div class="column field">
+                <label class="label">Preço</label>
+                <div class="control">
+                    <input name="Price" class="input" type="number" placeholder="ex: 34.00">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="field">
+                    <label class="label">Desconto</label>
+                    <div class="control">
+                        <input name="Discount" class="input" type="number" placeholder="ex: 12.00">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="column">
+        <div class="columns">
+            <div class="column">
+                <div class="field">
+                    <label class="label">Data de início do desconto</label>
+                    <div class="control">
+                        <input class="" type="datetime-local" name="DiscountStartAt" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label class="label">Data de validade do desconto</label>
+                    <div class="control">
+                        <input class="" type="datetime-local" name="DiscountEndsAt" id="">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <label class="label">Categoria</label>
+                <div class="select is-multiple">
+                    <select name="CategoryId">
+                        <option>Escolher Categoria</option>
+                        @if (Model is not null)
+                        {
+                            @foreach (var category in Model)
+                            {
+                                <option value=@category.CategoryId>@category.Title</option>
+                            }
+                        }
+                    </select>
+
+                </div>
+            </div>
+        </div>
+
         <div class="field">
-          <label class="label">Data de validade do desconto</label>
-          <div class="control">
-            <input class="" type="datetime-local" name="DiscountEndsAt" id="">
-          </div>
-        </div>
-      </div>
-      <div class="column"></div>
-  </div>
-
-
-   <div class="field">
-    <label class="label">Descrição</label>
-    <div class="control">
-      <input name="Description" class="input" type="text" placeholder="ex: 34.00">
-    </div>
-  </div>
-
-<div class="columns">
-        <div class="column">
-          <div class="field">
-            <label class="label">Unidades Disponíveis</label>
+            <label class="label">Descrição</label>
             <div class="control">
-              <input name="AvailableUnits" class="input" type="number" placeholder="ex: 34.00">
+                <input name="Description" class="input" type="text"
+                    placeholder="Item de altíssima qualidade da marca...">
             </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="field">
-            <label class="label">Código do Produto</label>
-            <div class="control">
-              <input name="Sku" class="input" type="text" placeholder="ex: 34.00">
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="file is-danger has-name is-boxed">
-            <label class="file-label">
-              <input class="file-input" type="file" name="FileUploadImages" multiple accept="image/*">
-              <span class="file-cta">
-                <span class="file-icon">
-                  <img class="svg-white" src="~/imgs/icons/upload-cloud.svg" alt="cloud"/>
-                </span>
-                <span class="file-label">
-                  Imagens...
-                </span>
-              </span>
-              <span class="file-name">
-                Screen Shot 2017-07-29 at 15.54.25.png
-              </span>
-              <span class="file-name">
-                Screen Shot 2017-07-29 at 15.54.25.png
-              </span>
-              <span class="file-name">
-                Screen Shot 2017-07-29 at 15.54.25.png
-              </span>
-            </label>
-          </div>
-
         </div>
 
+        <div class="columns">
+            <div class="column">
+                <div class="field">
+                    <label class="label">Unidades Disponíveis</label>
+                    <div class="control">
+                        <input name="AvailableUnits" class="input" type="number" placeholder="ex: 12">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field">
+                    <label class="label">Código do Produto</label>
+                    <div class="control">
+                        <input name="Sku" class="input" type="text" placeholder="ex: S13254G2D255LLD">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="file is-danger has-name is-boxed">
+                    <label class="file-label">
+                        <input class="file-input" type="file" id="fileUploadImages" name="FileUploadImages" multiple
+                            accept="image/*">
+                        <span class="file-cta">
+                            <span class="file-icon">
+                                <img class="svg-white" src="~/imgs/icons/upload-cloud.svg" alt="cloud" />
+                            </span>
+                            <span class="file-label">
+                                Imagens...
+                            </span>
+                        </span>
+                        <span id="fileNamesContainer"></span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="control">
+            <button class="button is-link">Enviar</button>
+        </div>
+    </form>
 </div>
 
-
-
-
-  <div class="control">
-    <button class="button is-link">Criar</button>
-  </div>
-</form>
-</div>
+<script src="~/js/uploads.js"></script>

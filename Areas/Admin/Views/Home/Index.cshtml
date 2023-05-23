@@ -1,2 +1,2 @@
 <partial name="_CreateCategory" />
-<partial name="_CreateProduct" />
+@await Html.PartialAsync("_CreateProduct", (List<Category>)ViewBag.Categories);

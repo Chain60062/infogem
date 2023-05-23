@@ -3,7 +3,6 @@ using GroGem.ViewModels;
 using GroGem.Services;
 using Microsoft.AspNetCore.Authorization;
 using GroGem.Models;
-using System.Text.Json;
 
 namespace GroGem.Areas.Admin;
 [Authorize(Roles = "Administrators")]
@@ -20,12 +19,15 @@ public class HomeController : Controller
     {
         _logger = logger;
         _categoryService = categoryService;
-        // _imageService = imageService;
         _productService = productService;
     }
 
     public async Task<IActionResult> Index()
     {
+        var availableCategories = await _categoryService.ListAllCategories();
+
+        ViewBag.Categories = (List<Category>)availableCategories;
+
         return View();
     }
     [HttpPost]
@@ -43,12 +45,14 @@ public class HomeController : Controller
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromForm] ProductViewModel productViewModel)
     {
-        var newProduct = await _productService.CreateProduct(productViewModel);
-        // Create the product and save it to the database
-        // var productJson = JsonSerializer.Serialize(newProduct);
-
-        // Console.WriteLine(productJson);
-
+        try
+        {
+            var newProduct = await _productService.CreateProduct(productViewModel);
+        }
+        catch (ArgumentException ex)
+        {
+            ModelState.AddModelError(string.Empty, ex.Message);
+        }
         return RedirectToAction("Index");
     }
 }

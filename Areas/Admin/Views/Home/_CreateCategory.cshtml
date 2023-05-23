@@ -2,20 +2,20 @@
     <form method="post" asp-area="Admin" asp-controller="Home" asp-action="CreateCategory">
         <h1 class="title">Categorias</h1>
         <div class="field">
-        <label class="label">Título</label>
-        <div class="control">
-            <input class="input" type="text" name="Title" placeholder="ex: CPUs">
-        </div>
+            <label class="label">Título</label>
+            <div class="control">
+                <input class="input" type="text" name="Title" placeholder="ex: CPUs">
+            </div>
         </div>
 
         <div class="field">
-        <label class="label">Descrição</label>
+            <label class="label">Descrição</label>
+            <div class="control">
+                <input class="input" type="text" name="Description" placeholder="ex: Categoria dedicada às CPUs de todas as marcas...">
+            </div>
+        </div>
         <div class="control">
-            <input class="input" type="text" name="Description" placeholder="ex: Categoria dedicada às CPUs de todas as marcas...">
-        </div>
-        </div>
-          <div class="control">
             <button class="button is-link" type="submit">Enviar</button>
-          </div>
+        </div>
     </form>
 </div>

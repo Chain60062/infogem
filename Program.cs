@@ -42,7 +42,11 @@ app.MapControllerRoute(
     pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
-    name: "default",
+    name: "Slug",
+    pattern: "{controller=Home}/{action=Index}/{slug}-{id}");
+
+app.MapControllerRoute(
+    name: "IdOnly",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 
