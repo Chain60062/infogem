@@ -1,11 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
-using GroGem.ViewModels;
-using GroGem.Services;
-using Microsoft.AspNetCore.Authorization;
-using GroGem.Helpers;
+using InfoGem.Services;
+using Microsoft.EntityFrameworkCore;
+using InfoGem.Dto;
 
-namespace GroGem.Controllers;
+namespace InfoGem.Controllers;
 
+[Route("api/products")]
+[ApiController]
 public class ProductController : Controller
 {
     private readonly ProductService _productService;
@@ -13,28 +14,55 @@ public class ProductController : Controller
     {
         _productService = productService;
     }
-    [Route("product/{slug}-{productId}")]
-    public async Task<IActionResult> Index(string slug, int productId)
+    [Route("{productId}")]
+    [HttpGet]
+    public async Task<IActionResult> GetProduct(long productId)
     {
         var product = await _productService.GetProductById(productId);
 
-        if (product is null)
-        {
-            return NotFound();
-        }
-        
-        ProductViewModel productViewModel = new()
-        {
-            Slug = product.Slug,
-            Description = product.Description,
-            ProductName = product.ProductName,
-            Price = product.Price,
-            Discount = product.Discount,
-            AvailableUnits = product.AvailableUnits,
-            Reviews = product.Reviews,
-            Images = product.Images
-        };
+        if (product is null) return NotFound();
 
-        return View(productViewModel);
+        return Ok(product);
+    }
+    [HttpPost]
+    public async Task<IActionResult> CreateProduct([FromBody] ProductDto productDto)
+    {
+        var product = await _productService.CreateProduct(productDto);
+
+        if (product is null) return BadRequest();
+
+        return CreatedAtAction("GetProduct", product.ProductId, product);
+    }
+    [HttpPut]
+    public async Task<IActionResult> EditProduct([FromBody] ProductDto productDto, long productId)
+    {
+        try
+        {
+            var product = await _productService.EditProduct(productId, productDto);
+
+            if (product is null) return NotFound();
+
+            return Ok(product);
+        }
+        catch (DbUpdateException)
+        {
+            return StatusCode(500, "Falha ao editar produto.");
+        }
+    }
+    [HttpDelete("{productId}")]
+    public async Task<IActionResult> RemoveProduct(long productId)
+    {
+        try
+        {
+            var product = await _productService.RemoveProduct(productId);
+
+            if (product == false) return NotFound();
+
+            return NoContent();
+        }
+        catch (DbUpdateException)
+        {
+            return StatusCode(500, "Falha ao remover produto.");
+        }
     }
 }

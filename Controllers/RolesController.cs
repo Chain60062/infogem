@@ -1,16 +1,16 @@
 using Microsoft.AspNetCore.Identity; // RoleManager, UserManager
 using Microsoft.AspNetCore.Mvc; // Controller, IActionResult
 using static System.Console;
-namespace GroGem.Controllers;
+namespace InfoGem.Controllers;
 public class RolesController : Controller
 {
     private string AdminRole = "Administrators";
     private string UserEmail = "admin@sneedmail.com";
     private readonly RoleManager<IdentityRole<Guid>> roleManager;
-    private readonly UserManager<ApplicationUser> userManager;
+    private readonly UserManager<AppUser> userManager;
 
     public RolesController(RoleManager<IdentityRole<Guid>> roleManager,
-    UserManager<ApplicationUser> userManager)
+    UserManager<AppUser> userManager)
     {
         this.roleManager = roleManager;
         this.userManager = userManager;

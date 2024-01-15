@@ -1,30 +1,23 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using GroGem.ViewModels;
-namespace GroGem.Controllers;
+using InfoGem.Repositories;
+namespace InfoGem.Controllers;
 
-public class HomeController : Controller
+[Route("api")]
+[ApiController]
+public class HomeController : ControllerBase
 {
     private readonly ILogger<HomeController> _logger;
+    private readonly ITagRepository _tagRepository;
 
-    public HomeController(ILogger<HomeController> logger)
+    public HomeController(ILogger<HomeController> logger, ITagRepository tagRepository)
     {
         _logger = logger;
+        _tagRepository = tagRepository;
     }
 
-    public IActionResult Index()
+    [HttpGet]
+    public async Task<IActionResult> Home()
     {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        return Ok("Funciona");
     }
 }

@@ -1,95 +1,136 @@
-using GroGem.Data;
-using GroGem.Helpers;
-using GroGem.Models;
-using GroGem.ViewModels;
-using Microsoft.EntityFrameworkCore;
+using InfoGem.Utils;
+using InfoGem.Models;
+using InfoGem.Repositories;
+using InfoGem.Exceptions;
+using InfoGem.Dto;
 
-namespace GroGem.Services;
+namespace InfoGem.Services;
 
 public class ProductService
 {
-    private readonly ApplicationDbContext _db;
-    private readonly string[] _permittedExtensions = { ".png", ".jpeg", ".jpg", ".avif", ".svg", ".webp" };
-    private readonly string _uploadsFolderPath = "wwwroot/uploads";
+    private readonly IProductRepository _productRepository;
+    private readonly IImageRepository _imageRepository;
+    private readonly IFileRepository _fileRepository;
     private static readonly Random random = new Random();
 
-    public ProductService()
+    public ProductService(IProductRepository productRepository, IImageRepository imageRepository, IFileRepository fileRepository)
     {
+        _productRepository = productRepository;
+        _imageRepository = imageRepository;
+        _fileRepository = fileRepository;
     }
-    public ProductService(ApplicationDbContext db)
-    {
-        _db = db;
-    }
-    public async Task<Product> GetProductById(int productId)
-    {
-        var product = await _db.Products.Include("Images").FirstOrDefaultAsync(p => p.ProductId == productId);
 
-        return product!;
-    }
-    public async Task<Product> CreateProduct(ProductViewModel productViewModel)
+    public async Task<Product?> GetProductById(long productId)
     {
-        var slug = productViewModel.ProductName.toSlug();
-        var slugAlreadyExists = await _db.Products.FirstOrDefaultAsync(p => p.Slug == slug);
+        return await _productRepository.GetProductById(productId);
+    }
+    public async Task<Product> CreateProduct(ProductDto productDto)
+    {
 
-        if (slugAlreadyExists is not null)
+        var images = productDto.FileUploadImages;
+        var slug = productDto.ProductName.ToSlug();//get slug
+        slug = await ChangeIfSlugAlreadyExists(slug);//change it if already exists
+
+        var newProduct = InstantiateProduct(productDto, slug);
+
+        await _productRepository.CreateNewProduct(newProduct);
+
+        await _fileRepository.UploadFiles(images);
+        // check if all files given are valid images
+        foreach (var image in images)
         {
-            int randomNumber;
+            if (_fileRepository.IsFileAnImage(image) == false) throw new FileIsNotAnImageException("Arquivo não é uma imagem.");
+        }
+        // if so continue
+        foreach (var image in images)
+        {
+            if (image.Length > 0)
+            {
+                var fileName = await _fileRepository.UploadFile(image);
+                await _productRepository.AddNewImageToProduct(fileName!, newProduct);
+            }
+        }
+
+        return newProduct;
+    }
+    public async Task<Product?> AddImageToProduct(IFormFile image, long productId)
+    {
+        var product = await _productRepository.GetProductById(productId);
+
+        if (product is null || image is null) return null;
+
+        var fileIsImage = _fileRepository.IsFileAnImage(image);
+        if (!fileIsImage) throw new FileIsNotAnImageException("Arquivo não é uma imagem.");
+
+        var filePath = await _fileRepository.UploadFile(image);
+        if (filePath is null) return null;
+
+        return await _productRepository.AddNewImageToProduct(filePath, product);
+    }
+    public async Task<Product> EditProduct(long productToBeUpdatedId, ProductDto newProductDto)
+    {
+        var newProduct = InstantiateProduct(newProductDto);
+
+        var updatedProduct = await _productRepository.UpdateProductById(productToBeUpdatedId, newProduct);
+        return updatedProduct!;
+    }
+
+    public async Task<bool> RemoveProduct(long productId) =>
+     await _productRepository.RemoveProductById(productId);
+    public async Task<bool> RemoveImageFromProduct(long productId, long imageId)
+    {
+        var image = await _imageRepository.GetImageById(imageId);
+        var product = await _productRepository.GetProductById(productId);
+
+
+        if (image is null || product is null) return false;
+
+        bool removedSuccess = _fileRepository.RemoveFile(image.Url);
+        if (!removedSuccess) throw new DeleteFailedException("Não foi possível remover o arquivo.");
+
+        return await _productRepository.RemoveImageFromProduct(product, image);
+    }
+
+    //helpers
+    private async Task<string> ChangeIfSlugAlreadyExists(string slug)
+    {
+        var slugExists = await _productRepository.ProductSlugExists(slug);
+
+        if (slugExists == false)
+        {
+            long randomNumber;
             lock (random)
             {
                 randomNumber = random.Next(1, 10_000);
             }
             slug = $"{slug}-{randomNumber}";
         }
-        var productCategory = await _db.Categories.FindAsync(productViewModel.CategoryId);
 
-        if (productCategory is null)
+        return slug;
+    }
+    private Product InstantiateProduct(ProductDto productDto, string slug)
+    {
+        return new Product()
         {
-            throw new ArgumentException("Desculpe, A categoria escolhida não foi encontrada.");
-        }
-        var newProduct = new Product()
-        {
-            ProductName = productViewModel.ProductName,
-            Price = productViewModel.Price,
-            Discount = productViewModel.Discount,
-            Description = productViewModel.Description,
-            AvailableUnits = productViewModel.AvailableUnits,
+            ProductName = productDto.ProductName,
+            Price = productDto.Price,
+            Description = productDto.Description,
+            AvailableUnits = productDto.AvailableUnits,
             Slug = slug,
-            Reviews = productViewModel.Reviews,
-            Images = productViewModel.Images,
-            Sku = productViewModel.Sku,
-            DiscountStartAt = productViewModel.DiscountStartAt,
-            DiscountEndsAt = productViewModel.DiscountEndsAt,
-            CategoryId = productViewModel.CategoryId
+            Sku = productDto.Sku,
         };
+    }
 
-        await _db.Products.AddAsync(newProduct);
-
-        long size = productViewModel.FileUploadImages.Sum(i => i.Length);
-
-        foreach (var image in productViewModel.FileUploadImages)
+    private Product InstantiateProduct(ProductDto productDto)
+    {
+        return new Product()
         {
-            if (image.Length > 0)
-            {
-                var fileExtension = Path.GetExtension(image.FileName).ToLowerInvariant();
-
-                if (string.IsNullOrEmpty(fileExtension) || !_permittedExtensions.Contains(fileExtension))
-                {
-                    continue;
-                }
-
-                var fileName = $"{Guid.NewGuid().ToString()}{DateTime.UtcNow.ToString("yyyyMMddHHmmssfff")}{fileExtension}";
-                var fullFilePath = Path.Combine(_uploadsFolderPath, fileName);
-                var databaseFilePath = Path.Combine("uploads", fileName);
-
-                using (var stream = System.IO.File.Create(fullFilePath))
-                {
-                    await image.CopyToAsync(stream);
-                }
-                newProduct.Images.Add(new Image { Url = databaseFilePath, AltText = "image", Product = newProduct });
-            }
-        }
-        await _db.SaveChangesAsync();
-
-        return newProduct;
+            ProductName = productDto.ProductName,
+            Price = productDto.Price,
+            Description = productDto.Description,
+            AvailableUnits = productDto.AvailableUnits,
+            Slug = productDto.Slug,
+            Sku = productDto.Sku,
+        };
     }
 }

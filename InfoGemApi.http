@@ -1,0 +1,11 @@
+@InfoGemApi_HostAddress = http://localhost:5229
+
+GET {{InfoGemApi_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{InfoGemApi_HostAddress}}/todos/1
+Accept: application/json
+
+###

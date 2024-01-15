@@ -1,46 +1,42 @@
-using GroGem.Data;
-using GroGem.Helpers;
-using GroGem.Models;
-using GroGem.ViewModels;
-using Microsoft.EntityFrameworkCore;
+using InfoGem.Dto;
+using InfoGem.Utils;
+using InfoGem.Models;
+using InfoGem.Repositories;
 
-namespace GroGem.Services;
+namespace InfoGem.Services;
 
 public class CategoryService
 {
-    private readonly ApplicationDbContext _db;
+    private readonly ICategoryRepository _categoryRepository;
     private static readonly Random random = new Random();
-
-    public CategoryService(ApplicationDbContext db)
+    public CategoryService(ICategoryRepository categoryRepository)
     {
-        _db = db;
-    }
-    public async Task<IEnumerable<Category>> ListAllCategories()
-    {
-        List<Category> categories = await _db.Categories.ToListAsync();
-
-        return categories!;
-    }
-    public async Task<IEnumerable<Product>> ListCategoryProducts(int categoryId)
-    {
-        List<Product> categories = await _db.Products.Where(p => p.CategoryId == categoryId).ToListAsync();
-
-        return categories!;
+        _categoryRepository = categoryRepository;
     }
 
-    public async Task<Category> GetCategoryById(int categoryId)
-    {
-       var category = await _db.Categories.FindAsync(categoryId);
+    public async Task<IQueryable<Category>?> GetAllCategories() => await _categoryRepository.GetAllCategories();
 
-       return category;
+    public async Task<IQueryable<Product>?> GetCategoryProducts(long categoryId) => await _categoryRepository.GetCategoryProducts(categoryId);
+
+
+    public async Task<Category> GetCategoryById(long categoryId)
+    {
+        var category = await _categoryRepository.GetCategoryById(categoryId);
+
+        return category!;
+    
     }
-
-    public async Task<bool> CreateCategory(CategoryViewModel categoryViewModel)
+    public async Task<Category> GetCategoryBySlug(string slug)
     {
-        var slug = categoryViewModel.Title.toSlug();
-        var slugAlreadyExists = await _db.Categories.FirstOrDefaultAsync(c => c.Slug == slug);
+        var category = await _categoryRepository.GetCategoryBySlug(slug);
 
-        if (slugAlreadyExists is not null)
+        return category!;
+    }
+    public async Task<Category?> CreateNewCategory(CategoryDto categoryDto)
+    {
+        var slug = categoryDto.Title.ToSlug();
+        var slugExists = await _categoryRepository.CategorySlugExists(slug);
+        if (slugExists is not null)
         {
             int randomNumber;
             lock (random)
@@ -51,45 +47,25 @@ public class CategoryService
         }
         var newCategory = new Category
         {
-            Title = categoryViewModel.Title,
-            Description = categoryViewModel.Description,
-            Products = categoryViewModel.Products,
+            Title = categoryDto.Title,
+            Description = categoryDto.Description,
             Slug = slug
         };
-
-        await _db.Categories.AddAsync(newCategory);
-
-        await _db.SaveChangesAsync();
-
-        return true;
+        return await _categoryRepository.CreateNewCategory(newCategory);
     }
-    public async Task<Category> EditCategory(int categoryId, Category updatedCategory)
+    public async Task<Category> EditCategory(long categoryToBeUpdatedId, CategoryDto newCategoryDto)
     {
-        var existingCategory = await _db.Categories.FirstOrDefaultAsync(c => c.CategoryId == categoryId);
-
-        if (existingCategory is not null)
+        var newCategory = new Category
         {
-            existingCategory.Title = updatedCategory.Title;
-            existingCategory.Description = updatedCategory.Description;
+            Title = newCategoryDto.Title,
+            Slug = newCategoryDto.Slug,
+            Description = newCategoryDto.Description
+        };
 
-            await _db.SaveChangesAsync();
-        }
-
-        return existingCategory!;
+        var updatedCategory = await _categoryRepository.UpdateCategoryById(categoryToBeUpdatedId, newCategory);
+        return updatedCategory!;
     }
 
-    public async Task<bool> DeleteCategory(int categoryId)
-    {
-        var categoryToDelete = await _db.Products.FirstOrDefaultAsync(p => p.ProductId == categoryId);
-
-        if (categoryToDelete is not null)
-        {
-            _db.Products.Remove(categoryToDelete);
-            await _db.SaveChangesAsync();
-            return true;
-        }
-
-        return false;
-    }
-
+    public async Task<bool> RemoveCategory(long categoryId) =>
+         await _categoryRepository.RemoveCategoryById(categoryId);
 }

@@ -1,10 +1,12 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using GroGem.ViewModels;
-using GroGem.Services;
+﻿using Microsoft.AspNetCore.Mvc;
+using InfoGem.Services;
+using InfoGem.Dto;
+using Microsoft.EntityFrameworkCore;
 
-namespace GroGem.Controllers;
+namespace InfoGem.Controllers;
 
+[Route("api/categories")]
+[ApiController]
 public class CategoryController : Controller
 {
     private readonly CategoryService _categoryService;
@@ -15,27 +17,66 @@ public class CategoryController : Controller
         _logger = logger;
         _categoryService = categoryService;
     }
-    [Route("Category")]
-    public async Task<IActionResult> Index()
+    [HttpGet]
+    public async Task<IActionResult> GetAllCategories()
     {
-        var categories = await _categoryService.ListAllCategories();
+        var categories = await _categoryService.GetAllCategories();
 
-        return View(categories);
+        return Ok(categories);
     }
-    [Route("Category/{slug}-{categoryid}")]
-    public async Task<IActionResult> ViewCategory(string slug, int categoryId)
-    {
-        var products = await _categoryService.ListCategoryProducts(categoryId);
 
-        if(products is null){
-            return NotFound();
+    [Route("{slug}")]
+    [HttpGet]
+    public async Task<IActionResult> GetCategory(string slug)
+    {
+        var category = await _categoryService.GetCategoryBySlug(slug);
+
+        if (category is null) return NotFound();
+
+        return Ok(category);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Createcategory([FromBody] CategoryDto categoryDto)
+    {
+        var category = await _categoryService.CreateNewCategory(categoryDto);
+
+        if (category is null) return BadRequest();
+
+        return CreatedAtAction("Getcategory", category.CategoryId, category);
+    }
+
+    [HttpPut]
+    public async Task<IActionResult> Editcategory([FromBody] CategoryDto categoryDto, long categoryId)
+    {
+        try
+        {
+            var category = await _categoryService.EditCategory(categoryId, categoryDto);
+
+            if (category is null) return NotFound();
+
+            return Ok(category);
         }
-        
-        return View(products);
+        catch (DbUpdateException)
+        {
+            return StatusCode(500, "Falha ao editar produto.");
+        }
     }
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+
+    [HttpDelete("{categoryId}")]
+    public async Task<IActionResult> Removecategory(long categoryId)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        try
+        {
+            var category = await _categoryService.RemoveCategory(categoryId);
+
+            if (category == false) return NotFound();
+
+            return NoContent();
+        }
+        catch (DbUpdateException)
+        {
+            return StatusCode(500, "Falha ao remover produto.");
+        }
     }
 }
