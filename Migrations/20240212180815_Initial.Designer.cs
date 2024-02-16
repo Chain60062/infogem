@@ -3,21 +3,24 @@ using System;
 using InfoGem.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace InfoGemApi.Data.Migrations
+namespace InfoGemApi.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240212180815_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "8.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -30,6 +33,9 @@ namespace InfoGemApi.Data.Migrations
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("integer");
+
+                    b.Property<DateOnly>("BirthDate")
+                        .HasColumnType("date");
 
                     b.Property<string>("Cnpj")
                         .HasColumnType("text");
@@ -48,29 +54,14 @@ namespace InfoGemApi.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("boolean");
 
-                    b.Property<string>("FirstName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("IsVendor")
-                        .HasColumnType("text");
-
-                    b.Property<string>("LandLine")
-                        .HasColumnType("text");
-
-                    b.Property<string>("LastName")
-                        .HasColumnType("text");
+                    b.Property<bool>("IsVendor")
+                        .HasColumnType("boolean");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("boolean");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("timestamp with time zone");
-
-                    b.Property<string>("MiddleName")
-                        .HasColumnType("text");
-
-                    b.Property<string>("MobilePhone")
-                        .HasColumnType("text");
 
                     b.Property<string>("NormalizedEmail")
                         .HasMaxLength(256)
@@ -438,7 +429,7 @@ namespace InfoGemApi.Data.Migrations
                     b.Property<int>("AvailableUnits")
                         .HasColumnType("integer");
 
-                    b.Property<long>("DealId")
+                    b.Property<long?>("DealId")
                         .HasColumnType("bigint");
 
                     b.Property<string>("Description")
@@ -466,6 +457,30 @@ namespace InfoGemApi.Data.Migrations
                     b.HasIndex("DealId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1L,
+                            AvailableUnits = 12,
+                            Description = "Apple Iphone 15",
+                            Price = 12200m,
+                            ProductName = "IPhone 15",
+                            Sku = "ACZZH34M",
+                            Slug = "iphone-15",
+                            UpdatedAt = new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5266)
+                        },
+                        new
+                        {
+                            ProductId = 2L,
+                            AvailableUnits = 1200,
+                            Description = "SSD Kingston com capacidade 256GB",
+                            Price = 12200m,
+                            ProductName = "SSD Kingston 256GB",
+                            Sku = "CASDGA23J",
+                            Slug = "ssd-kingston-256gb",
+                            UpdatedAt = new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5281)
+                        });
                 });
 
             modelBuilder.Entity("InfoGem.Models.Review", b =>
@@ -806,9 +821,7 @@ namespace InfoGemApi.Data.Migrations
                 {
                     b.HasOne("InfoGem.Models.Deal", "Deal")
                         .WithMany("Products")
-                        .HasForeignKey("DealId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("DealId");
 
                     b.Navigation("Deal");
                 });

@@ -24,6 +24,13 @@ public class ProductController : Controller
 
         return Ok(product);
     }
+    [HttpGet]
+    public async Task<IActionResult> GetAllProducts()
+    {
+        var products = await _productService.GetAllProducts();
+
+        return Ok(products);
+    }
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromBody] ProductDto productDto)
     {

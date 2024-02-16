@@ -1,11 +1,11 @@
-@InfoGemApi_HostAddress = http://localhost:5229
+@InfoGemApi_HostAddress = http://localhost:12001
 
-GET {{InfoGemApi_HostAddress}}/todos/
+GET {{InfoGemApi_HostAddress}}/products
 Accept: application/json
 
 ###
 
-GET {{InfoGemApi_HostAddress}}/todos/1
+GET {{InfoGemApi_HostAddress}}/products/1
 Accept: application/json
 
 ###

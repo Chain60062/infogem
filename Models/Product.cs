@@ -19,6 +19,7 @@ public class Product
 
     public string Slug { get; set; } = null!;
     public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    public long? DealId { get; set; } = null!;
     public virtual Deal Deal { get; set; } = null!;
 
     public virtual ICollection<Review> Reviews { get; set; } = new HashSet<Review>();

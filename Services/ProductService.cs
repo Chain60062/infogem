@@ -24,6 +24,10 @@ public class ProductService
     {
         return await _productRepository.GetProductById(productId);
     }
+        public async Task<IQueryable<Product>?> GetAllProducts()
+    {
+        return await _productRepository.GetAllProducts();
+    }
     public async Task<Product> CreateProduct(ProductDto productDto)
     {
 

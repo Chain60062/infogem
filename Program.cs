@@ -8,28 +8,31 @@ var connectionString = builder.Configuration["Infogem:DefaultConnection"] ?? thr
 
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(connectionString));
+// builder.Services.AddIdentity<AppUser, IdentityRole>()
+// .AddEntityFrameworkStores<AppDbContext>();
 
-builder.Services.AddIdentityApiEndpoints<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentityApiEndpoints<AppUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddRoles<IdentityRole<Guid>>()//Roles
     .AddEntityFrameworkStores<AppDbContext>();
-
 builder.Services.AddRepositoryAndServiceLayers();// Extension method under Extensions/IServiceCollectionExtensions.cs
-
+builder.Services.AddProblemDetails();
 var app = builder.Build();
 
-app.MapIdentityApi<IdentityUser>();
-
-// app.UseHttpsRedirection();
-
-app.UseStaticFiles();
-
-app.UseRouting();
-
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
+}
+app.CustomMapIdentityApi<AppUser>();
 app.UseAuthentication();
 app.UseAuthorization();
-
+// app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.MapControllers();
 
 app.Run();

@@ -4,7 +4,9 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace InfoGemApi.Data.Migrations
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
+namespace InfoGemApi.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -33,12 +35,8 @@ namespace InfoGemApi.Data.Migrations
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
                     Cpf = table.Column<string>(type: "text", nullable: true),
                     Cnpj = table.Column<string>(type: "text", nullable: true),
-                    FirstName = table.Column<string>(type: "text", nullable: true),
-                    MiddleName = table.Column<string>(type: "text", nullable: true),
-                    LastName = table.Column<string>(type: "text", nullable: true),
-                    MobilePhone = table.Column<string>(type: "text", nullable: true),
-                    LandLine = table.Column<string>(type: "text", nullable: true),
-                    IsVendor = table.Column<string>(type: "text", nullable: true),
+                    IsVendor = table.Column<bool>(type: "boolean", nullable: false),
+                    BirthDate = table.Column<DateOnly>(type: "date", nullable: false),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -287,7 +285,7 @@ namespace InfoGemApi.Data.Migrations
                     AvailableUnits = table.Column<int>(type: "integer", nullable: false),
                     Slug = table.Column<string>(type: "text", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    DealId = table.Column<long>(type: "bigint", nullable: false)
+                    DealId = table.Column<long>(type: "bigint", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -296,8 +294,7 @@ namespace InfoGemApi.Data.Migrations
                         name: "FK_Products_Deal_DealId",
                         column: x => x.DealId,
                         principalTable: "Deal",
-                        principalColumn: "DealId",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "DealId");
                 });
 
             migrationBuilder.CreateTable(
@@ -521,6 +518,15 @@ namespace InfoGemApi.Data.Migrations
                         principalTable: "Orders",
                         principalColumn: "OrderId",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Products",
+                columns: new[] { "ProductId", "AvailableUnits", "DealId", "Description", "Price", "ProductName", "Sku", "Slug", "UpdatedAt" },
+                values: new object[,]
+                {
+                    { 1L, 12, null, "Apple Iphone 15", 12200m, "IPhone 15", "ACZZH34M", "iphone-15", new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5266) },
+                    { 2L, 1200, null, "SSD Kingston com capacidade 256GB", 12200m, "SSD Kingston 256GB", "CASDGA23J", "ssd-kingston-256gb", new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5281) }
                 });
 
             migrationBuilder.CreateIndex(

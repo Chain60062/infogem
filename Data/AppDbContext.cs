@@ -41,5 +41,28 @@ public partial class AppDbContext : IdentityDbContext<AppUser, IdentityRole<Guid
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
+
+        var product1 = new Product()
+        {
+            ProductId = 1,
+            AvailableUnits = 12,
+            Description = "Apple Iphone 15",
+            Price = 12_200,
+            ProductName = "IPhone 15",
+            Sku = "ACZZH34M",
+            Slug = "iphone-15",
+        };
+        var product2 = new Product()
+        {
+            ProductId = 2,
+            AvailableUnits = 1200,
+            Description = "SSD Kingston com capacidade 256GB",
+            Price = 12_200,
+            ProductName = "SSD Kingston 256GB",
+            Sku = "CASDGA23J",
+            Slug = "ssd-kingston-256gb",
+        };
+        
+        builder.Entity<Product>().HasData(product1, product2);
     }
 }
