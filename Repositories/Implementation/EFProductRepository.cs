@@ -25,6 +25,17 @@ public class EFProductRepository : IProductRepository
     }
 
     public async Task<IQueryable<Product>?> GetAllProducts() => _db.Products.AsQueryable();
+    public async Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize)
+    {
+        //exemplo: user esta na pagina 3, 10 items por pagina, skip e take pegam a partir de (3 - 2) * 10 = 20
+        var products = await _db.Products.OrderBy(p => p.ProductId).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+
+        int count = await _db.Products.CountAsync();
+        int totalPages = (int)Math.Ceiling(count / (double)pageSize);
+
+        return new PaginatedList<Product>(products, pageIndex, totalPages);
+    }
+
 
     //This will return a collection of the main image / thumbnail, it is a collection because of the srcset many resolutions
     public async Task<IQueryable<Image>?> GetProductMainImages(long productId)
@@ -33,7 +44,7 @@ public class EFProductRepository : IProductRepository
 
         if (product is null) return null;
 
-        var mainImageSet = product.Images.Where(i => i.IsMain == true).AsQueryable();
+        var mainImageSet = product.Images.Where(i => i.IsMain).AsQueryable();
 
         return mainImageSet;
     }
@@ -103,7 +114,7 @@ public class EFProductRepository : IProductRepository
     public async Task<bool?> ProductSlugExists(string slug)
     {
         var slugExists = await _db.Products.FirstOrDefaultAsync(p => p.Slug == slug);
-        return slugExists is null ? false : true;
+        return !(slugExists is null);
     }
     public async Task<Product?> AddNewImageToProduct(string filePath, Product product)
     {

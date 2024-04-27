@@ -28,10 +28,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
     app.UseDeveloperExceptionPage();
 }
+if (app.Environment.IsProduction())
+{
+    app.UseHttpsRedirection();
+}
 app.CustomMapIdentityApi<AppUser>();
 app.UseAuthentication();
 app.UseAuthorization();
-// app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.MapControllers();
 

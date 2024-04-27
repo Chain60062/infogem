@@ -459,24 +459,11002 @@ namespace InfoGemApi.Migrations
                         new
                         {
                             ProductId = 1L,
-                            AvailableUnits = 12,
-                            Description = "Apple Iphone 15",
-                            Price = 12200m,
-                            ProductName = "IPhone 15",
-                            Sku = "ACZZH34M",
-                            Slug = "iphone-15",
-                            UpdatedAt = new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5266)
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aeaf2169-6dff-413c-8889-148f2d6555b4",
+                            Slug = "mock1",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(125)
                         },
                         new
                         {
                             ProductId = 2L,
-                            AvailableUnits = 1200,
-                            Description = "SSD Kingston com capacidade 256GB",
-                            Price = 12200m,
-                            ProductName = "SSD Kingston 256GB",
-                            Sku = "CASDGA23J",
-                            Slug = "ssd-kingston-256gb",
-                            UpdatedAt = new DateTime(2024, 2, 12, 18, 8, 14, 739, DateTimeKind.Utc).AddTicks(5281)
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bb2ff487-4131-49ee-b14b-f98f17190a93",
+                            Slug = "mock2",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(208)
+                        },
+                        new
+                        {
+                            ProductId = 3L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ac17514b-7c4d-4bfe-814e-aa1f46f718f0",
+                            Slug = "mock3",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(278)
+                        },
+                        new
+                        {
+                            ProductId = 4L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "da15d637-8564-4ed5-8dce-7db8f79f1df8",
+                            Slug = "mock4",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(289)
+                        },
+                        new
+                        {
+                            ProductId = 5L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f32816ea-2acb-4592-be29-73aa4036aeaf",
+                            Slug = "mock5",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(299)
+                        },
+                        new
+                        {
+                            ProductId = 6L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "48d4c573-8e89-43b4-8dc7-2ea75793baaa",
+                            Slug = "mock6",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(314)
+                        },
+                        new
+                        {
+                            ProductId = 7L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9a3eba14-0e35-409e-9082-4de5278d82d6",
+                            Slug = "mock7",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(325)
+                        },
+                        new
+                        {
+                            ProductId = 8L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d341e7ae-583a-40c2-929d-acd172c76156",
+                            Slug = "mock8",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(335)
+                        },
+                        new
+                        {
+                            ProductId = 9L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bec689ad-760d-4f06-b657-4d5e14828311",
+                            Slug = "mock9",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(345)
+                        },
+                        new
+                        {
+                            ProductId = 10L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "624f85d4-95b7-4f3f-8f89-9175e54e6fe9",
+                            Slug = "mock10",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(357)
+                        },
+                        new
+                        {
+                            ProductId = 11L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "33c5b140-52b1-4654-b72a-95eb9d1bf539",
+                            Slug = "mock11",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(368)
+                        },
+                        new
+                        {
+                            ProductId = 12L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "afb5f9bc-8da7-48b7-9dd1-1e31f3bc4020",
+                            Slug = "mock12",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(379)
+                        },
+                        new
+                        {
+                            ProductId = 13L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a3bbc27a-f21b-4b1e-bb18-973cc92ebcd9",
+                            Slug = "mock13",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(390)
+                        },
+                        new
+                        {
+                            ProductId = 14L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d662c275-6ce1-4bf1-b359-5f5e1eb5cbba",
+                            Slug = "mock14",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(403)
+                        },
+                        new
+                        {
+                            ProductId = 15L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "919c295a-c0e7-401d-a434-add2db83c520",
+                            Slug = "mock15",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(450)
+                        },
+                        new
+                        {
+                            ProductId = 16L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3d134a48-c76a-4f99-a0cb-390693f8b9f8",
+                            Slug = "mock16",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(462)
+                        },
+                        new
+                        {
+                            ProductId = 17L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "02a124f8-1fbb-4672-91c5-168a7bc5e645",
+                            Slug = "mock17",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(472)
+                        },
+                        new
+                        {
+                            ProductId = 18L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "25a8ef6f-d0ad-4cbe-90c8-6f0c87f569fc",
+                            Slug = "mock18",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(483)
+                        },
+                        new
+                        {
+                            ProductId = 19L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0641df58-bc5f-42cf-a140-d349fbfcca54",
+                            Slug = "mock19",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(493)
+                        },
+                        new
+                        {
+                            ProductId = 20L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "80869a95-b86b-47ef-9d73-e8f11d15e392",
+                            Slug = "mock20",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(503)
+                        },
+                        new
+                        {
+                            ProductId = 21L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c41b656d-984f-4950-b450-a83be1815af0",
+                            Slug = "mock21",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(513)
+                        },
+                        new
+                        {
+                            ProductId = 22L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dc07caf5-4ad6-419b-b7e6-9461efe80701",
+                            Slug = "mock22",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(523)
+                        },
+                        new
+                        {
+                            ProductId = 23L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23a8e101-5338-4ea1-a166-dcda8f6ad714",
+                            Slug = "mock23",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(533)
+                        },
+                        new
+                        {
+                            ProductId = 24L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "500747c8-3f54-4db6-b1f8-e41f4e18c1f6",
+                            Slug = "mock24",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(543)
+                        },
+                        new
+                        {
+                            ProductId = 25L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "973fff17-360f-4a75-8433-6c51a17a5de6",
+                            Slug = "mock25",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(553)
+                        },
+                        new
+                        {
+                            ProductId = 26L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fad47d05-73be-491b-a276-f4118b0e9f19",
+                            Slug = "mock26",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(563)
+                        },
+                        new
+                        {
+                            ProductId = 27L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4e0884ef-edec-484e-8cdf-47e60329d86e",
+                            Slug = "mock27",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(607)
+                        },
+                        new
+                        {
+                            ProductId = 28L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b99e77c7-4d31-426a-8208-66526927bac4",
+                            Slug = "mock28",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(618)
+                        },
+                        new
+                        {
+                            ProductId = 29L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d7ad51c4-f302-4271-a996-ef31f973b7eb",
+                            Slug = "mock29",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(627)
+                        },
+                        new
+                        {
+                            ProductId = 30L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "21fcb04f-4fb8-4f87-83c3-7087545cb8c6",
+                            Slug = "mock30",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(637)
+                        },
+                        new
+                        {
+                            ProductId = 31L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e766cb9e-6917-4105-882a-5dfd2b3e9ad6",
+                            Slug = "mock31",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(648)
+                        },
+                        new
+                        {
+                            ProductId = 32L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dfdeeac7-772e-4665-916b-d266633193ce",
+                            Slug = "mock32",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(658)
+                        },
+                        new
+                        {
+                            ProductId = 33L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "54bbca15-d290-4b4d-81ad-bbad033d8f36",
+                            Slug = "mock33",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(667)
+                        },
+                        new
+                        {
+                            ProductId = 34L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2e5577c1-ce5f-4ed2-a884-c184b0d8a7e2",
+                            Slug = "mock34",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(678)
+                        },
+                        new
+                        {
+                            ProductId = 35L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2967ba73-e952-4801-9217-30686210b9fb",
+                            Slug = "mock35",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(689)
+                        },
+                        new
+                        {
+                            ProductId = 36L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ce3e8ccd-4e76-4cee-b4e6-b23b798ed432",
+                            Slug = "mock36",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(698)
+                        },
+                        new
+                        {
+                            ProductId = 37L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b62a4f7f-1f1b-4e29-8e19-c94fb100f14e",
+                            Slug = "mock37",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(708)
+                        },
+                        new
+                        {
+                            ProductId = 38L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e7d9ffe3-d880-4e8e-b83c-8204e2d8061c",
+                            Slug = "mock38",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(718)
+                        },
+                        new
+                        {
+                            ProductId = 39L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "22ffcfe5-6232-4d01-84ca-7567899eeb20",
+                            Slug = "mock39",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(763)
+                        },
+                        new
+                        {
+                            ProductId = 40L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "61256796-319d-4bbc-8728-b56a6651ed37",
+                            Slug = "mock40",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(774)
+                        },
+                        new
+                        {
+                            ProductId = 41L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ce3aef7c-e1a4-444a-8b24-3b3d0beddd8d",
+                            Slug = "mock41",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(783)
+                        },
+                        new
+                        {
+                            ProductId = 42L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0bceb75f-4cd5-4d1a-bd2f-8fe5834703ed",
+                            Slug = "mock42",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(793)
+                        },
+                        new
+                        {
+                            ProductId = 43L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "39763d97-8203-48b6-9303-2da6d2a960cb",
+                            Slug = "mock43",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(803)
+                        },
+                        new
+                        {
+                            ProductId = 44L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f8633e22-23c1-4c6f-b5bf-18c5de856bcd",
+                            Slug = "mock44",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(813)
+                        },
+                        new
+                        {
+                            ProductId = 45L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "72af4cac-6d14-4475-80f3-5399299315e8",
+                            Slug = "mock45",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(822)
+                        },
+                        new
+                        {
+                            ProductId = 46L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d3418e79-f03e-4b95-a1ee-be82add75d39",
+                            Slug = "mock46",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(832)
+                        },
+                        new
+                        {
+                            ProductId = 47L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c9691da7-ce20-4e5d-855b-c41325297904",
+                            Slug = "mock47",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(842)
+                        },
+                        new
+                        {
+                            ProductId = 48L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a1e3a2d2-4c4c-416d-9f8d-6a69a4bed4b0",
+                            Slug = "mock48",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(852)
+                        },
+                        new
+                        {
+                            ProductId = 49L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f0c40722-1c0b-4bc8-9b27-6ee6f89469d3",
+                            Slug = "mock49",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(861)
+                        },
+                        new
+                        {
+                            ProductId = 50L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cb5e7f6d-fa37-4383-b38f-edc7a8d82716",
+                            Slug = "mock50",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(871)
+                        },
+                        new
+                        {
+                            ProductId = 51L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "081d8c6e-e70b-4549-b89b-f259f78f903c",
+                            Slug = "mock51",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(880)
+                        },
+                        new
+                        {
+                            ProductId = 52L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1604fcab-59ec-455d-b517-e4f525662348",
+                            Slug = "mock52",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(944)
+                        },
+                        new
+                        {
+                            ProductId = 53L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8bcb3955-7349-45ab-88ae-a8bc4d003fad",
+                            Slug = "mock53",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(954)
+                        },
+                        new
+                        {
+                            ProductId = 54L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f3d04126-c6cb-499c-bcda-a1fbe522cc93",
+                            Slug = "mock54",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(964)
+                        },
+                        new
+                        {
+                            ProductId = 55L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "12b8633e-dca8-4f83-b4ae-e897594a2839",
+                            Slug = "mock55",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(974)
+                        },
+                        new
+                        {
+                            ProductId = 56L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cdd360e2-f48d-435a-94b6-7692d8a2b16b",
+                            Slug = "mock56",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(984)
+                        },
+                        new
+                        {
+                            ProductId = 57L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7a9c4910-6409-4720-b1d5-a96556741094",
+                            Slug = "mock57",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(993)
+                        },
+                        new
+                        {
+                            ProductId = 58L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "38968397-40ae-4637-b433-83e0a8aff78b",
+                            Slug = "mock58",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1003)
+                        },
+                        new
+                        {
+                            ProductId = 59L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9c30ac49-45b2-42c6-b51c-426192c8e9aa",
+                            Slug = "mock59",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1013)
+                        },
+                        new
+                        {
+                            ProductId = 60L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "885f36e6-160d-4303-addf-edc0e755a745",
+                            Slug = "mock60",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1023)
+                        },
+                        new
+                        {
+                            ProductId = 61L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "83988fc2-c3bb-438a-82d4-eb95025f4910",
+                            Slug = "mock61",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1033)
+                        },
+                        new
+                        {
+                            ProductId = 62L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0eed3e64-5ffa-494c-a8cd-953d40f8c1c7",
+                            Slug = "mock62",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1042)
+                        },
+                        new
+                        {
+                            ProductId = 63L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3eb7d5f5-e9b6-433c-9c47-95cf77c1b65a",
+                            Slug = "mock63",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1052)
+                        },
+                        new
+                        {
+                            ProductId = 64L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3ed18eec-a035-4dda-979d-bb1d6d7612e5",
+                            Slug = "mock64",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1097)
+                        },
+                        new
+                        {
+                            ProductId = 65L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e62e3bff-bca1-4e60-b81a-0e6508c9ae9d",
+                            Slug = "mock65",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1108)
+                        },
+                        new
+                        {
+                            ProductId = 66L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "381b92cb-ce38-4872-9fdb-81d344baa88d",
+                            Slug = "mock66",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1119)
+                        },
+                        new
+                        {
+                            ProductId = 67L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "de543b92-89c4-4457-99ce-6faa9c273ce5",
+                            Slug = "mock67",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1129)
+                        },
+                        new
+                        {
+                            ProductId = 68L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "804eee89-63e8-42d8-aea1-5c6d45769c68",
+                            Slug = "mock68",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1139)
+                        },
+                        new
+                        {
+                            ProductId = 69L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0fdd482c-3180-465f-9e5c-e5adb7ad45e5",
+                            Slug = "mock69",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1149)
+                        },
+                        new
+                        {
+                            ProductId = 70L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a294dfe9-e141-45f2-b456-60c54509f03f",
+                            Slug = "mock70",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1159)
+                        },
+                        new
+                        {
+                            ProductId = 71L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e3a1efe5-4755-4399-8846-497ed215d8ea",
+                            Slug = "mock71",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1169)
+                        },
+                        new
+                        {
+                            ProductId = 72L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77cdeeb3-9340-4f91-b680-5441cf0d02bb",
+                            Slug = "mock72",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1179)
+                        },
+                        new
+                        {
+                            ProductId = 73L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "df7f8294-dd74-4ac2-851f-49216f87d650",
+                            Slug = "mock73",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1188)
+                        },
+                        new
+                        {
+                            ProductId = 74L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d1ee6669-fdba-4f51-aea0-4c8f2c05d695",
+                            Slug = "mock74",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1198)
+                        },
+                        new
+                        {
+                            ProductId = 75L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0d7c835a-3fa2-4b39-bae3-b16b1efb73a8",
+                            Slug = "mock75",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1228)
+                        },
+                        new
+                        {
+                            ProductId = 76L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eb47771a-5135-4220-8d9c-d7afd8239723",
+                            Slug = "mock76",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1239)
+                        },
+                        new
+                        {
+                            ProductId = 77L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2102e6f6-025c-4b7c-8ee9-54278829fcee",
+                            Slug = "mock77",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1249)
+                        },
+                        new
+                        {
+                            ProductId = 78L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "44552360-8613-46ae-80bc-97760d9d4df0",
+                            Slug = "mock78",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1258)
+                        },
+                        new
+                        {
+                            ProductId = 79L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1cc4cd3f-07b7-4af7-befd-233a2f309c29",
+                            Slug = "mock79",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1268)
+                        },
+                        new
+                        {
+                            ProductId = 80L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bbc4d195-1541-43d2-8ff4-82d3ef5a4b75",
+                            Slug = "mock80",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1279)
+                        },
+                        new
+                        {
+                            ProductId = 81L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "789aefa1-22b3-4a61-8aa8-13c90d8b29b1",
+                            Slug = "mock81",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1289)
+                        },
+                        new
+                        {
+                            ProductId = 82L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aa76dd57-8755-425b-91a7-3cef36f4a543",
+                            Slug = "mock82",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1299)
+                        },
+                        new
+                        {
+                            ProductId = 83L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "13712003-74d4-4c68-9ff3-1b8f6996da97",
+                            Slug = "mock83",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1308)
+                        },
+                        new
+                        {
+                            ProductId = 84L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5e32581f-22d9-4701-94e7-21b4563f84c0",
+                            Slug = "mock84",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1318)
+                        },
+                        new
+                        {
+                            ProductId = 85L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b7d8bdbc-509c-407c-9367-5883c15efa92",
+                            Slug = "mock85",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1329)
+                        },
+                        new
+                        {
+                            ProductId = 86L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d94b9c97-6a1e-4d9b-85a6-b84c4c85189c",
+                            Slug = "mock86",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1339)
+                        },
+                        new
+                        {
+                            ProductId = 87L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4076b650-cd58-4435-a801-541b8491b77e",
+                            Slug = "mock87",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1349)
+                        },
+                        new
+                        {
+                            ProductId = 88L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "78a47a33-35b7-4c76-b56b-1f1026e101f5",
+                            Slug = "mock88",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1438)
+                        },
+                        new
+                        {
+                            ProductId = 89L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f17b3a91-213b-4618-a9b0-42a755f86eba",
+                            Slug = "mock89",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1448)
+                        },
+                        new
+                        {
+                            ProductId = 90L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "131e5615-6e6d-40dd-96fc-34485456572c",
+                            Slug = "mock90",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1458)
+                        },
+                        new
+                        {
+                            ProductId = 91L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "30903f7c-a9fe-4ef9-af0b-a23d9d647972",
+                            Slug = "mock91",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1468)
+                        },
+                        new
+                        {
+                            ProductId = 92L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8f4115f0-1d15-49f2-b068-8b91545b4f95",
+                            Slug = "mock92",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1477)
+                        },
+                        new
+                        {
+                            ProductId = 93L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2c1ba455-ec07-47f3-b64b-31be7b4158b9",
+                            Slug = "mock93",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1487)
+                        },
+                        new
+                        {
+                            ProductId = 94L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "334ece68-3fb1-49ad-954a-876c878aa034",
+                            Slug = "mock94",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1497)
+                        },
+                        new
+                        {
+                            ProductId = 95L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2de6420d-156c-4d5a-85cb-4a0c471fe732",
+                            Slug = "mock95",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1506)
+                        },
+                        new
+                        {
+                            ProductId = 96L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3e8ea7ca-8723-475c-a1c3-14a7badf7765",
+                            Slug = "mock96",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1516)
+                        },
+                        new
+                        {
+                            ProductId = 97L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "530af483-2fc0-4116-b0f6-8e2f5b4b3acc",
+                            Slug = "mock97",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1526)
+                        },
+                        new
+                        {
+                            ProductId = 98L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0591d834-080e-43e5-96fd-c58b900e2459",
+                            Slug = "mock98",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1535)
+                        },
+                        new
+                        {
+                            ProductId = 99L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7a00b66f-664f-48fb-8cd4-376f2757a3f4",
+                            Slug = "mock99",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1545)
+                        },
+                        new
+                        {
+                            ProductId = 100L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "08154538-44a7-4dcc-8348-7c2bbad31667",
+                            Slug = "mock100",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1604)
+                        },
+                        new
+                        {
+                            ProductId = 101L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "234c25cd-72bd-4e36-b765-9eb23e770d56",
+                            Slug = "mock101",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1617)
+                        },
+                        new
+                        {
+                            ProductId = 102L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d55dc7df-1b06-4b9f-a32b-8633d3b1b97d",
+                            Slug = "mock102",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1626)
+                        },
+                        new
+                        {
+                            ProductId = 103L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "94a5c183-8fd2-4d9b-94c2-a97b753536c4",
+                            Slug = "mock103",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1636)
+                        },
+                        new
+                        {
+                            ProductId = 104L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0d88f7e2-358d-4929-9d9b-d879fb3c7739",
+                            Slug = "mock104",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1646)
+                        },
+                        new
+                        {
+                            ProductId = 105L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fc6a631b-579b-4f0b-9a1b-648f3b9ba41a",
+                            Slug = "mock105",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1656)
+                        },
+                        new
+                        {
+                            ProductId = 106L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d92bb1a2-f033-45e9-b8b1-25da2b208525",
+                            Slug = "mock106",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1666)
+                        },
+                        new
+                        {
+                            ProductId = 107L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "831f7adc-86b7-45ec-8eda-aa92fe6796a1",
+                            Slug = "mock107",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1676)
+                        },
+                        new
+                        {
+                            ProductId = 108L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ea7337a3-7838-4ecd-92b1-11f6c149a5db",
+                            Slug = "mock108",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1685)
+                        },
+                        new
+                        {
+                            ProductId = 109L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cc027ad9-5410-4ac1-ac4a-258243255416",
+                            Slug = "mock109",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1696)
+                        },
+                        new
+                        {
+                            ProductId = 110L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3eac6c1e-78fc-477c-97a5-43f995359356",
+                            Slug = "mock110",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1705)
+                        },
+                        new
+                        {
+                            ProductId = 111L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "71c39314-15e3-4c64-9d48-96f8046249f3",
+                            Slug = "mock111",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1715)
+                        },
+                        new
+                        {
+                            ProductId = 112L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "41f2060d-9f55-4b57-b190-be17d2e95663",
+                            Slug = "mock112",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1724)
+                        },
+                        new
+                        {
+                            ProductId = 113L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "699095c0-3270-4e49-8efd-9628f18a1637",
+                            Slug = "mock113",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1769)
+                        },
+                        new
+                        {
+                            ProductId = 114L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b072d85d-0537-480f-84b6-6e511bc26fa3",
+                            Slug = "mock114",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1779)
+                        },
+                        new
+                        {
+                            ProductId = 115L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0cdb05a8-5116-4f17-99d6-88839a870f93",
+                            Slug = "mock115",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1789)
+                        },
+                        new
+                        {
+                            ProductId = 116L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7f55d8af-3bd2-45d1-aba6-90eacc46f886",
+                            Slug = "mock116",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1799)
+                        },
+                        new
+                        {
+                            ProductId = 117L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f6f2b042-18be-4060-a1ab-5f7a7fda0de8",
+                            Slug = "mock117",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1808)
+                        },
+                        new
+                        {
+                            ProductId = 118L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "28ef6977-eb08-4773-8e88-a1b1c7118b08",
+                            Slug = "mock118",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1819)
+                        },
+                        new
+                        {
+                            ProductId = 119L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b738d951-560e-42fc-82df-80478f225dd7",
+                            Slug = "mock119",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1828)
+                        },
+                        new
+                        {
+                            ProductId = 120L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "503f7c10-618e-4858-b216-4425e613c728",
+                            Slug = "mock120",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1838)
+                        },
+                        new
+                        {
+                            ProductId = 121L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ca0af6f9-0d39-4b3c-8dd3-a3ec933ef5b3",
+                            Slug = "mock121",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1848)
+                        },
+                        new
+                        {
+                            ProductId = 122L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d5ce9cd8-7746-43e2-9d96-b6444ce0b6ab",
+                            Slug = "mock122",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1858)
+                        },
+                        new
+                        {
+                            ProductId = 123L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dffc8248-bc37-4895-82a0-67e28002c239",
+                            Slug = "mock123",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1867)
+                        },
+                        new
+                        {
+                            ProductId = 124L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0b08f221-c836-432c-a964-289528ae8143",
+                            Slug = "mock124",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1877)
+                        },
+                        new
+                        {
+                            ProductId = 125L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dff070b3-d6b6-487c-8723-6e14f3492f7a",
+                            Slug = "mock125",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1887)
+                        },
+                        new
+                        {
+                            ProductId = 126L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fc337183-8ce5-4e75-b9c5-ed79acdfba85",
+                            Slug = "mock126",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1933)
+                        },
+                        new
+                        {
+                            ProductId = 127L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7cf8705e-fe7c-47c6-a686-358fc4796f22",
+                            Slug = "mock127",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1943)
+                        },
+                        new
+                        {
+                            ProductId = 128L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bd0dcc3e-83ba-44f4-9c19-f7c8e6ccb004",
+                            Slug = "mock128",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1953)
+                        },
+                        new
+                        {
+                            ProductId = 129L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4662b6e6-9833-4195-9483-393e12816475",
+                            Slug = "mock129",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1962)
+                        },
+                        new
+                        {
+                            ProductId = 130L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fae06f04-c6bb-47c1-a468-a3c87c0a80c8",
+                            Slug = "mock130",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1974)
+                        },
+                        new
+                        {
+                            ProductId = 131L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d267f864-3400-4e75-a86b-45742086fe40",
+                            Slug = "mock131",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1985)
+                        },
+                        new
+                        {
+                            ProductId = 132L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3b71d732-0095-4e86-9a12-7e8fead61063",
+                            Slug = "mock132",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(1995)
+                        },
+                        new
+                        {
+                            ProductId = 133L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "060c4afd-6984-4008-a939-97c641c0b7d4",
+                            Slug = "mock133",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2005)
+                        },
+                        new
+                        {
+                            ProductId = 134L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6725dfec-2f88-426b-aa90-c5cd7afb7812",
+                            Slug = "mock134",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2014)
+                        },
+                        new
+                        {
+                            ProductId = 135L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9eae86ea-7608-4850-b21a-e040c60b7004",
+                            Slug = "mock135",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2081)
+                        },
+                        new
+                        {
+                            ProductId = 136L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c9496e22-bb4b-4432-b9f9-b0cf92b6f21c",
+                            Slug = "mock136",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2092)
+                        },
+                        new
+                        {
+                            ProductId = 137L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fc743381-f06f-4f83-ac0b-6b17080a50f5",
+                            Slug = "mock137",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2102)
+                        },
+                        new
+                        {
+                            ProductId = 138L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d0718afe-60b0-4f2f-87af-e1b53e52648c",
+                            Slug = "mock138",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2113)
+                        },
+                        new
+                        {
+                            ProductId = 139L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fb8539ca-65d2-4ab2-a70c-355b81b4deb7",
+                            Slug = "mock139",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2123)
+                        },
+                        new
+                        {
+                            ProductId = 140L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3eacd3ae-25b5-4c3a-9947-d26b9e727ef2",
+                            Slug = "mock140",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2133)
+                        },
+                        new
+                        {
+                            ProductId = 141L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ce1af6b0-2ee5-451c-8da5-7376096d3cc6",
+                            Slug = "mock141",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2144)
+                        },
+                        new
+                        {
+                            ProductId = 142L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1aec1d70-766e-4075-9476-d24377234e4e",
+                            Slug = "mock142",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2154)
+                        },
+                        new
+                        {
+                            ProductId = 143L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "085402b4-61cb-41d6-ae45-6ab604c2e567",
+                            Slug = "mock143",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2164)
+                        },
+                        new
+                        {
+                            ProductId = 144L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3db9a618-a525-43c6-92d0-bbfa6703550e",
+                            Slug = "mock144",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2174)
+                        },
+                        new
+                        {
+                            ProductId = 145L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3f9750b1-b492-4de0-95a4-e025d57d2de4",
+                            Slug = "mock145",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2184)
+                        },
+                        new
+                        {
+                            ProductId = 146L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ecffd40d-7abd-4672-af0a-f0be622a27ce",
+                            Slug = "mock146",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2197)
+                        },
+                        new
+                        {
+                            ProductId = 147L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e66bdf14-fa1d-4917-a096-5bee1065ebad",
+                            Slug = "mock147",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2207)
+                        },
+                        new
+                        {
+                            ProductId = 148L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "61e7e676-4dce-42c7-bda4-95b7e5667ef5",
+                            Slug = "mock148",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2252)
+                        },
+                        new
+                        {
+                            ProductId = 149L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ee01f9c0-78db-44b9-b68c-a74f2263a963",
+                            Slug = "mock149",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2262)
+                        },
+                        new
+                        {
+                            ProductId = 150L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5c6d2c9a-6a41-46eb-91a1-0d3a2a315b25",
+                            Slug = "mock150",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2272)
+                        },
+                        new
+                        {
+                            ProductId = 151L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ba4d7d3f-93dd-4a2b-8980-4174433f4357",
+                            Slug = "mock151",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2411)
+                        },
+                        new
+                        {
+                            ProductId = 152L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03037bda-242e-4dd4-9e67-4fbd101cab02",
+                            Slug = "mock152",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2422)
+                        },
+                        new
+                        {
+                            ProductId = 153L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2ca49ac3-6248-409f-ba64-2f6117c5498e",
+                            Slug = "mock153",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2431)
+                        },
+                        new
+                        {
+                            ProductId = 154L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6824a35f-71eb-481d-9fea-6d80fe526e76",
+                            Slug = "mock154",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2441)
+                        },
+                        new
+                        {
+                            ProductId = 155L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cc2fead8-3fed-4dae-a4dd-1dbf83d4dd4a",
+                            Slug = "mock155",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2451)
+                        },
+                        new
+                        {
+                            ProductId = 156L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6115c217-2f37-4f44-a811-188d133985a1",
+                            Slug = "mock156",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2460)
+                        },
+                        new
+                        {
+                            ProductId = 157L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e194e01-4dc4-4d02-af3b-f33781448c40",
+                            Slug = "mock157",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2470)
+                        },
+                        new
+                        {
+                            ProductId = 158L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "124f30a9-77d1-4094-8860-a446e1e3b3e7",
+                            Slug = "mock158",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2480)
+                        },
+                        new
+                        {
+                            ProductId = 159L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c13d9845-8486-4751-9c65-f3b10e5b1b11",
+                            Slug = "mock159",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2490)
+                        },
+                        new
+                        {
+                            ProductId = 160L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e897c8c4-8432-4a24-b7e5-f2801bb45926",
+                            Slug = "mock160",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2540)
+                        },
+                        new
+                        {
+                            ProductId = 161L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "663ebbfe-5076-41c0-b496-20a167d4796f",
+                            Slug = "mock161",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2550)
+                        },
+                        new
+                        {
+                            ProductId = 162L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f3695d52-9faf-4a8a-8ec8-55fe5ee4642e",
+                            Slug = "mock162",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2560)
+                        },
+                        new
+                        {
+                            ProductId = 163L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "14a39a15-9f18-4864-8d6e-31207d274579",
+                            Slug = "mock163",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2570)
+                        },
+                        new
+                        {
+                            ProductId = 164L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f9f98d84-37ab-4db8-b5cf-37e97cd5e055",
+                            Slug = "mock164",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2579)
+                        },
+                        new
+                        {
+                            ProductId = 165L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "266e7762-c144-4b36-958f-f67ec61b5894",
+                            Slug = "mock165",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2589)
+                        },
+                        new
+                        {
+                            ProductId = 166L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "00a24987-3f6f-4457-ba89-f930801eb70c",
+                            Slug = "mock166",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2599)
+                        },
+                        new
+                        {
+                            ProductId = 167L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "85da7c7a-49ff-478e-8e05-283e040b12b8",
+                            Slug = "mock167",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2609)
+                        },
+                        new
+                        {
+                            ProductId = 168L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dadfde6b-f230-4bc1-983e-0a39acb00297",
+                            Slug = "mock168",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2618)
+                        },
+                        new
+                        {
+                            ProductId = 169L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1cb4c246-7863-4f3c-ba85-b187e5eb7ae8",
+                            Slug = "mock169",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2628)
+                        },
+                        new
+                        {
+                            ProductId = 170L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "58a1dfe9-8ee1-43bb-baf4-be052eefda9d",
+                            Slug = "mock170",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2638)
+                        },
+                        new
+                        {
+                            ProductId = 171L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0b97d8aa-2908-44bc-a85c-3a566ad13504",
+                            Slug = "mock171",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2648)
+                        },
+                        new
+                        {
+                            ProductId = 172L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a5d92957-c4b3-4d7a-809d-79a6d0aef9b4",
+                            Slug = "mock172",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2658)
+                        },
+                        new
+                        {
+                            ProductId = 173L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "88e6e93c-1f90-46f5-8d05-9c62f6877e2f",
+                            Slug = "mock173",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2687)
+                        },
+                        new
+                        {
+                            ProductId = 174L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "37b8946b-b589-4708-b770-6c7070234f71",
+                            Slug = "mock174",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2697)
+                        },
+                        new
+                        {
+                            ProductId = 175L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eac9d6e9-de9f-422e-8fd9-9dec06da939b",
+                            Slug = "mock175",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2707)
+                        },
+                        new
+                        {
+                            ProductId = 176L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8b4ebc1e-00db-4c3f-b790-77e436252ac0",
+                            Slug = "mock176",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2717)
+                        },
+                        new
+                        {
+                            ProductId = 177L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "88801b7f-4418-4aab-913d-19a7437e8676",
+                            Slug = "mock177",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2726)
+                        },
+                        new
+                        {
+                            ProductId = 178L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "625e410c-474d-4a15-a7d9-7c0956109f45",
+                            Slug = "mock178",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2736)
+                        },
+                        new
+                        {
+                            ProductId = 179L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cd29ac66-bda2-46a0-9ddf-2fce37406732",
+                            Slug = "mock179",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2746)
+                        },
+                        new
+                        {
+                            ProductId = 180L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4e5498fa-4c1b-4f28-b13a-8f96f98a245a",
+                            Slug = "mock180",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2756)
+                        },
+                        new
+                        {
+                            ProductId = 181L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fb8c67ee-37af-4bc5-8e99-371c00894a29",
+                            Slug = "mock181",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2765)
+                        },
+                        new
+                        {
+                            ProductId = 182L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3cdc0c1d-bd42-4b5a-9fc8-3b4214c11a94",
+                            Slug = "mock182",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2774)
+                        },
+                        new
+                        {
+                            ProductId = 183L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4fad4e6e-31e3-4fc9-b3b7-66082972211b",
+                            Slug = "mock183",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2784)
+                        },
+                        new
+                        {
+                            ProductId = 184L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bc08cd2b-c522-4fc0-9730-871e8e16432e",
+                            Slug = "mock184",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2794)
+                        },
+                        new
+                        {
+                            ProductId = 185L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5ea2c388-ad7f-4b21-bbc9-2c64629e64fd",
+                            Slug = "mock185",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2892)
+                        },
+                        new
+                        {
+                            ProductId = 186L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "59f77857-fa8b-46bf-b42c-e03c3d2d4a26",
+                            Slug = "mock186",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2903)
+                        },
+                        new
+                        {
+                            ProductId = 187L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1af7d7a9-52da-4006-9a96-ea7bb3516fe1",
+                            Slug = "mock187",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2913)
+                        },
+                        new
+                        {
+                            ProductId = 188L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ad706801-9e03-4a81-9c43-040dd9ca9065",
+                            Slug = "mock188",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2923)
+                        },
+                        new
+                        {
+                            ProductId = 189L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c09339be-afa2-49ab-a405-6a948a3e7c65",
+                            Slug = "mock189",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2933)
+                        },
+                        new
+                        {
+                            ProductId = 190L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4408ae1b-77af-4ac8-aacb-36e958991016",
+                            Slug = "mock190",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2942)
+                        },
+                        new
+                        {
+                            ProductId = 191L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7007a26a-b596-446f-b9d5-ff67e0823225",
+                            Slug = "mock191",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2952)
+                        },
+                        new
+                        {
+                            ProductId = 192L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "628b24ee-0000-4bbf-a457-bf530e228f21",
+                            Slug = "mock192",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2962)
+                        },
+                        new
+                        {
+                            ProductId = 193L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a685e5c1-1922-4b5a-a3d0-dd094e9e20f8",
+                            Slug = "mock193",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2971)
+                        },
+                        new
+                        {
+                            ProductId = 194L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9eadeebc-0153-4531-a95c-ae7965611831",
+                            Slug = "mock194",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2980)
+                        },
+                        new
+                        {
+                            ProductId = 195L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23db83d8-d6d1-4da0-ba84-e514093ff4a2",
+                            Slug = "mock195",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2989)
+                        },
+                        new
+                        {
+                            ProductId = 196L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "80b79140-56ce-4bd2-9ea5-6374e2d6ba6c",
+                            Slug = "mock196",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(2999)
+                        },
+                        new
+                        {
+                            ProductId = 197L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9e1ca712-781e-4110-afc6-7049316c1a36",
+                            Slug = "mock197",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3009)
+                        },
+                        new
+                        {
+                            ProductId = 198L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f7aecbe7-2df7-4cff-b369-dcccf8bbfe16",
+                            Slug = "mock198",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3069)
+                        },
+                        new
+                        {
+                            ProductId = 199L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1a1983b7-99ad-4272-856a-73f19aac749f",
+                            Slug = "mock199",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3079)
+                        },
+                        new
+                        {
+                            ProductId = 200L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "158dabac-6333-4d2c-b474-9dc3182cf0c8",
+                            Slug = "mock200",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3089)
+                        },
+                        new
+                        {
+                            ProductId = 201L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "05fdd119-238a-4cb1-b949-bd9f82bfe3c5",
+                            Slug = "mock201",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3099)
+                        },
+                        new
+                        {
+                            ProductId = 202L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77dff306-e0ce-49ce-8c9f-911f0bdfa08a",
+                            Slug = "mock202",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3109)
+                        },
+                        new
+                        {
+                            ProductId = 203L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8f12fd97-1224-4c7f-a934-088bb3a67de2",
+                            Slug = "mock203",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3118)
+                        },
+                        new
+                        {
+                            ProductId = 204L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1072139e-089f-40d1-8d37-227d0f89d262",
+                            Slug = "mock204",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3128)
+                        },
+                        new
+                        {
+                            ProductId = 205L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aaa505e5-75b8-4fe7-bad7-f32afaaa2115",
+                            Slug = "mock205",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3138)
+                        },
+                        new
+                        {
+                            ProductId = 206L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8bc6e5fd-2b08-43a3-bd85-a1fab32b4f55",
+                            Slug = "mock206",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3148)
+                        },
+                        new
+                        {
+                            ProductId = 207L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aaa97826-4fac-4348-989c-4462ba2af7a2",
+                            Slug = "mock207",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3158)
+                        },
+                        new
+                        {
+                            ProductId = 208L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e6eb0d7d-b9ee-4130-b686-dd63fc6e0e40",
+                            Slug = "mock208",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3168)
+                        },
+                        new
+                        {
+                            ProductId = 209L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "16bdf2b3-b811-4c34-a5aa-e9bdb736f88d",
+                            Slug = "mock209",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3177)
+                        },
+                        new
+                        {
+                            ProductId = 210L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "222ffee6-a066-4f0b-aa62-0ee39d78f901",
+                            Slug = "mock210",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3187)
+                        },
+                        new
+                        {
+                            ProductId = 211L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f4890f1b-8a2d-4326-aab3-ac5a454abeb6",
+                            Slug = "mock211",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3232)
+                        },
+                        new
+                        {
+                            ProductId = 212L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "016ab260-ac9a-4f4c-981d-4251f298cb2a",
+                            Slug = "mock212",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3242)
+                        },
+                        new
+                        {
+                            ProductId = 213L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8dd970de-9790-493c-8210-b095f929ebe2",
+                            Slug = "mock213",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3252)
+                        },
+                        new
+                        {
+                            ProductId = 214L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0fbfee28-4f2d-457c-884f-3be9035d4d29",
+                            Slug = "mock214",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3262)
+                        },
+                        new
+                        {
+                            ProductId = 215L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "30a3a23e-01fd-41fd-bfd2-04ab7227b41c",
+                            Slug = "mock215",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3272)
+                        },
+                        new
+                        {
+                            ProductId = 216L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2dc74ca1-89a6-473f-9516-35fc1ec7feed",
+                            Slug = "mock216",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3282)
+                        },
+                        new
+                        {
+                            ProductId = 217L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "957d8255-a100-44ff-ba27-4de57183b3be",
+                            Slug = "mock217",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3291)
+                        },
+                        new
+                        {
+                            ProductId = 218L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e6aa5344-9cb1-4745-88a0-70f0700b6bfb",
+                            Slug = "mock218",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3301)
+                        },
+                        new
+                        {
+                            ProductId = 219L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9e1d9bc9-d190-4400-afc6-a4bdacddd6ee",
+                            Slug = "mock219",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3311)
+                        },
+                        new
+                        {
+                            ProductId = 220L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "89b4ce10-bf81-4dfa-a07a-1e761f18ad00",
+                            Slug = "mock220",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3320)
+                        },
+                        new
+                        {
+                            ProductId = 221L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "39345d7d-9154-485f-ae74-4eaea5c965a2",
+                            Slug = "mock221",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3330)
+                        },
+                        new
+                        {
+                            ProductId = 222L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "afb5dd99-5925-4ea5-9bd1-dac8aabd00b4",
+                            Slug = "mock222",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3340)
+                        },
+                        new
+                        {
+                            ProductId = 223L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bb2c8e30-5fac-43d1-9b2c-7fdd72317bdf",
+                            Slug = "mock223",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3384)
+                        },
+                        new
+                        {
+                            ProductId = 224L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "22fe2401-3082-4b29-a06e-79a4992f2937",
+                            Slug = "mock224",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3395)
+                        },
+                        new
+                        {
+                            ProductId = 225L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d852e278-999c-4469-96cd-95bf35ca145e",
+                            Slug = "mock225",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3405)
+                        },
+                        new
+                        {
+                            ProductId = 226L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f0547c51-6544-4602-a116-eb74c7aa7050",
+                            Slug = "mock226",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3415)
+                        },
+                        new
+                        {
+                            ProductId = 227L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3cd00f77-ed3a-4dc0-bea2-d6eb499f1e86",
+                            Slug = "mock227",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3424)
+                        },
+                        new
+                        {
+                            ProductId = 228L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f12b590c-4826-49f3-b67c-038b9b309378",
+                            Slug = "mock228",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3434)
+                        },
+                        new
+                        {
+                            ProductId = 229L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4db7a8ed-1682-4696-a27b-dc871c63a440",
+                            Slug = "mock229",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3445)
+                        },
+                        new
+                        {
+                            ProductId = 230L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ba16487b-ccbc-43a8-b294-3fdf4a7c78ea",
+                            Slug = "mock230",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3455)
+                        },
+                        new
+                        {
+                            ProductId = 231L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b4bec5ae-f4d6-4afb-98ed-5c9a6084cae7",
+                            Slug = "mock231",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3464)
+                        },
+                        new
+                        {
+                            ProductId = 232L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5d6608cc-3908-4e7d-b658-8c79381b5c22",
+                            Slug = "mock232",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3475)
+                        },
+                        new
+                        {
+                            ProductId = 233L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9096bcdd-9f4a-41b7-9be2-ccb461ffb64b",
+                            Slug = "mock233",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3484)
+                        },
+                        new
+                        {
+                            ProductId = 234L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f7ad018d-a1e9-40d0-a781-8b2c7b5af866",
+                            Slug = "mock234",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3494)
+                        },
+                        new
+                        {
+                            ProductId = 235L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "341b00d4-727b-4838-a58b-fcd2d3b9bfdf",
+                            Slug = "mock235",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3504)
+                        },
+                        new
+                        {
+                            ProductId = 236L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a8e5a9f6-914a-4718-bf6b-92d7a6b73e82",
+                            Slug = "mock236",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3566)
+                        },
+                        new
+                        {
+                            ProductId = 237L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ec9c9033-3ba4-4089-9876-cede7b804c5c",
+                            Slug = "mock237",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3576)
+                        },
+                        new
+                        {
+                            ProductId = 238L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "48ed79fa-3b52-4ea7-a9b4-980d8ad882f7",
+                            Slug = "mock238",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3586)
+                        },
+                        new
+                        {
+                            ProductId = 239L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "39d58deb-de43-4b65-876d-7412226f0c14",
+                            Slug = "mock239",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3596)
+                        },
+                        new
+                        {
+                            ProductId = 240L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2df03bc3-318d-470f-a831-3e8d16a1affe",
+                            Slug = "mock240",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3605)
+                        },
+                        new
+                        {
+                            ProductId = 241L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "56422ca6-39a7-406f-8e07-a5b91cf0093d",
+                            Slug = "mock241",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3616)
+                        },
+                        new
+                        {
+                            ProductId = 242L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a287274a-b024-4b95-a659-96f330a6e79e",
+                            Slug = "mock242",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3625)
+                        },
+                        new
+                        {
+                            ProductId = 243L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9945f983-0659-46cc-8521-9c5e789a7c59",
+                            Slug = "mock243",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3635)
+                        },
+                        new
+                        {
+                            ProductId = 244L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5dd0d250-d7f6-41f2-b9c0-4a01cc09f45a",
+                            Slug = "mock244",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3645)
+                        },
+                        new
+                        {
+                            ProductId = 245L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5e3fe3eb-153c-437f-8ce8-529e65b57b3b",
+                            Slug = "mock245",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3655)
+                        },
+                        new
+                        {
+                            ProductId = 246L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dd338f52-1b7e-43cd-b7aa-1737e37fdea0",
+                            Slug = "mock246",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3664)
+                        },
+                        new
+                        {
+                            ProductId = 247L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "30a2ec32-788e-4a9d-b882-3944b5b3d502",
+                            Slug = "mock247",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3674)
+                        },
+                        new
+                        {
+                            ProductId = 248L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ed4a6002-c286-41be-b50e-41d064e030ee",
+                            Slug = "mock248",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3684)
+                        },
+                        new
+                        {
+                            ProductId = 249L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3d0189fe-53db-48fc-8bb6-118582d3f097",
+                            Slug = "mock249",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3729)
+                        },
+                        new
+                        {
+                            ProductId = 250L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "44a780a7-2063-4209-b484-d012b0e15094",
+                            Slug = "mock250",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3739)
+                        },
+                        new
+                        {
+                            ProductId = 251L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "24e1fd8f-d2ec-4961-93a2-6bcb2b89cb5c",
+                            Slug = "mock251",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3749)
+                        },
+                        new
+                        {
+                            ProductId = 252L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a93bb38f-e6e5-4d15-a59e-1343f32226af",
+                            Slug = "mock252",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3759)
+                        },
+                        new
+                        {
+                            ProductId = 253L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bb60dd0c-1a1b-4ce4-b9e2-d16c489a4b23",
+                            Slug = "mock253",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3769)
+                        },
+                        new
+                        {
+                            ProductId = 254L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ec581c09-1bb6-43ae-b215-7ea309f9393b",
+                            Slug = "mock254",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3779)
+                        },
+                        new
+                        {
+                            ProductId = 255L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "30fef378-e8c9-4c0a-b4f5-ee8f301494f4",
+                            Slug = "mock255",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3789)
+                        },
+                        new
+                        {
+                            ProductId = 256L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fe89d9b4-30d0-46f9-9bd5-5d2019b1aa17",
+                            Slug = "mock256",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3799)
+                        },
+                        new
+                        {
+                            ProductId = 257L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "89744cf0-a675-44bf-9b2c-267dcbd5ba37",
+                            Slug = "mock257",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3809)
+                        },
+                        new
+                        {
+                            ProductId = 258L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "89405544-1d9a-405c-b1af-6028653fb2e4",
+                            Slug = "mock258",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3857)
+                        },
+                        new
+                        {
+                            ProductId = 259L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "19762a2e-2927-4c97-bfa2-10a1504c0378",
+                            Slug = "mock259",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3869)
+                        },
+                        new
+                        {
+                            ProductId = 260L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5b80f9a9-3176-4308-9094-2fe163dd937a",
+                            Slug = "mock260",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3880)
+                        },
+                        new
+                        {
+                            ProductId = 261L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "35561718-da17-4edc-aad8-1ca8ad8e3af4",
+                            Slug = "mock261",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3890)
+                        },
+                        new
+                        {
+                            ProductId = 262L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b65652e0-9fa2-4424-8e77-d3103e62849d",
+                            Slug = "mock262",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3900)
+                        },
+                        new
+                        {
+                            ProductId = 263L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7da73514-105c-4b20-ab6c-1b61074e2cf3",
+                            Slug = "mock263",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3913)
+                        },
+                        new
+                        {
+                            ProductId = 264L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3c71900e-c7ca-4801-8c7f-15e2ed1fe7ba",
+                            Slug = "mock264",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3923)
+                        },
+                        new
+                        {
+                            ProductId = 265L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5997f7d7-a292-4425-ace0-a4e811a936fb",
+                            Slug = "mock265",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3933)
+                        },
+                        new
+                        {
+                            ProductId = 266L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "453e55b3-bb68-4ec9-aff4-ced16be1a02a",
+                            Slug = "mock266",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3942)
+                        },
+                        new
+                        {
+                            ProductId = 267L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e8eca1d6-670b-4348-93b8-64eecc4c9e07",
+                            Slug = "mock267",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3952)
+                        },
+                        new
+                        {
+                            ProductId = 268L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5625d070-7e1b-4f15-8447-3683f2d4751e",
+                            Slug = "mock268",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3982)
+                        },
+                        new
+                        {
+                            ProductId = 269L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ef2786aa-ea70-4cff-a5cd-b8870953dbb4",
+                            Slug = "mock269",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(3993)
+                        },
+                        new
+                        {
+                            ProductId = 270L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e136dfb5-03d9-4146-ac83-f6e9d64d1862",
+                            Slug = "mock270",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4002)
+                        },
+                        new
+                        {
+                            ProductId = 271L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0066ec2c-9a7a-4847-9942-539327302541",
+                            Slug = "mock271",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4012)
+                        },
+                        new
+                        {
+                            ProductId = 272L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77917502-aa1b-42dd-9eac-5d267ee82f68",
+                            Slug = "mock272",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4022)
+                        },
+                        new
+                        {
+                            ProductId = 273L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7bf591eb-8354-4b46-89c4-12199d61a695",
+                            Slug = "mock273",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4031)
+                        },
+                        new
+                        {
+                            ProductId = 274L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7a05ab9e-cd02-4441-ae83-b5814226bdec",
+                            Slug = "mock274",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4041)
+                        },
+                        new
+                        {
+                            ProductId = 275L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "39d75f00-d335-4d7b-8c78-e9dbd53841b2",
+                            Slug = "mock275",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4051)
+                        },
+                        new
+                        {
+                            ProductId = 276L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6498a09a-3517-4059-a89e-4ff6ade86d88",
+                            Slug = "mock276",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4060)
+                        },
+                        new
+                        {
+                            ProductId = 277L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03cdee5a-47ce-45d6-98e7-2a11098ab083",
+                            Slug = "mock277",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4070)
+                        },
+                        new
+                        {
+                            ProductId = 278L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6d86111a-9cb5-4220-a19f-78d7b13a6d9b",
+                            Slug = "mock278",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4080)
+                        },
+                        new
+                        {
+                            ProductId = 279L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d4530016-80b9-4172-89d3-b978e14e99f4",
+                            Slug = "mock279",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4090)
+                        },
+                        new
+                        {
+                            ProductId = 280L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e52a1f79-ad36-4a22-89a2-66c1e5b4d5a5",
+                            Slug = "mock280",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4168)
+                        },
+                        new
+                        {
+                            ProductId = 281L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e0a10162-4d39-4f1e-bc06-c82f78417e26",
+                            Slug = "mock281",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4178)
+                        },
+                        new
+                        {
+                            ProductId = 282L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c59dc994-aa15-46b5-810e-c7b6025c927f",
+                            Slug = "mock282",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4188)
+                        },
+                        new
+                        {
+                            ProductId = 283L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2a4b25b4-d3cd-4acd-9ee0-9a580bd9c761",
+                            Slug = "mock283",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4198)
+                        },
+                        new
+                        {
+                            ProductId = 284L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f3018586-7b89-42ad-849c-fa2bbf519ddf",
+                            Slug = "mock284",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4208)
+                        },
+                        new
+                        {
+                            ProductId = 285L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7b9af11d-3afe-481a-987f-9460c2361d4f",
+                            Slug = "mock285",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4217)
+                        },
+                        new
+                        {
+                            ProductId = 286L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a06d2029-20c4-4891-9830-2379bf1a2c9d",
+                            Slug = "mock286",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4228)
+                        },
+                        new
+                        {
+                            ProductId = 287L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3cab9e28-89d5-43ff-8cb9-dc53c09bdd56",
+                            Slug = "mock287",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4238)
+                        },
+                        new
+                        {
+                            ProductId = 288L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3fb2510c-bdde-4f99-a727-da1faa7cf0b0",
+                            Slug = "mock288",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4248)
+                        },
+                        new
+                        {
+                            ProductId = 289L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "649916a5-fdf9-433b-9080-ad9e97e1454d",
+                            Slug = "mock289",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4258)
+                        },
+                        new
+                        {
+                            ProductId = 290L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c9df4a1d-2415-42f2-aec2-afacef316997",
+                            Slug = "mock290",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4268)
+                        },
+                        new
+                        {
+                            ProductId = 291L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b56a0463-1998-40d5-9289-cfa789e1784e",
+                            Slug = "mock291",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4278)
+                        },
+                        new
+                        {
+                            ProductId = 292L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "443aa7e7-2069-4757-82f5-dc6358e4f9cb",
+                            Slug = "mock292",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4287)
+                        },
+                        new
+                        {
+                            ProductId = 293L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a2ea0c94-a1dc-4194-9bfb-1fe74e88137b",
+                            Slug = "mock293",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4348)
+                        },
+                        new
+                        {
+                            ProductId = 294L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "01c5970d-129d-4815-95b1-5528aad53b67",
+                            Slug = "mock294",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4358)
+                        },
+                        new
+                        {
+                            ProductId = 295L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "86c04dc8-b2cd-4654-b81f-e2164f0c6c34",
+                            Slug = "mock295",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4368)
+                        },
+                        new
+                        {
+                            ProductId = 296L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0f77891b-b987-4593-9886-24aa63d6e97d",
+                            Slug = "mock296",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4381)
+                        },
+                        new
+                        {
+                            ProductId = 297L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1ca14b8e-24a7-40cc-9892-afbec9684ee2",
+                            Slug = "mock297",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4391)
+                        },
+                        new
+                        {
+                            ProductId = 298L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5202e002-269d-4db1-9952-34402514da16",
+                            Slug = "mock298",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4401)
+                        },
+                        new
+                        {
+                            ProductId = 299L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "40d8186c-b8c9-427e-ae52-e5d2f35dc85d",
+                            Slug = "mock299",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4411)
+                        },
+                        new
+                        {
+                            ProductId = 300L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4e9b1d1d-b170-4148-b221-95c1a8e280a8",
+                            Slug = "mock300",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4421)
+                        },
+                        new
+                        {
+                            ProductId = 301L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bad54d08-f5e3-4962-9e84-f9232b07e7da",
+                            Slug = "mock301",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4431)
+                        },
+                        new
+                        {
+                            ProductId = 302L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a2d7f06b-c6b1-4070-a77a-865484f632e8",
+                            Slug = "mock302",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4441)
+                        },
+                        new
+                        {
+                            ProductId = 303L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "817b5fb1-20e9-43f1-8f7a-11bb97ddeab0",
+                            Slug = "mock303",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4451)
+                        },
+                        new
+                        {
+                            ProductId = 304L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4742a85f-c7b5-486d-b87e-7560cb799506",
+                            Slug = "mock304",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4461)
+                        },
+                        new
+                        {
+                            ProductId = 305L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "053f69f4-f176-434f-b902-00c6271edcc7",
+                            Slug = "mock305",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4507)
+                        },
+                        new
+                        {
+                            ProductId = 306L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4cb247c6-b7d0-4f13-be30-8518671f8faa",
+                            Slug = "mock306",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4517)
+                        },
+                        new
+                        {
+                            ProductId = 307L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6924504c-92ad-41f4-bdd1-e3407f0b0199",
+                            Slug = "mock307",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4527)
+                        },
+                        new
+                        {
+                            ProductId = 308L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d475b9a7-1e77-4af3-bfa3-9032de259205",
+                            Slug = "mock308",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4537)
+                        },
+                        new
+                        {
+                            ProductId = 309L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d190390d-57ee-4bb0-bd8b-2026571c5fb1",
+                            Slug = "mock309",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4547)
+                        },
+                        new
+                        {
+                            ProductId = 310L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03787b09-594f-4e6d-bc37-0ff2adb34315",
+                            Slug = "mock310",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4557)
+                        },
+                        new
+                        {
+                            ProductId = 311L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d27f9bbf-dbfd-4be1-8149-17faff35a882",
+                            Slug = "mock311",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4566)
+                        },
+                        new
+                        {
+                            ProductId = 312L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "be9127a2-3cb0-44b9-bc8f-bd21b40983af",
+                            Slug = "mock312",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4576)
+                        },
+                        new
+                        {
+                            ProductId = 313L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77c200f2-37b1-45b0-bb47-c0b0d06c7235",
+                            Slug = "mock313",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4586)
+                        },
+                        new
+                        {
+                            ProductId = 314L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b25f22bb-0044-4638-8823-bcdade5a4936",
+                            Slug = "mock314",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4596)
+                        },
+                        new
+                        {
+                            ProductId = 315L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e920539f-a895-4507-ac8f-909e9c46b2e5",
+                            Slug = "mock315",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4606)
+                        },
+                        new
+                        {
+                            ProductId = 316L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b19c6562-f03b-42d1-b258-8364418cd8b9",
+                            Slug = "mock316",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4616)
+                        },
+                        new
+                        {
+                            ProductId = 317L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "db70a6b7-23bc-4be1-a900-519072d856b0",
+                            Slug = "mock317",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4678)
+                        },
+                        new
+                        {
+                            ProductId = 318L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c5f9902d-f93d-4657-87e1-fcacc5b857e8",
+                            Slug = "mock318",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4688)
+                        },
+                        new
+                        {
+                            ProductId = 319L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bd424eff-d3c8-4e91-9090-7f18c40e0f99",
+                            Slug = "mock319",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4698)
+                        },
+                        new
+                        {
+                            ProductId = 320L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fbb06d3d-6e1b-4376-a2ac-df8ef51a1b7d",
+                            Slug = "mock320",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4708)
+                        },
+                        new
+                        {
+                            ProductId = 321L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9fc44fdb-e0a2-41e4-a439-771ef12ac4cf",
+                            Slug = "mock321",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4718)
+                        },
+                        new
+                        {
+                            ProductId = 322L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "598e43f5-06b2-4f9a-ae2a-b10b1f8bdebb",
+                            Slug = "mock322",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4728)
+                        },
+                        new
+                        {
+                            ProductId = 323L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b200f32a-bb81-4f8a-a710-8d521acee792",
+                            Slug = "mock323",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4738)
+                        },
+                        new
+                        {
+                            ProductId = 324L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9a314261-1123-462f-a454-d36e2839e6d8",
+                            Slug = "mock324",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4747)
+                        },
+                        new
+                        {
+                            ProductId = 325L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9ace29ce-d515-4b7f-83d5-144a740614ff",
+                            Slug = "mock325",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4757)
+                        },
+                        new
+                        {
+                            ProductId = 326L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dd27f305-1b10-445f-9fd0-77b215b2cb0e",
+                            Slug = "mock326",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4767)
+                        },
+                        new
+                        {
+                            ProductId = 327L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95176e4d-b041-4aa8-a4a3-03fa3b0debe3",
+                            Slug = "mock327",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4778)
+                        },
+                        new
+                        {
+                            ProductId = 328L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "784deecf-07f8-4c8a-ac44-68f2ed4d079b",
+                            Slug = "mock328",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4790)
+                        },
+                        new
+                        {
+                            ProductId = 329L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5ff8a280-7c33-428e-8da8-884f6f7ebe46",
+                            Slug = "mock329",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4835)
+                        },
+                        new
+                        {
+                            ProductId = 330L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4ebc239d-8017-4be8-9ba6-54102e01c1cf",
+                            Slug = "mock330",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4845)
+                        },
+                        new
+                        {
+                            ProductId = 331L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "632a4067-866f-4442-8be7-7332fd373b15",
+                            Slug = "mock331",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4856)
+                        },
+                        new
+                        {
+                            ProductId = 332L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "42dd0b1d-f8b7-4008-9ed5-792f68afdeb5",
+                            Slug = "mock332",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4869)
+                        },
+                        new
+                        {
+                            ProductId = 333L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "59581843-de33-4884-91c8-5683ab78407c",
+                            Slug = "mock333",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4881)
+                        },
+                        new
+                        {
+                            ProductId = 334L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2d10a77a-c6b7-4af9-ac41-c8dc7080123a",
+                            Slug = "mock334",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4893)
+                        },
+                        new
+                        {
+                            ProductId = 335L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "65223c5a-2656-41e0-8b74-ec9bb4c9c33c",
+                            Slug = "mock335",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4905)
+                        },
+                        new
+                        {
+                            ProductId = 336L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "40e3b143-0c18-401c-b649-c4afcb52a102",
+                            Slug = "mock336",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4917)
+                        },
+                        new
+                        {
+                            ProductId = 337L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7ab8f726-d3b8-4e3e-b082-0334a1fee490",
+                            Slug = "mock337",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4930)
+                        },
+                        new
+                        {
+                            ProductId = 338L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0ae17be2-43d3-4e58-96f6-6c8db848f900",
+                            Slug = "mock338",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4942)
+                        },
+                        new
+                        {
+                            ProductId = 339L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d907fae5-d198-441a-917e-c356e6047a41",
+                            Slug = "mock339",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4954)
+                        },
+                        new
+                        {
+                            ProductId = 340L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f9139e0e-fa93-40cf-a667-3a918ae3fa4a",
+                            Slug = "mock340",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(4966)
+                        },
+                        new
+                        {
+                            ProductId = 341L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "21447df4-4f9f-40e6-86c1-69c23d71c83b",
+                            Slug = "mock341",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5011)
+                        },
+                        new
+                        {
+                            ProductId = 342L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b3503215-4ca2-4236-8f19-6e18f397a35e",
+                            Slug = "mock342",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5022)
+                        },
+                        new
+                        {
+                            ProductId = 343L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c820ca9a-f441-4a8b-bd4c-ab24522b61fe",
+                            Slug = "mock343",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5031)
+                        },
+                        new
+                        {
+                            ProductId = 344L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d0892635-a170-43ba-acdb-4f5ab5e4164f",
+                            Slug = "mock344",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5041)
+                        },
+                        new
+                        {
+                            ProductId = 345L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "062a58c9-9811-47a6-98fc-420a121f18c9",
+                            Slug = "mock345",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5051)
+                        },
+                        new
+                        {
+                            ProductId = 346L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1cc3db42-e7a9-4a8f-97cf-561bec934e63",
+                            Slug = "mock346",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5061)
+                        },
+                        new
+                        {
+                            ProductId = 347L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "df98ea82-c4dc-47d8-9afb-cb5159d347d8",
+                            Slug = "mock347",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5070)
+                        },
+                        new
+                        {
+                            ProductId = 348L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eeefca52-684c-41b0-8a31-78e2d33443e0",
+                            Slug = "mock348",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5080)
+                        },
+                        new
+                        {
+                            ProductId = 349L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6e9a65eb-1cd5-416d-a3a6-f45500ec69bb",
+                            Slug = "mock349",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5090)
+                        },
+                        new
+                        {
+                            ProductId = 350L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0c5c14a1-aff3-43dd-8cc8-0c7a1dbd41a0",
+                            Slug = "mock350",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5100)
+                        },
+                        new
+                        {
+                            ProductId = 351L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2f49b8e4-27ae-4136-8a35-8af38335e1b0",
+                            Slug = "mock351",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5109)
+                        },
+                        new
+                        {
+                            ProductId = 352L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "38e05159-fae3-4ac8-8d98-f95652fae557",
+                            Slug = "mock352",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5119)
+                        },
+                        new
+                        {
+                            ProductId = 353L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "84fe2e35-8624-4b25-b2b0-21f911dfef71",
+                            Slug = "mock353",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5167)
+                        },
+                        new
+                        {
+                            ProductId = 354L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1229965b-0ec7-4411-a43c-501c29be7d3d",
+                            Slug = "mock354",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5178)
+                        },
+                        new
+                        {
+                            ProductId = 355L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7eae03b8-ec0c-499c-a681-57f0ae9550c9",
+                            Slug = "mock355",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5187)
+                        },
+                        new
+                        {
+                            ProductId = 356L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f545e659-bd96-4d37-b0ab-5594aee43354",
+                            Slug = "mock356",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5197)
+                        },
+                        new
+                        {
+                            ProductId = 357L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b6fe0340-c9cb-449d-bd34-df2313c739d7",
+                            Slug = "mock357",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5207)
+                        },
+                        new
+                        {
+                            ProductId = 358L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7899685c-5ccb-4678-9209-ac66687eafba",
+                            Slug = "mock358",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5217)
+                        },
+                        new
+                        {
+                            ProductId = 359L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "33d70d94-663d-4449-8464-8fa25fda6c5c",
+                            Slug = "mock359",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5226)
+                        },
+                        new
+                        {
+                            ProductId = 360L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9100093b-8afd-4743-9973-ce1d825d84a0",
+                            Slug = "mock360",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5236)
+                        },
+                        new
+                        {
+                            ProductId = 361L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "89336f0b-de67-42e7-98c6-4d9b4b445ce5",
+                            Slug = "mock361",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5246)
+                        },
+                        new
+                        {
+                            ProductId = 362L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "206d5a73-1975-4f7d-9bb1-d027f4394c20",
+                            Slug = "mock362",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5256)
+                        },
+                        new
+                        {
+                            ProductId = 363L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23c28328-38fa-4c96-948a-d89a2da71596",
+                            Slug = "mock363",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5265)
+                        },
+                        new
+                        {
+                            ProductId = 364L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "67c63126-7e73-47fd-bc6b-af8f27d479a1",
+                            Slug = "mock364",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5275)
+                        },
+                        new
+                        {
+                            ProductId = 365L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3fb2213b-8984-4447-9a6e-789f2606a5a1",
+                            Slug = "mock365",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5305)
+                        },
+                        new
+                        {
+                            ProductId = 366L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4d4e8ded-ff2b-40b0-a74a-92769034d337",
+                            Slug = "mock366",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5316)
+                        },
+                        new
+                        {
+                            ProductId = 367L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7f3240b3-cb60-4c1d-936b-797755fa94e5",
+                            Slug = "mock367",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5326)
+                        },
+                        new
+                        {
+                            ProductId = 368L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e6685bc2-b91c-455a-9cd9-69e0b751fba5",
+                            Slug = "mock368",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5335)
+                        },
+                        new
+                        {
+                            ProductId = 369L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8ff2807e-387c-4524-98a8-31b0e61c611f",
+                            Slug = "mock369",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5345)
+                        },
+                        new
+                        {
+                            ProductId = 370L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f3f7bc49-d48f-4ed7-a58c-3e40e73afc34",
+                            Slug = "mock370",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5355)
+                        },
+                        new
+                        {
+                            ProductId = 371L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a109bf14-e9c9-4ae8-9e2f-ca3c19a44a32",
+                            Slug = "mock371",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5364)
+                        },
+                        new
+                        {
+                            ProductId = 372L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c196b733-6294-4b26-9ed0-1518d4ed1ccf",
+                            Slug = "mock372",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5374)
+                        },
+                        new
+                        {
+                            ProductId = 373L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "86ed45c9-129c-498e-b904-a0bbd2e5c33d",
+                            Slug = "mock373",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5384)
+                        },
+                        new
+                        {
+                            ProductId = 374L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "826b4c25-6391-440c-8aea-2b7be871c573",
+                            Slug = "mock374",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5393)
+                        },
+                        new
+                        {
+                            ProductId = 375L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "02e6b281-1977-4358-ba26-00d0387c5676",
+                            Slug = "mock375",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5403)
+                        },
+                        new
+                        {
+                            ProductId = 376L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "57a0d90f-fd68-4810-bbbb-6e92ece93c6b",
+                            Slug = "mock376",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5413)
+                        },
+                        new
+                        {
+                            ProductId = 377L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0132cc46-3f5c-42b9-8195-8c1b3491bd82",
+                            Slug = "mock377",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5497)
+                        },
+                        new
+                        {
+                            ProductId = 378L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c8b4f648-3182-4c9f-b100-f06b0d9be6a3",
+                            Slug = "mock378",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5507)
+                        },
+                        new
+                        {
+                            ProductId = 379L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c7513ae8-8316-434c-8b23-83c953bdba48",
+                            Slug = "mock379",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5517)
+                        },
+                        new
+                        {
+                            ProductId = 380L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "32a5349a-8f48-4659-a8ba-5e342baad77e",
+                            Slug = "mock380",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5527)
+                        },
+                        new
+                        {
+                            ProductId = 381L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b7f9c30c-a4aa-42d0-80a8-35b0ace3b288",
+                            Slug = "mock381",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5537)
+                        },
+                        new
+                        {
+                            ProductId = 382L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7e592074-244d-4832-9b33-df6440ba4c2d",
+                            Slug = "mock382",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5547)
+                        },
+                        new
+                        {
+                            ProductId = 383L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a98ac29a-4514-4ab4-866f-566d2e29fa95",
+                            Slug = "mock383",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5556)
+                        },
+                        new
+                        {
+                            ProductId = 384L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f853cf00-c1f0-4095-92ac-5c3709e84b14",
+                            Slug = "mock384",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5566)
+                        },
+                        new
+                        {
+                            ProductId = 385L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2cdcc3e4-aaf1-4513-b6c7-8b2ac173b7ea",
+                            Slug = "mock385",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5576)
+                        },
+                        new
+                        {
+                            ProductId = 386L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8686210f-74cc-4943-b144-0d0b45751f0b",
+                            Slug = "mock386",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5586)
+                        },
+                        new
+                        {
+                            ProductId = 387L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3ab9b2d7-ea76-4a6b-b726-f8c6149eb49e",
+                            Slug = "mock387",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5595)
+                        },
+                        new
+                        {
+                            ProductId = 388L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "71570a92-b566-4d25-9854-e744d9c40584",
+                            Slug = "mock388",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5605)
+                        },
+                        new
+                        {
+                            ProductId = 389L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3d9e74eb-9513-4961-9de9-c6d514a0297d",
+                            Slug = "mock389",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5667)
+                        },
+                        new
+                        {
+                            ProductId = 390L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "121b67dd-4bb5-4c95-b9a9-14f4382d0bd4",
+                            Slug = "mock390",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5677)
+                        },
+                        new
+                        {
+                            ProductId = 391L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bb6d5c57-77eb-49a7-b3ad-7c57da8de886",
+                            Slug = "mock391",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5686)
+                        },
+                        new
+                        {
+                            ProductId = 392L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "509c9338-d6cf-4d60-ac2c-e59a1420d389",
+                            Slug = "mock392",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5696)
+                        },
+                        new
+                        {
+                            ProductId = 393L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9e911567-d358-4934-8137-2f4e5ecc71af",
+                            Slug = "mock393",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5706)
+                        },
+                        new
+                        {
+                            ProductId = 394L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d0c87d9e-5a1d-4f2b-8097-eeab9eb716cd",
+                            Slug = "mock394",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5716)
+                        },
+                        new
+                        {
+                            ProductId = 395L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "09716797-ffbf-4b4c-8a9a-89261efffd90",
+                            Slug = "mock395",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5725)
+                        },
+                        new
+                        {
+                            ProductId = 396L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "033f5b53-0bbc-4c37-be32-4c8f8cf38a83",
+                            Slug = "mock396",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5735)
+                        },
+                        new
+                        {
+                            ProductId = 397L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "db853b9c-0146-4de3-978f-84f64ec700bd",
+                            Slug = "mock397",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5745)
+                        },
+                        new
+                        {
+                            ProductId = 398L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "39f9bb89-eaa5-4a50-a3ec-ec8c53230236",
+                            Slug = "mock398",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5754)
+                        },
+                        new
+                        {
+                            ProductId = 399L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ab499d4e-884f-4010-8a9b-14afb1b9e542",
+                            Slug = "mock399",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5764)
+                        },
+                        new
+                        {
+                            ProductId = 400L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ba65cd0d-1ca0-43f9-a682-4d3a15986ce6",
+                            Slug = "mock400",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5774)
+                        },
+                        new
+                        {
+                            ProductId = 401L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9afb4149-94eb-40bd-92ff-b1c7701e791a",
+                            Slug = "mock401",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5821)
+                        },
+                        new
+                        {
+                            ProductId = 402L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "00b6edb7-1d4c-4b75-85ef-c9ad6704b1eb",
+                            Slug = "mock402",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5832)
+                        },
+                        new
+                        {
+                            ProductId = 403L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d916a22a-f9d1-4345-a791-94e32472e2d1",
+                            Slug = "mock403",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5842)
+                        },
+                        new
+                        {
+                            ProductId = 404L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "adc86b4f-de1a-4904-a518-778a07a98765",
+                            Slug = "mock404",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5851)
+                        },
+                        new
+                        {
+                            ProductId = 405L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "88679832-bc1e-43cf-968b-d577f78c167f",
+                            Slug = "mock405",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5861)
+                        },
+                        new
+                        {
+                            ProductId = 406L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5fa23c23-c174-4256-9dfb-7f4f54c82408",
+                            Slug = "mock406",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5870)
+                        },
+                        new
+                        {
+                            ProductId = 407L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "53de28a8-0af7-4724-86f9-cfda1eb78afd",
+                            Slug = "mock407",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5879)
+                        },
+                        new
+                        {
+                            ProductId = 408L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "83707c72-2fb2-4a57-bd77-bc4a36c7d917",
+                            Slug = "mock408",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5889)
+                        },
+                        new
+                        {
+                            ProductId = 409L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eecd5bb0-a427-4fe4-add4-2b0205b8e057",
+                            Slug = "mock409",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5898)
+                        },
+                        new
+                        {
+                            ProductId = 410L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "73f33144-780b-4a93-af65-afbd64e51fc0",
+                            Slug = "mock410",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5908)
+                        },
+                        new
+                        {
+                            ProductId = 411L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8c944cbb-abc4-4bbe-82d7-e4b292e73146",
+                            Slug = "mock411",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5918)
+                        },
+                        new
+                        {
+                            ProductId = 412L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "80f87495-537b-4e12-84ef-cde2175a182b",
+                            Slug = "mock412",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5928)
+                        },
+                        new
+                        {
+                            ProductId = 413L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1560ff93-9e7f-4d92-b8d5-af219bed481f",
+                            Slug = "mock413",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(5990)
+                        },
+                        new
+                        {
+                            ProductId = 414L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6ba2f713-2f7c-43a0-a3c3-913a642b81c3",
+                            Slug = "mock414",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6000)
+                        },
+                        new
+                        {
+                            ProductId = 415L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "70a461b9-e3f0-4e2b-b608-81e46aa588e4",
+                            Slug = "mock415",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6010)
+                        },
+                        new
+                        {
+                            ProductId = 416L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4e60d929-2735-4903-b39f-d94b3404ffd7",
+                            Slug = "mock416",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6020)
+                        },
+                        new
+                        {
+                            ProductId = 417L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c90fcac6-f662-467d-a1bb-9e1b9dfe92c0",
+                            Slug = "mock417",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6030)
+                        },
+                        new
+                        {
+                            ProductId = 418L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cbad6343-0e4d-4fe9-927e-bc6fc283766e",
+                            Slug = "mock418",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6039)
+                        },
+                        new
+                        {
+                            ProductId = 419L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ab707fc6-4604-496d-bbc6-3fa2c313d5a6",
+                            Slug = "mock419",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6049)
+                        },
+                        new
+                        {
+                            ProductId = 420L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "19452ea8-58b4-4e5d-a92c-2e42f56f6f4b",
+                            Slug = "mock420",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6059)
+                        },
+                        new
+                        {
+                            ProductId = 421L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95559dbb-a6f9-40fe-acdb-a2c29e7b0df2",
+                            Slug = "mock421",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6069)
+                        },
+                        new
+                        {
+                            ProductId = 422L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "17096c8c-efc2-4b44-b8d1-55dcd67e4f31",
+                            Slug = "mock422",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6078)
+                        },
+                        new
+                        {
+                            ProductId = 423L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3694d98f-dcc2-4de5-9c5a-075f7c001924",
+                            Slug = "mock423",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6088)
+                        },
+                        new
+                        {
+                            ProductId = 424L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "86f561fb-01ef-4602-920d-82df8823db93",
+                            Slug = "mock424",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6098)
+                        },
+                        new
+                        {
+                            ProductId = 425L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5709bbe0-b605-411f-ba46-dc06b05ada9e",
+                            Slug = "mock425",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6144)
+                        },
+                        new
+                        {
+                            ProductId = 426L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "decad36e-11d7-420a-b0b7-3a29200d2a56",
+                            Slug = "mock426",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6154)
+                        },
+                        new
+                        {
+                            ProductId = 427L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "98d0afbd-3c19-4086-80c7-6a6f34e097ec",
+                            Slug = "mock427",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6164)
+                        },
+                        new
+                        {
+                            ProductId = 428L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cab616a8-b531-43b3-af34-22156a4de3f2",
+                            Slug = "mock428",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6174)
+                        },
+                        new
+                        {
+                            ProductId = 429L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4cf69578-b909-422b-8213-5eafe15b11d1",
+                            Slug = "mock429",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6183)
+                        },
+                        new
+                        {
+                            ProductId = 430L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a9be2a81-148b-42ac-af1b-51d8378cedfa",
+                            Slug = "mock430",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6193)
+                        },
+                        new
+                        {
+                            ProductId = 431L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "31cb0443-f2ca-43dd-8e76-b96f1bbc8cbd",
+                            Slug = "mock431",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6203)
+                        },
+                        new
+                        {
+                            ProductId = 432L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3b89bdc1-88b9-48c2-b65b-b335787b92f2",
+                            Slug = "mock432",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6213)
+                        },
+                        new
+                        {
+                            ProductId = 433L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "63419c51-674d-4f34-a83b-3f16989d4d32",
+                            Slug = "mock433",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6222)
+                        },
+                        new
+                        {
+                            ProductId = 434L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9c2e8b7a-cf63-4cc4-b251-6c1c2c21095c",
+                            Slug = "mock434",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6232)
+                        },
+                        new
+                        {
+                            ProductId = 435L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "19223a88-4cdd-4b21-a78f-da3dc25d7645",
+                            Slug = "mock435",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6242)
+                        },
+                        new
+                        {
+                            ProductId = 436L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8b79345e-ae09-4dea-aaee-fd7bd669172d",
+                            Slug = "mock436",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6252)
+                        },
+                        new
+                        {
+                            ProductId = 437L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "108c1b75-e52d-4ecd-b31e-1d03b486c2c1",
+                            Slug = "mock437",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6297)
+                        },
+                        new
+                        {
+                            ProductId = 438L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79e21339-326e-4db7-a13b-78c232ef4ea4",
+                            Slug = "mock438",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6307)
+                        },
+                        new
+                        {
+                            ProductId = 439L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0f41ccc1-5ba9-4ee9-aeb6-6f4fa061f0e1",
+                            Slug = "mock439",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6317)
+                        },
+                        new
+                        {
+                            ProductId = 440L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "274c9c0e-3db7-45eb-89a9-8dd62f5505f1",
+                            Slug = "mock440",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6327)
+                        },
+                        new
+                        {
+                            ProductId = 441L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5d1ab8fe-b463-451b-bb09-228b9df65966",
+                            Slug = "mock441",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6337)
+                        },
+                        new
+                        {
+                            ProductId = 442L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3d8f98d2-7351-4cca-8084-ecb48ab95b53",
+                            Slug = "mock442",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6347)
+                        },
+                        new
+                        {
+                            ProductId = 443L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e28c2595-5998-4f32-a27c-16297ab190a8",
+                            Slug = "mock443",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6356)
+                        },
+                        new
+                        {
+                            ProductId = 444L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9d548e65-a982-40ce-bb15-30ff1c5abee3",
+                            Slug = "mock444",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6366)
+                        },
+                        new
+                        {
+                            ProductId = 445L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3da56d5b-6c92-43ff-8456-51c774388a41",
+                            Slug = "mock445",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6376)
+                        },
+                        new
+                        {
+                            ProductId = 446L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fef7534e-2f89-45d5-bd50-60be91ec2b8b",
+                            Slug = "mock446",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6386)
+                        },
+                        new
+                        {
+                            ProductId = 447L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "059b2821-79a9-4823-8546-05aefd11b41f",
+                            Slug = "mock447",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6395)
+                        },
+                        new
+                        {
+                            ProductId = 448L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b8e9d510-1720-4f6a-a743-95d7547ec73d",
+                            Slug = "mock448",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6405)
+                        },
+                        new
+                        {
+                            ProductId = 449L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d3d6fd57-5640-4a50-b821-124475ff7cc0",
+                            Slug = "mock449",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6449)
+                        },
+                        new
+                        {
+                            ProductId = 450L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "785fcf47-afbb-4861-a455-200da727204d",
+                            Slug = "mock450",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6459)
+                        },
+                        new
+                        {
+                            ProductId = 451L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0f8a091b-e139-48c9-81fd-607f1d592095",
+                            Slug = "mock451",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6469)
+                        },
+                        new
+                        {
+                            ProductId = 452L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "40b744a9-2465-46c4-b360-fb14dc0002d6",
+                            Slug = "mock452",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6479)
+                        },
+                        new
+                        {
+                            ProductId = 453L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bff107ba-89e8-4ffa-b5be-1ec7bdd145fe",
+                            Slug = "mock453",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6489)
+                        },
+                        new
+                        {
+                            ProductId = 454L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "07887931-4ea5-4af3-8d0a-a17e18c6fbe5",
+                            Slug = "mock454",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6499)
+                        },
+                        new
+                        {
+                            ProductId = 455L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "692b3983-3933-492f-930c-5921ec58a9f3",
+                            Slug = "mock455",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6509)
+                        },
+                        new
+                        {
+                            ProductId = 456L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ee11af3a-0024-4e3a-bbfe-d039760a9860",
+                            Slug = "mock456",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6518)
+                        },
+                        new
+                        {
+                            ProductId = 457L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dabb7cc0-bf5e-4734-9766-de97e6d16cc8",
+                            Slug = "mock457",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6528)
+                        },
+                        new
+                        {
+                            ProductId = 458L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2fe454c0-b41b-4b1a-8dd1-06393833261a",
+                            Slug = "mock458",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6538)
+                        },
+                        new
+                        {
+                            ProductId = 459L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8700bf57-a8f1-4cad-981a-75bdc5804c23",
+                            Slug = "mock459",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6548)
+                        },
+                        new
+                        {
+                            ProductId = 460L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6b37a52b-9cf7-4cd7-b482-f19d2c3dcaab",
+                            Slug = "mock460",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6558)
+                        },
+                        new
+                        {
+                            ProductId = 461L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cdb4d8b6-84a7-498b-85c6-9d3f4879a886",
+                            Slug = "mock461",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6587)
+                        },
+                        new
+                        {
+                            ProductId = 462L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d8ae13c6-5e5c-40bb-8c9e-6e06d95f6ab7",
+                            Slug = "mock462",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6598)
+                        },
+                        new
+                        {
+                            ProductId = 463L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "02bf5ccf-f2f2-4aa0-83ea-8d06202e7694",
+                            Slug = "mock463",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6608)
+                        },
+                        new
+                        {
+                            ProductId = 464L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "25228d86-2428-46da-8e53-4ae6320f9701",
+                            Slug = "mock464",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6617)
+                        },
+                        new
+                        {
+                            ProductId = 465L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c3eb0245-3981-4efc-96a2-f8576aefaeb1",
+                            Slug = "mock465",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6627)
+                        },
+                        new
+                        {
+                            ProductId = 466L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7a1e09e7-0ccb-4845-b17d-c2512e7703a6",
+                            Slug = "mock466",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6637)
+                        },
+                        new
+                        {
+                            ProductId = 467L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d5dd5327-632f-4edb-9eb4-da3f03cbeb79",
+                            Slug = "mock467",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6646)
+                        },
+                        new
+                        {
+                            ProductId = 468L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e3878fe-76c0-4513-b859-4fa4471ee160",
+                            Slug = "mock468",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6656)
+                        },
+                        new
+                        {
+                            ProductId = 469L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "df996a9c-6373-42b3-a38d-d3076eeb3d12",
+                            Slug = "mock469",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6666)
+                        },
+                        new
+                        {
+                            ProductId = 470L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8740c31f-d5ea-419e-925e-65c672ef2ead",
+                            Slug = "mock470",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6675)
+                        },
+                        new
+                        {
+                            ProductId = 471L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a7e1ff2f-6e41-4d35-98e3-1c637dda5edc",
+                            Slug = "mock471",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6685)
+                        },
+                        new
+                        {
+                            ProductId = 472L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "be3470e4-c97d-4d12-a456-68e758fdc544",
+                            Slug = "mock472",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6695)
+                        },
+                        new
+                        {
+                            ProductId = 473L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "01dd1a1f-a38f-4ebd-8741-a8b70497495d",
+                            Slug = "mock473",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6774)
+                        },
+                        new
+                        {
+                            ProductId = 474L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "91958668-4552-415d-bd5c-fc31d67a9e47",
+                            Slug = "mock474",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6785)
+                        },
+                        new
+                        {
+                            ProductId = 475L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ebea375d-1060-4427-a9ad-ce136d026dd5",
+                            Slug = "mock475",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6794)
+                        },
+                        new
+                        {
+                            ProductId = 476L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8a079e91-2020-41c9-a7fd-52ba6b33d226",
+                            Slug = "mock476",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6804)
+                        },
+                        new
+                        {
+                            ProductId = 477L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "72f7696e-b856-4854-9c90-8abe23281862",
+                            Slug = "mock477",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6814)
+                        },
+                        new
+                        {
+                            ProductId = 478L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "854cc935-f2f2-4ad6-9754-f1a3c273900b",
+                            Slug = "mock478",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6823)
+                        },
+                        new
+                        {
+                            ProductId = 479L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b62b201b-2261-4fec-a771-8a92c3c761c0",
+                            Slug = "mock479",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6833)
+                        },
+                        new
+                        {
+                            ProductId = 480L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cda8e577-8783-4d99-8b97-551eb39bc2a0",
+                            Slug = "mock480",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6843)
+                        },
+                        new
+                        {
+                            ProductId = 481L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79968b5a-1ba1-430c-bdcb-9af47082bd4e",
+                            Slug = "mock481",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6852)
+                        },
+                        new
+                        {
+                            ProductId = 482L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "70c72db9-f398-44df-a2e3-a8e0fbc1af4e",
+                            Slug = "mock482",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6862)
+                        },
+                        new
+                        {
+                            ProductId = 483L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a8498621-a5f2-47a0-933e-915827cbafdd",
+                            Slug = "mock483",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6872)
+                        },
+                        new
+                        {
+                            ProductId = 484L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "425cfe46-f847-45d0-9e78-df203a61a018",
+                            Slug = "mock484",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6882)
+                        },
+                        new
+                        {
+                            ProductId = 485L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "907784a2-2d9b-4d99-a2c2-9e62df6182a8",
+                            Slug = "mock485",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6942)
+                        },
+                        new
+                        {
+                            ProductId = 486L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b9803fbd-ac81-4c54-afe9-3f27c450c4f0",
+                            Slug = "mock486",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6953)
+                        },
+                        new
+                        {
+                            ProductId = 487L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "94ecc092-27e2-4ef0-b605-55553c545a17",
+                            Slug = "mock487",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6963)
+                        },
+                        new
+                        {
+                            ProductId = 488L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "36e32a63-15a7-458f-b732-a6331fa9a303",
+                            Slug = "mock488",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6972)
+                        },
+                        new
+                        {
+                            ProductId = 489L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23fe10b9-30e9-4442-9205-53f44b978642",
+                            Slug = "mock489",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6981)
+                        },
+                        new
+                        {
+                            ProductId = 490L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c9c8d68a-0ece-476b-b19d-07da34f7c233",
+                            Slug = "mock490",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(6991)
+                        },
+                        new
+                        {
+                            ProductId = 491L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "40bc0b90-94f7-46e6-91ef-16ab134b045f",
+                            Slug = "mock491",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7001)
+                        },
+                        new
+                        {
+                            ProductId = 492L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5c3dab1f-f252-4ec5-acc9-df731f635588",
+                            Slug = "mock492",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7010)
+                        },
+                        new
+                        {
+                            ProductId = 493L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3546a6fc-6aa1-47e1-b83c-a6d2c5ad38e5",
+                            Slug = "mock493",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7020)
+                        },
+                        new
+                        {
+                            ProductId = 494L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "71a0de38-6077-425f-9435-3afd741d62e8",
+                            Slug = "mock494",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7030)
+                        },
+                        new
+                        {
+                            ProductId = 495L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7db33a0c-6649-481a-aace-9ef12bfab12c",
+                            Slug = "mock495",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7040)
+                        },
+                        new
+                        {
+                            ProductId = 496L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a14a2e4a-53b9-4197-a032-83f4968560d3",
+                            Slug = "mock496",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7050)
+                        },
+                        new
+                        {
+                            ProductId = 497L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "21e86e40-f4e7-4977-bfbc-c17bdd169228",
+                            Slug = "mock497",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7113)
+                        },
+                        new
+                        {
+                            ProductId = 498L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9e6f5021-4129-4db0-a911-ef1cb010e75b",
+                            Slug = "mock498",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7124)
+                        },
+                        new
+                        {
+                            ProductId = 499L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7fd9c1d0-59b4-4c96-83c8-6f9448f79042",
+                            Slug = "mock499",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7134)
+                        },
+                        new
+                        {
+                            ProductId = 500L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "441620ae-a92d-40d9-9f46-914749c2dcda",
+                            Slug = "mock500",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7144)
+                        },
+                        new
+                        {
+                            ProductId = 501L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "def1605b-977e-4cd4-9b12-3daea513ad9d",
+                            Slug = "mock501",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7154)
+                        },
+                        new
+                        {
+                            ProductId = 502L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "87683215-a18d-4537-802d-3ce8391652d4",
+                            Slug = "mock502",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7163)
+                        },
+                        new
+                        {
+                            ProductId = 503L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "af193d6a-a3f3-4f8b-bb04-e5bf34aadef0",
+                            Slug = "mock503",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7173)
+                        },
+                        new
+                        {
+                            ProductId = 504L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ec89a357-b6cf-41ba-afdf-22e9f6a4248a",
+                            Slug = "mock504",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7183)
+                        },
+                        new
+                        {
+                            ProductId = 505L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b9b7ddb7-02b6-4ec0-82f3-624ae67509bf",
+                            Slug = "mock505",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7193)
+                        },
+                        new
+                        {
+                            ProductId = 506L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e4f9266e-4b6a-49e4-bf71-dca8bad8a199",
+                            Slug = "mock506",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7202)
+                        },
+                        new
+                        {
+                            ProductId = 507L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f49fa2ea-e070-4835-a524-1d7044275e54",
+                            Slug = "mock507",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7212)
+                        },
+                        new
+                        {
+                            ProductId = 508L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f2d76aaa-d051-4cb4-b2b5-e3eb09acec61",
+                            Slug = "mock508",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7222)
+                        },
+                        new
+                        {
+                            ProductId = 509L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6b44b4c1-f97e-41e4-95e3-46073d835da4",
+                            Slug = "mock509",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7268)
+                        },
+                        new
+                        {
+                            ProductId = 510L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4948dc7f-7633-4127-a601-39c5511a7a69",
+                            Slug = "mock510",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7278)
+                        },
+                        new
+                        {
+                            ProductId = 511L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b44affac-a276-4854-87fc-3bfd5c280cc2",
+                            Slug = "mock511",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7288)
+                        },
+                        new
+                        {
+                            ProductId = 512L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79b02cee-e56f-4493-ab4e-803660cf8597",
+                            Slug = "mock512",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7298)
+                        },
+                        new
+                        {
+                            ProductId = 513L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c596c7cf-a989-4061-9bcf-c10f68f2cad9",
+                            Slug = "mock513",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7308)
+                        },
+                        new
+                        {
+                            ProductId = 514L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "38664550-10ab-4e05-9481-f9671226bb7c",
+                            Slug = "mock514",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7358)
+                        },
+                        new
+                        {
+                            ProductId = 515L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "22860ebc-c6f5-4e6c-8bbd-425a00531430",
+                            Slug = "mock515",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7368)
+                        },
+                        new
+                        {
+                            ProductId = 516L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "29af6c31-f1b9-47fe-ae30-5787594d546f",
+                            Slug = "mock516",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7378)
+                        },
+                        new
+                        {
+                            ProductId = 517L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6c99b0f9-15c7-4dd7-904b-a1c088c778bf",
+                            Slug = "mock517",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7387)
+                        },
+                        new
+                        {
+                            ProductId = 518L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "57a08bbe-50d4-40eb-8312-6501dacc43a2",
+                            Slug = "mock518",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7396)
+                        },
+                        new
+                        {
+                            ProductId = 519L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1bed7a42-1a29-4e83-bab9-f4ee428f6f03",
+                            Slug = "mock519",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7405)
+                        },
+                        new
+                        {
+                            ProductId = 520L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fd0365e0-2b38-4552-8e01-7a1b37722fd5",
+                            Slug = "mock520",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7415)
+                        },
+                        new
+                        {
+                            ProductId = 521L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bd5fb3b5-b0b0-43a7-809a-f2046dab7d2f",
+                            Slug = "mock521",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7460)
+                        },
+                        new
+                        {
+                            ProductId = 522L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d66dcedb-ad05-4c30-b47b-b6a664668d3b",
+                            Slug = "mock522",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7471)
+                        },
+                        new
+                        {
+                            ProductId = 523L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7b62b5c0-d67b-4dda-9813-8fdd4e84dc4d",
+                            Slug = "mock523",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7480)
+                        },
+                        new
+                        {
+                            ProductId = 524L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5a93d996-6d48-43c5-9eb7-c7f416b90bc9",
+                            Slug = "mock524",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7490)
+                        },
+                        new
+                        {
+                            ProductId = 525L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c2d3cc26-3d4a-4e04-bc4f-9ba413bd1385",
+                            Slug = "mock525",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7500)
+                        },
+                        new
+                        {
+                            ProductId = 526L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "96e16c63-f734-4c03-bb96-8c4b7812d168",
+                            Slug = "mock526",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7510)
+                        },
+                        new
+                        {
+                            ProductId = 527L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "12081c7d-29f8-411c-932d-558caa72cb0a",
+                            Slug = "mock527",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7519)
+                        },
+                        new
+                        {
+                            ProductId = 528L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "80401c70-7f3e-4b6c-b258-cee31b878841",
+                            Slug = "mock528",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7529)
+                        },
+                        new
+                        {
+                            ProductId = 529L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2543076d-fa3e-45f7-b099-20a1ad878422",
+                            Slug = "mock529",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7539)
+                        },
+                        new
+                        {
+                            ProductId = 530L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e7454996-17a0-4725-a205-fb0f827e845f",
+                            Slug = "mock530",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7549)
+                        },
+                        new
+                        {
+                            ProductId = 531L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "172984ec-db92-404c-9f71-f2f0c9a2b97b",
+                            Slug = "mock531",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7559)
+                        },
+                        new
+                        {
+                            ProductId = 532L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0d4744fb-19f9-4e44-a356-8b96b38f6494",
+                            Slug = "mock532",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7568)
+                        },
+                        new
+                        {
+                            ProductId = 533L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7269fdff-3259-48b1-967d-1db611c1c70f",
+                            Slug = "mock533",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7613)
+                        },
+                        new
+                        {
+                            ProductId = 534L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "637c6144-a0c3-4457-b75e-96dd83645839",
+                            Slug = "mock534",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7624)
+                        },
+                        new
+                        {
+                            ProductId = 535L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "69ca7cb0-3e67-4e4b-a0c3-8c9aee3f6b0f",
+                            Slug = "mock535",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7634)
+                        },
+                        new
+                        {
+                            ProductId = 536L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7df03157-6c26-4d37-887d-d18ced8bac86",
+                            Slug = "mock536",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7644)
+                        },
+                        new
+                        {
+                            ProductId = 537L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ee0a62bf-7fc9-49f1-81f1-4c2db084ef15",
+                            Slug = "mock537",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7653)
+                        },
+                        new
+                        {
+                            ProductId = 538L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2012664b-f31f-4c43-9c2f-ed59d8c4d728",
+                            Slug = "mock538",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7663)
+                        },
+                        new
+                        {
+                            ProductId = 539L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1b11c376-7d0b-46c1-aa8d-daa7f10255f0",
+                            Slug = "mock539",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7673)
+                        },
+                        new
+                        {
+                            ProductId = 540L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1de5e2f4-b30b-4f0e-bbcd-75b3fa3189c5",
+                            Slug = "mock540",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7682)
+                        },
+                        new
+                        {
+                            ProductId = 541L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "afa9547e-02f5-421f-a64c-2183b276e703",
+                            Slug = "mock541",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7692)
+                        },
+                        new
+                        {
+                            ProductId = 542L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "93e4f490-b9f0-472f-8ec5-1e2cb87bfa95",
+                            Slug = "mock542",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7702)
+                        },
+                        new
+                        {
+                            ProductId = 543L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "65b43ea9-8cea-4ccc-9ddf-0f56f3379de6",
+                            Slug = "mock543",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7711)
+                        },
+                        new
+                        {
+                            ProductId = 544L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7280252a-d70a-43a9-8d1a-c8f50fcf191e",
+                            Slug = "mock544",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7721)
+                        },
+                        new
+                        {
+                            ProductId = 545L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e76da6f2-190d-4de7-82ca-be7e9053d0a7",
+                            Slug = "mock545",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7750)
+                        },
+                        new
+                        {
+                            ProductId = 546L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b2f0042b-c0ce-4866-bce4-ae749fcce0d8",
+                            Slug = "mock546",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7760)
+                        },
+                        new
+                        {
+                            ProductId = 547L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "04816a32-9417-4698-835a-627c4b68a23b",
+                            Slug = "mock547",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7770)
+                        },
+                        new
+                        {
+                            ProductId = 548L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b791a227-494e-4593-9b96-4f9aaa2cd642",
+                            Slug = "mock548",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7780)
+                        },
+                        new
+                        {
+                            ProductId = 549L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e5639864-4291-423b-8819-7dbf04849e67",
+                            Slug = "mock549",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7790)
+                        },
+                        new
+                        {
+                            ProductId = 550L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "36a40cf6-49cc-442a-a728-3b30d8f936ca",
+                            Slug = "mock550",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7799)
+                        },
+                        new
+                        {
+                            ProductId = 551L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5f70d5fc-7d52-4c57-a371-a000935fe309",
+                            Slug = "mock551",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7809)
+                        },
+                        new
+                        {
+                            ProductId = 552L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d6400a26-8a4f-4093-8f77-f30dc724052c",
+                            Slug = "mock552",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7819)
+                        },
+                        new
+                        {
+                            ProductId = 553L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4f8f61e8-1cac-4c54-8801-dbf8442e756d",
+                            Slug = "mock553",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7829)
+                        },
+                        new
+                        {
+                            ProductId = 554L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0040d373-b003-4046-aa28-b50b40a6b7f3",
+                            Slug = "mock554",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7838)
+                        },
+                        new
+                        {
+                            ProductId = 555L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1684b624-4e0c-46f3-8140-45c2c3719b6e",
+                            Slug = "mock555",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7848)
+                        },
+                        new
+                        {
+                            ProductId = 556L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0b235bf0-c751-467b-8d0a-321e2ef2b606",
+                            Slug = "mock556",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7858)
+                        },
+                        new
+                        {
+                            ProductId = 557L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "129bee98-4654-4b8f-94b2-212f5a648710",
+                            Slug = "mock557",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7936)
+                        },
+                        new
+                        {
+                            ProductId = 558L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bb9927e3-6ff0-4ce3-8d2a-b4f7dd8b71d6",
+                            Slug = "mock558",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7946)
+                        },
+                        new
+                        {
+                            ProductId = 559L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "098cef5b-5453-4fe9-ac7c-66c8889913ca",
+                            Slug = "mock559",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7956)
+                        },
+                        new
+                        {
+                            ProductId = 560L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2c86bd04-db7c-4101-8204-c36c4a43ce89",
+                            Slug = "mock560",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7966)
+                        },
+                        new
+                        {
+                            ProductId = 561L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ff97b16e-19a0-4d65-8a9d-26773074f205",
+                            Slug = "mock561",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7975)
+                        },
+                        new
+                        {
+                            ProductId = 562L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "46f16591-95c3-49f2-9ec9-82f96372dfdb",
+                            Slug = "mock562",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7985)
+                        },
+                        new
+                        {
+                            ProductId = 563L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fc532305-ef44-4cfd-a63b-5d4a21bf44ec",
+                            Slug = "mock563",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(7995)
+                        },
+                        new
+                        {
+                            ProductId = 564L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "275342e7-ca93-4b45-a098-3db1b5eb8454",
+                            Slug = "mock564",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8004)
+                        },
+                        new
+                        {
+                            ProductId = 565L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4acfe705-4c68-4e61-a335-fdce5ba3936c",
+                            Slug = "mock565",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8014)
+                        },
+                        new
+                        {
+                            ProductId = 566L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ab4af291-5e2a-4b39-9e64-bf5989dc82fc",
+                            Slug = "mock566",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8024)
+                        },
+                        new
+                        {
+                            ProductId = 567L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b2c91708-98d8-4188-bf41-c555063386bd",
+                            Slug = "mock567",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8034)
+                        },
+                        new
+                        {
+                            ProductId = 568L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1758abb7-67fe-4456-b2ec-9965e79e74cd",
+                            Slug = "mock568",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8043)
+                        },
+                        new
+                        {
+                            ProductId = 569L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f016726a-b7a7-4633-96df-9cd09e3709ad",
+                            Slug = "mock569",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8104)
+                        },
+                        new
+                        {
+                            ProductId = 570L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "09e5f2a1-955e-45a6-9a1e-3eb30418d5d2",
+                            Slug = "mock570",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8115)
+                        },
+                        new
+                        {
+                            ProductId = 571L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95731749-e479-49c0-9e06-3ad535a54895",
+                            Slug = "mock571",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8124)
+                        },
+                        new
+                        {
+                            ProductId = 572L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dbb12afd-cbf1-40ef-a802-f81c51edda02",
+                            Slug = "mock572",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8134)
+                        },
+                        new
+                        {
+                            ProductId = 573L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e3e0eec-4f81-4fae-b34b-45a33bb83e33",
+                            Slug = "mock573",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8144)
+                        },
+                        new
+                        {
+                            ProductId = 574L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d9c49f63-de84-44d0-9297-4473a6dd9eaf",
+                            Slug = "mock574",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8154)
+                        },
+                        new
+                        {
+                            ProductId = 575L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "715a7d39-1e5e-4e2e-bf04-5ecebfcc0a5d",
+                            Slug = "mock575",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8163)
+                        },
+                        new
+                        {
+                            ProductId = 576L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e8d90106-0bb2-45eb-94bf-b593d67c7ded",
+                            Slug = "mock576",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8173)
+                        },
+                        new
+                        {
+                            ProductId = 577L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9ac32531-7338-4c6a-9d95-226f0c5ab236",
+                            Slug = "mock577",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8183)
+                        },
+                        new
+                        {
+                            ProductId = 578L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79c76511-b919-4396-9d7c-b1dab9162427",
+                            Slug = "mock578",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8192)
+                        },
+                        new
+                        {
+                            ProductId = 579L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "29c604cd-016b-4ab4-9798-40d5b02386cb",
+                            Slug = "mock579",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8202)
+                        },
+                        new
+                        {
+                            ProductId = 580L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cf65d044-8b5a-45db-be11-2495444ddbb8",
+                            Slug = "mock580",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8212)
+                        },
+                        new
+                        {
+                            ProductId = 581L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7aadbb8a-c429-4a89-bbf8-f3acfd4feff3",
+                            Slug = "mock581",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8273)
+                        },
+                        new
+                        {
+                            ProductId = 582L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3fbfd468-92f5-49b9-b6ed-4e792989eaa2",
+                            Slug = "mock582",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8283)
+                        },
+                        new
+                        {
+                            ProductId = 583L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2a25c6dc-5704-4ea0-8981-412e1f9bd9ff",
+                            Slug = "mock583",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8293)
+                        },
+                        new
+                        {
+                            ProductId = 584L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "80e4a23e-7ea0-4646-8abb-bc0123d54ac2",
+                            Slug = "mock584",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8303)
+                        },
+                        new
+                        {
+                            ProductId = 585L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "84d98ff0-97db-45eb-bcf7-46343a14b4b3",
+                            Slug = "mock585",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8312)
+                        },
+                        new
+                        {
+                            ProductId = 586L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "40949911-f880-4f5f-b279-6df942a65ecc",
+                            Slug = "mock586",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8322)
+                        },
+                        new
+                        {
+                            ProductId = 587L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c9ed23d3-26ff-43ed-bb71-af63bbe52e13",
+                            Slug = "mock587",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8332)
+                        },
+                        new
+                        {
+                            ProductId = 588L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9e2467ba-dfad-4a78-abae-8850a0c0e01f",
+                            Slug = "mock588",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8341)
+                        },
+                        new
+                        {
+                            ProductId = 589L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "036fa6c1-2512-4069-b7f8-083d7517e54b",
+                            Slug = "mock589",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8351)
+                        },
+                        new
+                        {
+                            ProductId = 590L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "553b0fa4-a9ea-4717-91d4-519fe0a2de7e",
+                            Slug = "mock590",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8361)
+                        },
+                        new
+                        {
+                            ProductId = 591L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9fb8f87e-564c-4320-82a5-a1a05149b9c2",
+                            Slug = "mock591",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8370)
+                        },
+                        new
+                        {
+                            ProductId = 592L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b3522340-a5c3-4ed4-a879-cac5e3952a61",
+                            Slug = "mock592",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8380)
+                        },
+                        new
+                        {
+                            ProductId = 593L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "73810463-b46c-4bc3-9b6f-056a9f2b8b0b",
+                            Slug = "mock593",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8426)
+                        },
+                        new
+                        {
+                            ProductId = 594L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c38fd616-5482-4679-bc7a-bede4f3f9f34",
+                            Slug = "mock594",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8436)
+                        },
+                        new
+                        {
+                            ProductId = 595L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fdadee72-664a-4de8-896c-0564ddfa0c72",
+                            Slug = "mock595",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8446)
+                        },
+                        new
+                        {
+                            ProductId = 596L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e28287a7-45d6-4c6f-8beb-a43378ecd374",
+                            Slug = "mock596",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8456)
+                        },
+                        new
+                        {
+                            ProductId = 597L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "90c2b8d1-084a-4d8e-93f7-6f28b9412e5a",
+                            Slug = "mock597",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8466)
+                        },
+                        new
+                        {
+                            ProductId = 598L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7d8b3a66-a1d0-4f1e-9342-8981642bfcf3",
+                            Slug = "mock598",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8475)
+                        },
+                        new
+                        {
+                            ProductId = 599L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "55c39552-aaed-4c97-94af-545f0701d296",
+                            Slug = "mock599",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8485)
+                        },
+                        new
+                        {
+                            ProductId = 600L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "745e0488-1394-4204-8076-ce70fddf2803",
+                            Slug = "mock600",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8495)
+                        },
+                        new
+                        {
+                            ProductId = 601L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9624c5e3-c9fc-4ee5-b6c0-f47527d480f1",
+                            Slug = "mock601",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8504)
+                        },
+                        new
+                        {
+                            ProductId = 602L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e350337-6b6e-41b9-b4b0-d0116aefc2c9",
+                            Slug = "mock602",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8514)
+                        },
+                        new
+                        {
+                            ProductId = 603L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b2553d24-d7fb-4e8d-83bf-732d129b3fba",
+                            Slug = "mock603",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8524)
+                        },
+                        new
+                        {
+                            ProductId = 604L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "039149c6-ab6a-4460-842d-ef21e4493f5e",
+                            Slug = "mock604",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8534)
+                        },
+                        new
+                        {
+                            ProductId = 605L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9fd47ade-ce6c-4680-bf8f-79f40a4d2253",
+                            Slug = "mock605",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8579)
+                        },
+                        new
+                        {
+                            ProductId = 606L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e71a646-8c73-4888-8713-ed288dad941a",
+                            Slug = "mock606",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8589)
+                        },
+                        new
+                        {
+                            ProductId = 607L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ec077607-5dcc-4217-a593-6f7835837c7d",
+                            Slug = "mock607",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8599)
+                        },
+                        new
+                        {
+                            ProductId = 608L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4536b9dc-a817-4e34-aa68-52ffc84d0652",
+                            Slug = "mock608",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8609)
+                        },
+                        new
+                        {
+                            ProductId = 609L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "221d062d-e588-4c55-ac67-f3ea6665a64d",
+                            Slug = "mock609",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8619)
+                        },
+                        new
+                        {
+                            ProductId = 610L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9ef78a91-a581-4e95-a81d-7b620a7becb8",
+                            Slug = "mock610",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8628)
+                        },
+                        new
+                        {
+                            ProductId = 611L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7f6ece48-408e-4a66-bd99-3d560550a0b4",
+                            Slug = "mock611",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8638)
+                        },
+                        new
+                        {
+                            ProductId = 612L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "14da3067-3ed6-4eb1-80a6-605e52945a81",
+                            Slug = "mock612",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8648)
+                        },
+                        new
+                        {
+                            ProductId = 613L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4703da32-49f7-46a8-bcfa-a565fd6439ae",
+                            Slug = "mock613",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8658)
+                        },
+                        new
+                        {
+                            ProductId = 614L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "be27c7c2-055a-44be-a4bb-c444224bff69",
+                            Slug = "mock614",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8668)
+                        },
+                        new
+                        {
+                            ProductId = 615L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "38c91495-0f09-4514-9b27-3f1bc9804004",
+                            Slug = "mock615",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8678)
+                        },
+                        new
+                        {
+                            ProductId = 616L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e99068a1-d075-4443-9795-90f11d97a4a7",
+                            Slug = "mock616",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8688)
+                        },
+                        new
+                        {
+                            ProductId = 617L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d84ed1f8-0515-4987-b866-69064969a795",
+                            Slug = "mock617",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8733)
+                        },
+                        new
+                        {
+                            ProductId = 618L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77a34a7b-1f11-4069-a05e-45d822e22828",
+                            Slug = "mock618",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8744)
+                        },
+                        new
+                        {
+                            ProductId = 619L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ef48b733-e57f-453e-ab50-fd077d50203a",
+                            Slug = "mock619",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8753)
+                        },
+                        new
+                        {
+                            ProductId = 620L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "791ddb9a-074d-4ff3-acc9-03d502029237",
+                            Slug = "mock620",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8763)
+                        },
+                        new
+                        {
+                            ProductId = 621L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4c5b74b2-0420-42b2-960b-69ee6d89a873",
+                            Slug = "mock621",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8773)
+                        },
+                        new
+                        {
+                            ProductId = 622L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4047884b-4ecb-4fac-9721-716a45513932",
+                            Slug = "mock622",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8783)
+                        },
+                        new
+                        {
+                            ProductId = 623L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "57e1c6d3-03ce-46d7-b4b4-a27cc720c75b",
+                            Slug = "mock623",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8792)
+                        },
+                        new
+                        {
+                            ProductId = 624L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d11e6dba-c543-4927-bb57-209e9e522649",
+                            Slug = "mock624",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8802)
+                        },
+                        new
+                        {
+                            ProductId = 625L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5867c899-8d23-444a-b219-b3da73e6ef04",
+                            Slug = "mock625",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8812)
+                        },
+                        new
+                        {
+                            ProductId = 626L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f379a315-c330-4c80-a355-228b1fa156e0",
+                            Slug = "mock626",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8821)
+                        },
+                        new
+                        {
+                            ProductId = 627L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "96587770-a735-4f0a-9ba7-eb102d9dc260",
+                            Slug = "mock627",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8831)
+                        },
+                        new
+                        {
+                            ProductId = 628L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "13975af2-e2cc-481f-8c2d-eae7043c5d7b",
+                            Slug = "mock628",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8841)
+                        },
+                        new
+                        {
+                            ProductId = 629L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b2091113-1bb1-4524-a7a2-c495c01ecda7",
+                            Slug = "mock629",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8885)
+                        },
+                        new
+                        {
+                            ProductId = 630L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a2dcc55e-8274-44b4-b746-2012966067ae",
+                            Slug = "mock630",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8895)
+                        },
+                        new
+                        {
+                            ProductId = 631L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8d72d16d-a5af-4dc0-8626-6e3248653979",
+                            Slug = "mock631",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8905)
+                        },
+                        new
+                        {
+                            ProductId = 632L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "108e2885-6c59-4dc0-ab6d-bee33a6718ec",
+                            Slug = "mock632",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8914)
+                        },
+                        new
+                        {
+                            ProductId = 633L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95dfffb9-6bcb-4345-b3f9-da00648e759c",
+                            Slug = "mock633",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8924)
+                        },
+                        new
+                        {
+                            ProductId = 634L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "53524e7e-a9cb-488f-a561-087f9c6eeec2",
+                            Slug = "mock634",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8934)
+                        },
+                        new
+                        {
+                            ProductId = 635L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "860e2c35-a115-47cb-b904-87de559851af",
+                            Slug = "mock635",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8943)
+                        },
+                        new
+                        {
+                            ProductId = 636L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c12aab22-db7e-49e5-8cd1-3c9dcfa78877",
+                            Slug = "mock636",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8953)
+                        },
+                        new
+                        {
+                            ProductId = 637L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8c9d5267-0c01-4fa0-9954-f8eb631c03b6",
+                            Slug = "mock637",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8963)
+                        },
+                        new
+                        {
+                            ProductId = 638L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "46442617-cf71-43a1-92b1-2299bfc84989",
+                            Slug = "mock638",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8972)
+                        },
+                        new
+                        {
+                            ProductId = 639L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "87d0eaf0-c9fc-41c3-93fa-1b8fe79a40ba",
+                            Slug = "mock639",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8982)
+                        },
+                        new
+                        {
+                            ProductId = 640L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5ef8fadb-5e5a-4345-bd13-bb6401c3d3de",
+                            Slug = "mock640",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(8992)
+                        },
+                        new
+                        {
+                            ProductId = 641L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fedb9aab-70a4-4c4c-b9e9-b0fdad792fd1",
+                            Slug = "mock641",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9021)
+                        },
+                        new
+                        {
+                            ProductId = 642L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8999cd18-7454-499d-bbcd-afc675350773",
+                            Slug = "mock642",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9031)
+                        },
+                        new
+                        {
+                            ProductId = 643L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2fa03bdb-36c0-4edf-ba11-ac0fce499bd5",
+                            Slug = "mock643",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9041)
+                        },
+                        new
+                        {
+                            ProductId = 644L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a2b89e61-d8ef-4c61-916c-a19b5a7f1fc0",
+                            Slug = "mock644",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9051)
+                        },
+                        new
+                        {
+                            ProductId = 645L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "21c98275-2fe3-4879-9332-d2e4f2dbdf9b",
+                            Slug = "mock645",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9060)
+                        },
+                        new
+                        {
+                            ProductId = 646L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9d08958f-f35a-4284-8e01-d73a5fba5d01",
+                            Slug = "mock646",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9070)
+                        },
+                        new
+                        {
+                            ProductId = 647L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "789b35a7-45af-472d-9211-ccea0a66cae7",
+                            Slug = "mock647",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9080)
+                        },
+                        new
+                        {
+                            ProductId = 648L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eb786ff0-64d2-4223-9094-fdad5e340e2d",
+                            Slug = "mock648",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9089)
+                        },
+                        new
+                        {
+                            ProductId = 649L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "09536aa8-a76f-475c-8621-4631163e9c68",
+                            Slug = "mock649",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9099)
+                        },
+                        new
+                        {
+                            ProductId = 650L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0da1bfd3-ccd3-4ed8-8e01-a8f5a34997e5",
+                            Slug = "mock650",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9108)
+                        },
+                        new
+                        {
+                            ProductId = 651L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "72f61c56-fd7f-4dee-bb5c-06cdfeb96ddb",
+                            Slug = "mock651",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9118)
+                        },
+                        new
+                        {
+                            ProductId = 652L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "572af37d-d220-4858-804e-ad835503b865",
+                            Slug = "mock652",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9128)
+                        },
+                        new
+                        {
+                            ProductId = 653L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "90490131-7297-49ef-86ba-edac47c130e6",
+                            Slug = "mock653",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9208)
+                        },
+                        new
+                        {
+                            ProductId = 654L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e6a7a4a4-93f2-4893-9872-bc057efdf179",
+                            Slug = "mock654",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9218)
+                        },
+                        new
+                        {
+                            ProductId = 655L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "29b66110-f08f-4ff6-af2a-9abf2599f238",
+                            Slug = "mock655",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9228)
+                        },
+                        new
+                        {
+                            ProductId = 656L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6ecde133-bc43-49e3-af4d-6f7e84bb45ec",
+                            Slug = "mock656",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9238)
+                        },
+                        new
+                        {
+                            ProductId = 657L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5ff069be-e4df-45ca-8b52-e90a40279a69",
+                            Slug = "mock657",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9248)
+                        },
+                        new
+                        {
+                            ProductId = 658L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5bc6262b-dc0d-427e-82f1-e79d1cc9c7df",
+                            Slug = "mock658",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9257)
+                        },
+                        new
+                        {
+                            ProductId = 659L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8211fa5d-a10b-44be-9c87-98e9d33c3725",
+                            Slug = "mock659",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9267)
+                        },
+                        new
+                        {
+                            ProductId = 660L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a26e1caa-4418-49ba-b000-4bc18042f630",
+                            Slug = "mock660",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9277)
+                        },
+                        new
+                        {
+                            ProductId = 661L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "eeff5be7-b890-4ad5-b02d-6a3c1936f2b4",
+                            Slug = "mock661",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9287)
+                        },
+                        new
+                        {
+                            ProductId = 662L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b4fdd5ae-d433-40a8-bfd1-aadada146117",
+                            Slug = "mock662",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9297)
+                        },
+                        new
+                        {
+                            ProductId = 663L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "18648397-88f8-4ee8-9a29-d9836e9649c0",
+                            Slug = "mock663",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9306)
+                        },
+                        new
+                        {
+                            ProductId = 664L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c5bab271-d821-4402-8ca9-b09de488b649",
+                            Slug = "mock664",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9316)
+                        },
+                        new
+                        {
+                            ProductId = 665L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "93717adb-0aae-45df-a22c-a88bd7355b02",
+                            Slug = "mock665",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9392)
+                        },
+                        new
+                        {
+                            ProductId = 666L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9048514c-0cea-4607-a072-6e6ca12dab8b",
+                            Slug = "mock666",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9402)
+                        },
+                        new
+                        {
+                            ProductId = 667L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6c10e68b-08bb-4750-96f5-822e08b6decd",
+                            Slug = "mock667",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9412)
+                        },
+                        new
+                        {
+                            ProductId = 668L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b0bd2846-2f89-44ea-9d3a-c565ed1231c9",
+                            Slug = "mock668",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9422)
+                        },
+                        new
+                        {
+                            ProductId = 669L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "37ba9210-e53c-451e-bf48-dd9daaf8261d",
+                            Slug = "mock669",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9432)
+                        },
+                        new
+                        {
+                            ProductId = 670L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4cbd7197-d240-4c58-a9c8-500a6dc199db",
+                            Slug = "mock670",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9442)
+                        },
+                        new
+                        {
+                            ProductId = 671L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d6753240-c678-4ae3-ae8f-44b5b8fe6aad",
+                            Slug = "mock671",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9451)
+                        },
+                        new
+                        {
+                            ProductId = 672L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c5a1a719-c421-45a9-8680-e8a06c7b2af5",
+                            Slug = "mock672",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9461)
+                        },
+                        new
+                        {
+                            ProductId = 673L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "36b56d41-25a5-4591-971c-314297c9a778",
+                            Slug = "mock673",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9471)
+                        },
+                        new
+                        {
+                            ProductId = 674L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "776d48f6-6cd5-4b17-a9c6-4fa997869239",
+                            Slug = "mock674",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9481)
+                        },
+                        new
+                        {
+                            ProductId = 675L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f86f7bd4-e8a0-4d53-997b-96d76308d6d8",
+                            Slug = "mock675",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9491)
+                        },
+                        new
+                        {
+                            ProductId = 676L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "69ec0c10-9f2a-4100-93ec-853a1b85d295",
+                            Slug = "mock676",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9500)
+                        },
+                        new
+                        {
+                            ProductId = 677L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6aeb9480-70dd-46e1-9a01-ab92f5d37c0f",
+                            Slug = "mock677",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9545)
+                        },
+                        new
+                        {
+                            ProductId = 678L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ea01ad87-93eb-4ed0-b6ea-dee2971e2abb",
+                            Slug = "mock678",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9556)
+                        },
+                        new
+                        {
+                            ProductId = 679L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ed191ca1-5371-4c87-8a57-c14dd90af4a6",
+                            Slug = "mock679",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9565)
+                        },
+                        new
+                        {
+                            ProductId = 680L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fca1b126-d223-4b7a-a1bc-2ac6becaaef2",
+                            Slug = "mock680",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9575)
+                        },
+                        new
+                        {
+                            ProductId = 681L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "136759f5-61ee-4599-9db7-a9aa622de918",
+                            Slug = "mock681",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9585)
+                        },
+                        new
+                        {
+                            ProductId = 682L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "85845b29-4a01-4327-b3b6-2ac09f94e3b6",
+                            Slug = "mock682",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9594)
+                        },
+                        new
+                        {
+                            ProductId = 683L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b9afa1de-f334-466f-adc3-519505887168",
+                            Slug = "mock683",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9604)
+                        },
+                        new
+                        {
+                            ProductId = 684L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3f428c26-d4f3-4223-bca6-d4b5e1884b3e",
+                            Slug = "mock684",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9614)
+                        },
+                        new
+                        {
+                            ProductId = 685L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "65b30cc8-d88e-4e16-959e-cb4fe629f465",
+                            Slug = "mock685",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9624)
+                        },
+                        new
+                        {
+                            ProductId = 686L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "93caed3c-cf3a-4c0e-91c6-b47f8a5a5506",
+                            Slug = "mock686",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9633)
+                        },
+                        new
+                        {
+                            ProductId = 687L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8c4ddf41-dc60-42e0-8ab7-5e55f784203e",
+                            Slug = "mock687",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9643)
+                        },
+                        new
+                        {
+                            ProductId = 688L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03a5fd8a-07ab-49ed-b82f-76cb47a7f4db",
+                            Slug = "mock688",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9653)
+                        },
+                        new
+                        {
+                            ProductId = 689L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4b40520e-be5b-4226-8a4f-5a48c48523fb",
+                            Slug = "mock689",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9698)
+                        },
+                        new
+                        {
+                            ProductId = 690L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "45a109f9-47cd-4692-a912-7cd503399a01",
+                            Slug = "mock690",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9709)
+                        },
+                        new
+                        {
+                            ProductId = 691L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "35cb0097-560c-4fe2-b33d-0361d2fece1f",
+                            Slug = "mock691",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9719)
+                        },
+                        new
+                        {
+                            ProductId = 692L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "59852da3-2a9f-4dd9-ac85-ae02e637b639",
+                            Slug = "mock692",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9728)
+                        },
+                        new
+                        {
+                            ProductId = 693L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "50c596a9-b4f3-46d6-bace-324b5b5ebae3",
+                            Slug = "mock693",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9738)
+                        },
+                        new
+                        {
+                            ProductId = 694L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b8a6a8ae-4342-436e-b66a-68f2d6a770b6",
+                            Slug = "mock694",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9748)
+                        },
+                        new
+                        {
+                            ProductId = 695L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aa8b00fb-fa9d-450e-bb34-24075e63fe72",
+                            Slug = "mock695",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9758)
+                        },
+                        new
+                        {
+                            ProductId = 696L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d33f9138-2b89-47fd-a297-5c42558797bc",
+                            Slug = "mock696",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9767)
+                        },
+                        new
+                        {
+                            ProductId = 697L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2e5580de-a91f-4974-8c24-62ccd7fb7ec0",
+                            Slug = "mock697",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9777)
+                        },
+                        new
+                        {
+                            ProductId = 698L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "56366b30-466d-4b31-b682-48669b57d95f",
+                            Slug = "mock698",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9787)
+                        },
+                        new
+                        {
+                            ProductId = 699L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1c571e7b-55b3-4ef7-9a29-f431d3efc19a",
+                            Slug = "mock699",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9796)
+                        },
+                        new
+                        {
+                            ProductId = 700L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8986db6f-7dac-4bf5-ba99-640bd54ad2f2",
+                            Slug = "mock700",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9806)
+                        },
+                        new
+                        {
+                            ProductId = 701L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9a1fa3e6-ae84-4177-b603-60e3bc14e39e",
+                            Slug = "mock701",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9851)
+                        },
+                        new
+                        {
+                            ProductId = 702L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "034dbf39-3f98-44be-80de-89fb99f916f8",
+                            Slug = "mock702",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9862)
+                        },
+                        new
+                        {
+                            ProductId = 703L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2e00fb47-a509-4a82-b08e-a211410a3acc",
+                            Slug = "mock703",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9872)
+                        },
+                        new
+                        {
+                            ProductId = 704L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0e9968c1-9a09-4522-86e0-4a4838ee4f3d",
+                            Slug = "mock704",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9882)
+                        },
+                        new
+                        {
+                            ProductId = 705L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "61d2613f-301d-4773-9bcb-0bef9278a9ca",
+                            Slug = "mock705",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9892)
+                        },
+                        new
+                        {
+                            ProductId = 706L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1cb7b5de-9c8d-43f1-b761-275de29d53b6",
+                            Slug = "mock706",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9901)
+                        },
+                        new
+                        {
+                            ProductId = 707L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "811f5dc3-f048-4cc5-8156-7318bc8aab41",
+                            Slug = "mock707",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9911)
+                        },
+                        new
+                        {
+                            ProductId = 708L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1c524e40-9ce8-4ff8-8093-9367e828465d",
+                            Slug = "mock708",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9921)
+                        },
+                        new
+                        {
+                            ProductId = 709L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f054112e-aa5e-45a8-8d06-44a2e3802828",
+                            Slug = "mock709",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9931)
+                        },
+                        new
+                        {
+                            ProductId = 710L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "438bf982-e591-4f8e-bb05-5432a1d90873",
+                            Slug = "mock710",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9940)
+                        },
+                        new
+                        {
+                            ProductId = 711L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "daf3435e-f1b7-448c-9381-c6d1bc1b63fe",
+                            Slug = "mock711",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9950)
+                        },
+                        new
+                        {
+                            ProductId = 712L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "36129272-9ef5-44b7-ab5c-058bc6173251",
+                            Slug = "mock712",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 656, DateTimeKind.Utc).AddTicks(9960)
+                        },
+                        new
+                        {
+                            ProductId = 713L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ed776efb-fbc2-484d-95c0-b9acc92c7f18",
+                            Slug = "mock713",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(9)
+                        },
+                        new
+                        {
+                            ProductId = 714L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "41e401a7-1c4e-4e71-9e9f-16e2ae450d61",
+                            Slug = "mock714",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(20)
+                        },
+                        new
+                        {
+                            ProductId = 715L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0bf0062c-b85c-48d6-9423-2f1c500b39d8",
+                            Slug = "mock715",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(29)
+                        },
+                        new
+                        {
+                            ProductId = 716L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "32908598-9c6f-48cf-84dc-6a49b68c9131",
+                            Slug = "mock716",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(39)
+                        },
+                        new
+                        {
+                            ProductId = 717L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "289bb474-0742-4107-9766-4138eb88734f",
+                            Slug = "mock717",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(48)
+                        },
+                        new
+                        {
+                            ProductId = 718L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d9fee9b6-ae79-476d-a5d6-d6034a31e2d6",
+                            Slug = "mock718",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(58)
+                        },
+                        new
+                        {
+                            ProductId = 719L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "792c9a5f-acf1-4a20-a6f4-0d36616f024b",
+                            Slug = "mock719",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(68)
+                        },
+                        new
+                        {
+                            ProductId = 720L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f60fe8e5-5e75-47d5-84b4-804fe5e2121c",
+                            Slug = "mock720",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(78)
+                        },
+                        new
+                        {
+                            ProductId = 721L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "634c594e-feec-4a18-88e5-b2d5e5a96518",
+                            Slug = "mock721",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(87)
+                        },
+                        new
+                        {
+                            ProductId = 722L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "be803166-c48f-463b-983f-b1c61ff20b41",
+                            Slug = "mock722",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(97)
+                        },
+                        new
+                        {
+                            ProductId = 723L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6eb02a3e-5177-4945-b813-15262731b6fc",
+                            Slug = "mock723",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(107)
+                        },
+                        new
+                        {
+                            ProductId = 724L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a508a760-7814-4af2-b370-5176669b1679",
+                            Slug = "mock724",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(117)
+                        },
+                        new
+                        {
+                            ProductId = 725L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2b5d5ed3-ca54-4d9a-ac10-b955e59726b2",
+                            Slug = "mock725",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(150)
+                        },
+                        new
+                        {
+                            ProductId = 726L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2b348c99-a7ab-4140-84b9-924174094fcf",
+                            Slug = "mock726",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(160)
+                        },
+                        new
+                        {
+                            ProductId = 727L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "28e812eb-b570-4ade-9808-1455af62d8ec",
+                            Slug = "mock727",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(170)
+                        },
+                        new
+                        {
+                            ProductId = 728L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77f25abb-1450-4b5d-9527-a99f581dedb3",
+                            Slug = "mock728",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(180)
+                        },
+                        new
+                        {
+                            ProductId = 729L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8f934cba-f403-4200-bc00-649a76d253bc",
+                            Slug = "mock729",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(190)
+                        },
+                        new
+                        {
+                            ProductId = 730L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1e990064-2bd4-47de-ab07-a3f42d52ee57",
+                            Slug = "mock730",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(200)
+                        },
+                        new
+                        {
+                            ProductId = 731L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b5699bda-bf20-455d-9c73-dadbaf79147e",
+                            Slug = "mock731",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(209)
+                        },
+                        new
+                        {
+                            ProductId = 732L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e2bd048d-23a3-4f02-bfab-790d7062cb58",
+                            Slug = "mock732",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(219)
+                        },
+                        new
+                        {
+                            ProductId = 733L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "914f82d3-4aeb-4a4e-8edc-54d77e39254b",
+                            Slug = "mock733",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(229)
+                        },
+                        new
+                        {
+                            ProductId = 734L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3487198e-82df-4ac4-b496-8c6ad82e4b8b",
+                            Slug = "mock734",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(239)
+                        },
+                        new
+                        {
+                            ProductId = 735L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "05a0ac89-674d-4c09-8dec-5aca70cb38f9",
+                            Slug = "mock735",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(248)
+                        },
+                        new
+                        {
+                            ProductId = 736L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "310f985e-483a-4e73-a56d-813a2b2901f1",
+                            Slug = "mock736",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(258)
+                        },
+                        new
+                        {
+                            ProductId = 737L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "19ddcf04-4877-4b9b-8234-13be25ef2345",
+                            Slug = "mock737",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(340)
+                        },
+                        new
+                        {
+                            ProductId = 738L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9cb4806a-ea99-401b-9fd8-135d6b13faa8",
+                            Slug = "mock738",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(350)
+                        },
+                        new
+                        {
+                            ProductId = 739L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "224ee7ee-83a5-4b08-ada4-91e0f0b7d89e",
+                            Slug = "mock739",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(360)
+                        },
+                        new
+                        {
+                            ProductId = 740L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b8cb8c60-7f50-48a4-93bb-26931fe93ceb",
+                            Slug = "mock740",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(370)
+                        },
+                        new
+                        {
+                            ProductId = 741L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "164b1d46-e352-444c-8f7e-2ebdbb7498b0",
+                            Slug = "mock741",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(380)
+                        },
+                        new
+                        {
+                            ProductId = 742L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "63f72d90-b849-48b0-9536-50069a12d26b",
+                            Slug = "mock742",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(389)
+                        },
+                        new
+                        {
+                            ProductId = 743L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77194b05-0aba-4641-984a-62de15d9ca71",
+                            Slug = "mock743",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(399)
+                        },
+                        new
+                        {
+                            ProductId = 744L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6d6baafc-9bb4-4100-bc05-43fedd3f43a5",
+                            Slug = "mock744",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(409)
+                        },
+                        new
+                        {
+                            ProductId = 745L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7c037c1a-a6f6-4f7d-80c8-dc8c640cb29b",
+                            Slug = "mock745",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(418)
+                        },
+                        new
+                        {
+                            ProductId = 746L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6219b27b-4c48-42f8-ac09-40311abce39b",
+                            Slug = "mock746",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(428)
+                        },
+                        new
+                        {
+                            ProductId = 747L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a9cedd56-f7f0-45d1-914a-646f4391e6df",
+                            Slug = "mock747",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(438)
+                        },
+                        new
+                        {
+                            ProductId = 748L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5473f8bb-3e09-4a3f-84b7-61c2c95a0d27",
+                            Slug = "mock748",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(448)
+                        },
+                        new
+                        {
+                            ProductId = 749L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4b6feda8-0c4a-433e-a89d-40d2f10578c7",
+                            Slug = "mock749",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(508)
+                        },
+                        new
+                        {
+                            ProductId = 750L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b06fa0cc-fa5c-42b2-8b49-5fa68dd0aaed",
+                            Slug = "mock750",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(518)
+                        },
+                        new
+                        {
+                            ProductId = 751L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "efedec48-0ab6-4e16-8b8f-54eaebb605f3",
+                            Slug = "mock751",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(528)
+                        },
+                        new
+                        {
+                            ProductId = 752L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1a9b3680-e999-4d9d-8551-9afac34743bb",
+                            Slug = "mock752",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(537)
+                        },
+                        new
+                        {
+                            ProductId = 753L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cc392c7d-b8ca-48ff-8e4e-215121b80d60",
+                            Slug = "mock753",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(547)
+                        },
+                        new
+                        {
+                            ProductId = 754L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9ec541dc-d5d0-41ab-9a9c-9bc032bfb514",
+                            Slug = "mock754",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(557)
+                        },
+                        new
+                        {
+                            ProductId = 755L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ed7404b6-d1d8-430a-868b-7cb350a247b5",
+                            Slug = "mock755",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(566)
+                        },
+                        new
+                        {
+                            ProductId = 756L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b772aa60-3f5c-4ede-b40d-145616c7ceb0",
+                            Slug = "mock756",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(576)
+                        },
+                        new
+                        {
+                            ProductId = 757L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1378d3c5-8af1-408e-a3ea-131b93e7b0c9",
+                            Slug = "mock757",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(586)
+                        },
+                        new
+                        {
+                            ProductId = 758L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ee3888cd-b7ad-440d-a2d8-bf9fa9642681",
+                            Slug = "mock758",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(595)
+                        },
+                        new
+                        {
+                            ProductId = 759L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "90afe1d1-27aa-4b79-9fdb-518c40efcef0",
+                            Slug = "mock759",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(605)
+                        },
+                        new
+                        {
+                            ProductId = 760L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dc2086aa-87ce-476c-aab5-616f388a41dd",
+                            Slug = "mock760",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(615)
+                        },
+                        new
+                        {
+                            ProductId = 761L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "709a3862-e3ea-4f49-b3b1-6668016fbed2",
+                            Slug = "mock761",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(676)
+                        },
+                        new
+                        {
+                            ProductId = 762L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7dd9fd42-c6b7-4768-946a-48039fbfb2a1",
+                            Slug = "mock762",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(687)
+                        },
+                        new
+                        {
+                            ProductId = 763L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b35b2b12-e37f-41f0-9d8e-56df9260537a",
+                            Slug = "mock763",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(696)
+                        },
+                        new
+                        {
+                            ProductId = 764L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "abb2f3f7-611e-47e6-8211-2de9973e9439",
+                            Slug = "mock764",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(706)
+                        },
+                        new
+                        {
+                            ProductId = 765L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3c861011-2dae-4aa5-a8c3-3486ca245a74",
+                            Slug = "mock765",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(716)
+                        },
+                        new
+                        {
+                            ProductId = 766L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4f2682d0-8f8a-422f-925a-ee680c74bb96",
+                            Slug = "mock766",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(726)
+                        },
+                        new
+                        {
+                            ProductId = 767L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "987568ac-b700-4fbd-a6dc-760bc2386ae3",
+                            Slug = "mock767",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(735)
+                        },
+                        new
+                        {
+                            ProductId = 768L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3ff71a3a-07f2-4a0c-bf95-a16fce02a9bf",
+                            Slug = "mock768",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(745)
+                        },
+                        new
+                        {
+                            ProductId = 769L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "db26d5d2-63e1-4db9-8d26-667471e216ca",
+                            Slug = "mock769",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(755)
+                        },
+                        new
+                        {
+                            ProductId = 770L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6f019d1c-a0fe-46d1-834f-034f13f87bad",
+                            Slug = "mock770",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(765)
+                        },
+                        new
+                        {
+                            ProductId = 771L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "22af4f82-7c4e-4586-a870-09d4eb13c8c2",
+                            Slug = "mock771",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(774)
+                        },
+                        new
+                        {
+                            ProductId = 772L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ca76edff-ea86-4201-baa2-1947e8441c16",
+                            Slug = "mock772",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(784)
+                        },
+                        new
+                        {
+                            ProductId = 773L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "acac2ffe-c1f3-4951-9b9b-caa219a93f06",
+                            Slug = "mock773",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(829)
+                        },
+                        new
+                        {
+                            ProductId = 774L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c1b5868d-1aca-4314-b68a-5be1e7bef0d6",
+                            Slug = "mock774",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(839)
+                        },
+                        new
+                        {
+                            ProductId = 775L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b230bdad-ecb4-46f5-a4b9-6932781a110f",
+                            Slug = "mock775",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(849)
+                        },
+                        new
+                        {
+                            ProductId = 776L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "105da901-5828-4587-8ec7-9eac8e95d001",
+                            Slug = "mock776",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(859)
+                        },
+                        new
+                        {
+                            ProductId = 777L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6edbf26e-0ec6-44d5-a762-ec1b6a7e3bf4",
+                            Slug = "mock777",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(869)
+                        },
+                        new
+                        {
+                            ProductId = 778L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "61c2f09d-bd34-4401-8b42-95e6ba195f70",
+                            Slug = "mock778",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(878)
+                        },
+                        new
+                        {
+                            ProductId = 779L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "42c4f6dd-0f38-491b-aa76-15f73b59aa62",
+                            Slug = "mock779",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(888)
+                        },
+                        new
+                        {
+                            ProductId = 780L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "57bd3b7a-c86b-4482-a52a-eea587795075",
+                            Slug = "mock780",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(898)
+                        },
+                        new
+                        {
+                            ProductId = 781L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1d6bd2b4-cdfd-4102-a8e3-4b1573848b12",
+                            Slug = "mock781",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(907)
+                        },
+                        new
+                        {
+                            ProductId = 782L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f1f40a70-dbc4-4584-bbb0-c81c498521d2",
+                            Slug = "mock782",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(917)
+                        },
+                        new
+                        {
+                            ProductId = 783L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e8b4d91d-23b6-475a-830b-c8b9b80bea9a",
+                            Slug = "mock783",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(927)
+                        },
+                        new
+                        {
+                            ProductId = 784L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2d629bf0-87e0-4ba3-8c7f-7012a361b094",
+                            Slug = "mock784",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(937)
+                        },
+                        new
+                        {
+                            ProductId = 785L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e3206905-a1a7-4798-b272-6c91d874b4bb",
+                            Slug = "mock785",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(981)
+                        },
+                        new
+                        {
+                            ProductId = 786L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fb13f12d-f837-48d0-9164-a19e238b5160",
+                            Slug = "mock786",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(991)
+                        },
+                        new
+                        {
+                            ProductId = 787L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2f4faa03-32ce-4e13-bb1d-264ec7a06b7b",
+                            Slug = "mock787",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1001)
+                        },
+                        new
+                        {
+                            ProductId = 788L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "484e38df-4540-4694-97b1-30dc1fd52616",
+                            Slug = "mock788",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1010)
+                        },
+                        new
+                        {
+                            ProductId = 789L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "77799c18-2007-4ad0-bc06-28f06beadcf6",
+                            Slug = "mock789",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1020)
+                        },
+                        new
+                        {
+                            ProductId = 790L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e21be556-b8c9-4a2d-9f92-8656c4cbef26",
+                            Slug = "mock790",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1030)
+                        },
+                        new
+                        {
+                            ProductId = 791L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6978f7d0-5511-4b22-a7d9-4ad2b02af917",
+                            Slug = "mock791",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1040)
+                        },
+                        new
+                        {
+                            ProductId = 792L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "feb49350-9488-40de-a2d1-7dc4cc3ce128",
+                            Slug = "mock792",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1049)
+                        },
+                        new
+                        {
+                            ProductId = 793L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "13e13ebe-19d0-49f0-b0a4-e9bc9feb7251",
+                            Slug = "mock793",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1059)
+                        },
+                        new
+                        {
+                            ProductId = 794L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f395c71f-ca90-4a6e-90ba-e5af85c06541",
+                            Slug = "mock794",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1069)
+                        },
+                        new
+                        {
+                            ProductId = 795L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "34c9f7ec-ca22-478f-a44c-9c504c453c74",
+                            Slug = "mock795",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1079)
+                        },
+                        new
+                        {
+                            ProductId = 796L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "87b7648d-0e46-4ef3-9930-ee2742091144",
+                            Slug = "mock796",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1089)
+                        },
+                        new
+                        {
+                            ProductId = 797L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "21b8da9c-bf07-402f-86e6-5d95c91c261d",
+                            Slug = "mock797",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1133)
+                        },
+                        new
+                        {
+                            ProductId = 798L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5b2199dc-1c8c-4f11-a30b-56a2012aaf57",
+                            Slug = "mock798",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1144)
+                        },
+                        new
+                        {
+                            ProductId = 799L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ed3a9f09-b094-40eb-8d2d-c47b68960b00",
+                            Slug = "mock799",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1154)
+                        },
+                        new
+                        {
+                            ProductId = 800L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23593d34-6c1f-48d6-9833-e311247f4fe1",
+                            Slug = "mock800",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1164)
+                        },
+                        new
+                        {
+                            ProductId = 801L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "82de6368-c8e2-4347-be29-ff122c1cefdd",
+                            Slug = "mock801",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1173)
+                        },
+                        new
+                        {
+                            ProductId = 802L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a64b9ee7-e658-4583-8523-c7878dcda744",
+                            Slug = "mock802",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1183)
+                        },
+                        new
+                        {
+                            ProductId = 803L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b09bd354-af89-4235-8ef3-52df71431eeb",
+                            Slug = "mock803",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1193)
+                        },
+                        new
+                        {
+                            ProductId = 804L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ea62c428-4734-4a05-b990-0805fb2b6e24",
+                            Slug = "mock804",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1202)
+                        },
+                        new
+                        {
+                            ProductId = 805L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5ea50937-af8e-47ec-b8ac-9f1c1696d04f",
+                            Slug = "mock805",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1211)
+                        },
+                        new
+                        {
+                            ProductId = 806L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0def58a1-9c5c-4b2b-b7b3-ecedb51fd698",
+                            Slug = "mock806",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1220)
+                        },
+                        new
+                        {
+                            ProductId = 807L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6401f69d-0af3-4079-9b50-a873c226e2d6",
+                            Slug = "mock807",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1230)
+                        },
+                        new
+                        {
+                            ProductId = 808L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dabdf904-87f3-4224-93b5-f88e6790dd05",
+                            Slug = "mock808",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1239)
+                        },
+                        new
+                        {
+                            ProductId = 809L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5a6b6f02-84f3-4735-af63-af79a863145c",
+                            Slug = "mock809",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1284)
+                        },
+                        new
+                        {
+                            ProductId = 810L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0398acde-85e8-48b7-af82-6bf59c7f26e9",
+                            Slug = "mock810",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1294)
+                        },
+                        new
+                        {
+                            ProductId = 811L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3a4a0c76-1edd-4761-a9b6-edd23c86888b",
+                            Slug = "mock811",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1304)
+                        },
+                        new
+                        {
+                            ProductId = 812L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "48fbfae6-1a73-41e3-9360-6bbcb23b1a1b",
+                            Slug = "mock812",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1313)
+                        },
+                        new
+                        {
+                            ProductId = 813L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6ecbba4f-0a1c-4e52-b455-f53688fa3209",
+                            Slug = "mock813",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1323)
+                        },
+                        new
+                        {
+                            ProductId = 814L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4ad5a1b1-3caa-4e29-903f-d390dd94995d",
+                            Slug = "mock814",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1333)
+                        },
+                        new
+                        {
+                            ProductId = 815L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03144a2c-e1ef-416f-8561-937be8d2512e",
+                            Slug = "mock815",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1343)
+                        },
+                        new
+                        {
+                            ProductId = 816L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "cce28664-250c-440b-90c8-ea0070f2401e",
+                            Slug = "mock816",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1352)
+                        },
+                        new
+                        {
+                            ProductId = 817L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95560b4e-4cc4-4c46-bf05-8c73737ee66d",
+                            Slug = "mock817",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1362)
+                        },
+                        new
+                        {
+                            ProductId = 818L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f996e41d-5c23-4a80-95fa-906fb4fb4794",
+                            Slug = "mock818",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1372)
+                        },
+                        new
+                        {
+                            ProductId = 819L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8081bdf3-fc87-48b1-80c5-f94b5d41af34",
+                            Slug = "mock819",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1381)
+                        },
+                        new
+                        {
+                            ProductId = 820L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fe5a4cc7-ec6f-4940-9abc-d7ac743fd521",
+                            Slug = "mock820",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1391)
+                        },
+                        new
+                        {
+                            ProductId = 821L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "08e8756b-3f62-4873-93f8-3870d66efeb6",
+                            Slug = "mock821",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1420)
+                        },
+                        new
+                        {
+                            ProductId = 822L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8b6c1d9b-3489-4b90-b4d3-95728ecee85d",
+                            Slug = "mock822",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1430)
+                        },
+                        new
+                        {
+                            ProductId = 823L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79a7b3ea-44c3-4db0-8c07-9afb54537dfc",
+                            Slug = "mock823",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1440)
+                        },
+                        new
+                        {
+                            ProductId = 824L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "598fb248-d780-4dd1-83aa-c24073bcd442",
+                            Slug = "mock824",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1450)
+                        },
+                        new
+                        {
+                            ProductId = 825L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "54f34bf8-f942-4e3d-85e3-93469a2f3c46",
+                            Slug = "mock825",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1460)
+                        },
+                        new
+                        {
+                            ProductId = 826L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "82229f9f-17b5-49e9-bdd2-76bcbd6bafd8",
+                            Slug = "mock826",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1469)
+                        },
+                        new
+                        {
+                            ProductId = 827L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d5c5b07c-f56d-47af-ba70-9cb6cc2b47bd",
+                            Slug = "mock827",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1479)
+                        },
+                        new
+                        {
+                            ProductId = 828L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "84db0092-97d4-4980-afaf-7b516ea9b325",
+                            Slug = "mock828",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1489)
+                        },
+                        new
+                        {
+                            ProductId = 829L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f33be86a-c399-47d0-a4e4-95abe55e722e",
+                            Slug = "mock829",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1498)
+                        },
+                        new
+                        {
+                            ProductId = 830L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "949fb69a-dec3-4692-9469-3e931c693e1c",
+                            Slug = "mock830",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1508)
+                        },
+                        new
+                        {
+                            ProductId = 831L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b05fca9f-e38b-42e9-a9da-dd83ae499633",
+                            Slug = "mock831",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1518)
+                        },
+                        new
+                        {
+                            ProductId = 832L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dc1f545c-57af-47c2-b6f8-afb67e0f2eed",
+                            Slug = "mock832",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1528)
+                        },
+                        new
+                        {
+                            ProductId = 833L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ef547b67-c411-4fb7-922c-72ea356358f2",
+                            Slug = "mock833",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1611)
+                        },
+                        new
+                        {
+                            ProductId = 834L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "29511971-dc94-4973-8d44-2946bf4feed1",
+                            Slug = "mock834",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1622)
+                        },
+                        new
+                        {
+                            ProductId = 835L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23e6fbc3-dbb4-4652-a0cc-484a8e805674",
+                            Slug = "mock835",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1631)
+                        },
+                        new
+                        {
+                            ProductId = 836L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1a71087f-6155-4a07-b288-52814d28fc1b",
+                            Slug = "mock836",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1641)
+                        },
+                        new
+                        {
+                            ProductId = 837L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d6500e85-9b0c-426b-b167-eb9e85a1f4d7",
+                            Slug = "mock837",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1651)
+                        },
+                        new
+                        {
+                            ProductId = 838L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "517c570d-7b5b-4c8c-9dea-eb30abf2dc51",
+                            Slug = "mock838",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1661)
+                        },
+                        new
+                        {
+                            ProductId = 839L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "188e213e-87f7-4151-aca5-905785f12191",
+                            Slug = "mock839",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1671)
+                        },
+                        new
+                        {
+                            ProductId = 840L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "254d94fc-229f-491f-b490-86d94b63b8ed",
+                            Slug = "mock840",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1680)
+                        },
+                        new
+                        {
+                            ProductId = 841L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c8f42767-c41e-4b66-ba34-8bce56ed2532",
+                            Slug = "mock841",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1690)
+                        },
+                        new
+                        {
+                            ProductId = 842L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f957050c-c788-42e0-984a-31caad0ff081",
+                            Slug = "mock842",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1700)
+                        },
+                        new
+                        {
+                            ProductId = 843L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fbd05637-f7fb-4a5f-bcf8-868cae78ecb9",
+                            Slug = "mock843",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1709)
+                        },
+                        new
+                        {
+                            ProductId = 844L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "91ec7636-194d-40c2-814a-9cdec7b1aece",
+                            Slug = "mock844",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1719)
+                        },
+                        new
+                        {
+                            ProductId = 845L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2d8de402-9afe-45a1-b9cb-c76a93c1a763",
+                            Slug = "mock845",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1794)
+                        },
+                        new
+                        {
+                            ProductId = 846L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "511f6b37-67aa-486d-9f9d-72dfeec03da6",
+                            Slug = "mock846",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1805)
+                        },
+                        new
+                        {
+                            ProductId = 847L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5d27073f-3f74-47ea-9bf8-d788a87a1d62",
+                            Slug = "mock847",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1814)
+                        },
+                        new
+                        {
+                            ProductId = 848L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d19bbf8a-5176-4915-b715-0416185eccc2",
+                            Slug = "mock848",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1824)
+                        },
+                        new
+                        {
+                            ProductId = 849L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "666be536-92f3-4c40-80a7-2b0338038a00",
+                            Slug = "mock849",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1834)
+                        },
+                        new
+                        {
+                            ProductId = 850L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5125c9db-5311-418c-a8bc-1458c2982da2",
+                            Slug = "mock850",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1844)
+                        },
+                        new
+                        {
+                            ProductId = 851L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f1835942-a6c1-4861-b38d-1db543acff92",
+                            Slug = "mock851",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1853)
+                        },
+                        new
+                        {
+                            ProductId = 852L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9ccd40e6-023e-446b-9ebb-f30603ba433c",
+                            Slug = "mock852",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1863)
+                        },
+                        new
+                        {
+                            ProductId = 853L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7966794c-a0f8-469f-8bdc-355bd4711d8c",
+                            Slug = "mock853",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1873)
+                        },
+                        new
+                        {
+                            ProductId = 854L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "60b49ae8-b73a-4cdb-969c-cff64eeb3c61",
+                            Slug = "mock854",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1883)
+                        },
+                        new
+                        {
+                            ProductId = 855L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c81f021a-5bb9-413d-8fe9-479e7dda0a29",
+                            Slug = "mock855",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1893)
+                        },
+                        new
+                        {
+                            ProductId = 856L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "45475bed-2515-4ed4-9c5a-e5c0892306b3",
+                            Slug = "mock856",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1903)
+                        },
+                        new
+                        {
+                            ProductId = 857L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d2a7c3bc-cebe-42da-9ede-d0211798a1d5",
+                            Slug = "mock857",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1948)
+                        },
+                        new
+                        {
+                            ProductId = 858L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "73f27dd7-3c2f-4534-974d-09a723883b38",
+                            Slug = "mock858",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1958)
+                        },
+                        new
+                        {
+                            ProductId = 859L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bd7eaf04-10ca-46c7-8c61-721ac9a0bdae",
+                            Slug = "mock859",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1968)
+                        },
+                        new
+                        {
+                            ProductId = 860L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d1cef1b9-24bd-4c42-b20e-b3f59dfa342f",
+                            Slug = "mock860",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1978)
+                        },
+                        new
+                        {
+                            ProductId = 861L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0dc95227-8898-4f92-aacb-c25ec56f072e",
+                            Slug = "mock861",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1988)
+                        },
+                        new
+                        {
+                            ProductId = 862L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1c559693-507e-4452-b93f-a3146cc3bc06",
+                            Slug = "mock862",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(1997)
+                        },
+                        new
+                        {
+                            ProductId = 863L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dad47022-58ab-401b-975e-95622027a690",
+                            Slug = "mock863",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2007)
+                        },
+                        new
+                        {
+                            ProductId = 864L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7514b06d-24d7-4cca-b2c7-fd8499c41d86",
+                            Slug = "mock864",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2017)
+                        },
+                        new
+                        {
+                            ProductId = 865L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ebd5b3d2-deff-4020-a538-0a71d045c284",
+                            Slug = "mock865",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2027)
+                        },
+                        new
+                        {
+                            ProductId = 866L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1c4aa962-99ab-4e7b-834f-55eebc42866a",
+                            Slug = "mock866",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2036)
+                        },
+                        new
+                        {
+                            ProductId = 867L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "61cc7a1d-d450-4203-929c-0812bfe3d330",
+                            Slug = "mock867",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2046)
+                        },
+                        new
+                        {
+                            ProductId = 868L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "12fba004-e86f-487e-bab0-33267fbff657",
+                            Slug = "mock868",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2056)
+                        },
+                        new
+                        {
+                            ProductId = 869L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0d0a001e-0bd0-4463-9513-5515386e642d",
+                            Slug = "mock869",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2100)
+                        },
+                        new
+                        {
+                            ProductId = 870L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3d2c4909-fc30-413e-87dd-b234e15f385a",
+                            Slug = "mock870",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2111)
+                        },
+                        new
+                        {
+                            ProductId = 871L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "03125efb-ed2a-4aa4-a680-6cd06684234a",
+                            Slug = "mock871",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2120)
+                        },
+                        new
+                        {
+                            ProductId = 872L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c540a9f9-6a33-41c6-9341-9f8ef7e818a1",
+                            Slug = "mock872",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2130)
+                        },
+                        new
+                        {
+                            ProductId = 873L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8e2990db-753e-430b-b1d1-a131d314a41f",
+                            Slug = "mock873",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2140)
+                        },
+                        new
+                        {
+                            ProductId = 874L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a7e8b5a3-add1-44de-8653-b56907871cdf",
+                            Slug = "mock874",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2150)
+                        },
+                        new
+                        {
+                            ProductId = 875L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "18ef5bcc-6f17-4326-a2b1-9a956762f0e4",
+                            Slug = "mock875",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2160)
+                        },
+                        new
+                        {
+                            ProductId = 876L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1dae135c-31d9-4c36-9372-52e4803e117f",
+                            Slug = "mock876",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2170)
+                        },
+                        new
+                        {
+                            ProductId = 877L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "134c04b8-2b7a-4662-8aab-8e808ec243c8",
+                            Slug = "mock877",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2179)
+                        },
+                        new
+                        {
+                            ProductId = 878L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7acfb5ac-90e2-4287-be50-2c3427112719",
+                            Slug = "mock878",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2189)
+                        },
+                        new
+                        {
+                            ProductId = 879L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3bdb3957-e267-4457-88f0-0a3321daffad",
+                            Slug = "mock879",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2199)
+                        },
+                        new
+                        {
+                            ProductId = 880L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "00e663f9-ee40-4605-acaa-354b75899c41",
+                            Slug = "mock880",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2209)
+                        },
+                        new
+                        {
+                            ProductId = 881L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "48eed2b2-ba31-46ef-99d9-506dbe2286f2",
+                            Slug = "mock881",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2256)
+                        },
+                        new
+                        {
+                            ProductId = 882L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a630064d-8c6a-4958-ad3b-a304cc197e00",
+                            Slug = "mock882",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2267)
+                        },
+                        new
+                        {
+                            ProductId = 883L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "67a6b825-b78b-4bbc-9f01-504e8f033e4a",
+                            Slug = "mock883",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2334)
+                        },
+                        new
+                        {
+                            ProductId = 884L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "36a1b651-aea6-4c23-8011-503d7aee2ef1",
+                            Slug = "mock884",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2345)
+                        },
+                        new
+                        {
+                            ProductId = 885L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c150bb3e-a5ec-473e-8a00-9b42ee15a385",
+                            Slug = "mock885",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2355)
+                        },
+                        new
+                        {
+                            ProductId = 886L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f2a01d44-f617-4bd5-8a23-215e570d69bf",
+                            Slug = "mock886",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2365)
+                        },
+                        new
+                        {
+                            ProductId = 887L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a2a441c9-8bca-4cd1-a8f1-3d8f1e2b6aa5",
+                            Slug = "mock887",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2374)
+                        },
+                        new
+                        {
+                            ProductId = 888L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "811f7693-4620-4bbc-ad95-b01c31182383",
+                            Slug = "mock888",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2384)
+                        },
+                        new
+                        {
+                            ProductId = 889L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0c793b37-316b-4d60-86ee-797e83eaefb8",
+                            Slug = "mock889",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2394)
+                        },
+                        new
+                        {
+                            ProductId = 890L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "568c6b25-240d-473e-a7db-077a388e5fd8",
+                            Slug = "mock890",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2404)
+                        },
+                        new
+                        {
+                            ProductId = 891L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "79c3c0ab-7023-49b2-8be0-741cbea636f2",
+                            Slug = "mock891",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2413)
+                        },
+                        new
+                        {
+                            ProductId = 892L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f7a5aabc-8dfb-463e-a79e-f137ae8ffd19",
+                            Slug = "mock892",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2423)
+                        },
+                        new
+                        {
+                            ProductId = 893L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "9457d166-191c-474c-a851-5c23b844773a",
+                            Slug = "mock893",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2468)
+                        },
+                        new
+                        {
+                            ProductId = 894L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "826325bc-054a-4f20-8422-feafe591116a",
+                            Slug = "mock894",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2479)
+                        },
+                        new
+                        {
+                            ProductId = 895L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0e763027-72f1-44e8-9fdd-afc0b8c11925",
+                            Slug = "mock895",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2489)
+                        },
+                        new
+                        {
+                            ProductId = 896L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "73dcbd5f-b975-4af8-ba42-e7f2971f8b66",
+                            Slug = "mock896",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2499)
+                        },
+                        new
+                        {
+                            ProductId = 897L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "dd099fc2-e85c-4908-9051-aca167c36c5e",
+                            Slug = "mock897",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2509)
+                        },
+                        new
+                        {
+                            ProductId = 898L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3a8f347d-b631-4e37-88bf-7cef823801c1",
+                            Slug = "mock898",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2518)
+                        },
+                        new
+                        {
+                            ProductId = 899L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0378880e-a270-4073-8e59-b5abec66afca",
+                            Slug = "mock899",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2528)
+                        },
+                        new
+                        {
+                            ProductId = 900L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3447d9ed-ebef-419a-94db-019334a900f2",
+                            Slug = "mock900",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2538)
+                        },
+                        new
+                        {
+                            ProductId = 901L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4ee50f1f-82bb-461f-a129-33cc723440b8",
+                            Slug = "mock901",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2548)
+                        },
+                        new
+                        {
+                            ProductId = 902L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "93550ce3-719e-45f8-a8b4-7eeed220d5f8",
+                            Slug = "mock902",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2558)
+                        },
+                        new
+                        {
+                            ProductId = 903L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c029512c-edef-4099-98ff-154704ce1623",
+                            Slug = "mock903",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2567)
+                        },
+                        new
+                        {
+                            ProductId = 904L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "49b144c6-0f54-4b00-96db-947bf47cee9f",
+                            Slug = "mock904",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2577)
+                        },
+                        new
+                        {
+                            ProductId = 905L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "160fb558-8b41-4d4f-a5c7-54283bec256f",
+                            Slug = "mock905",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2621)
+                        },
+                        new
+                        {
+                            ProductId = 906L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7fce91f7-9999-46d3-ab60-d02cd286180e",
+                            Slug = "mock906",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2632)
+                        },
+                        new
+                        {
+                            ProductId = 907L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "85f2675c-4fd3-4a11-bf55-b4833e734dfa",
+                            Slug = "mock907",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2642)
+                        },
+                        new
+                        {
+                            ProductId = 908L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "483bf7a2-a19e-4e08-aeb5-1327fc2ce180",
+                            Slug = "mock908",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2651)
+                        },
+                        new
+                        {
+                            ProductId = 909L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7e42bc74-fed4-41d2-9e81-990ec632856f",
+                            Slug = "mock909",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2661)
+                        },
+                        new
+                        {
+                            ProductId = 910L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0318c369-8c82-4da2-acc7-78f4aad82ecf",
+                            Slug = "mock910",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2671)
+                        },
+                        new
+                        {
+                            ProductId = 911L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "83b97d37-d2aa-4751-9fa9-ad6f2421395e",
+                            Slug = "mock911",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2681)
+                        },
+                        new
+                        {
+                            ProductId = 912L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4cb7e982-3168-45e2-a071-fee1618a8127",
+                            Slug = "mock912",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2691)
+                        },
+                        new
+                        {
+                            ProductId = 913L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8d2df3a0-883a-4831-8555-c68b54b300dc",
+                            Slug = "mock913",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2701)
+                        },
+                        new
+                        {
+                            ProductId = 914L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1266f4bd-db8d-44e6-a217-12db5d3b7ed1",
+                            Slug = "mock914",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2710)
+                        },
+                        new
+                        {
+                            ProductId = 915L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b265ddee-f3ed-4563-954c-33a272d580f0",
+                            Slug = "mock915",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2720)
+                        },
+                        new
+                        {
+                            ProductId = 916L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3262c27b-ea6d-4c74-84c4-3f4c6e8914a1",
+                            Slug = "mock916",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2730)
+                        },
+                        new
+                        {
+                            ProductId = 917L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8684698b-60f2-4477-939d-1ec2c36b1a27",
+                            Slug = "mock917",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2761)
+                        },
+                        new
+                        {
+                            ProductId = 918L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "67b5816e-6d4d-4cae-9267-1be39859c0cb",
+                            Slug = "mock918",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2771)
+                        },
+                        new
+                        {
+                            ProductId = 919L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "95294dd5-b372-4799-bd1f-5979eca3ba98",
+                            Slug = "mock919",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2781)
+                        },
+                        new
+                        {
+                            ProductId = 920L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ecc0f797-b89f-4050-b25c-f088eb5995f3",
+                            Slug = "mock920",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2791)
+                        },
+                        new
+                        {
+                            ProductId = 921L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "43d0743b-5df1-4b52-a5dd-8f5f1f653188",
+                            Slug = "mock921",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2801)
+                        },
+                        new
+                        {
+                            ProductId = 922L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0a32926c-0bde-4407-aa5a-3206d5b01294",
+                            Slug = "mock922",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2811)
+                        },
+                        new
+                        {
+                            ProductId = 923L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fa0189b7-afdd-48f2-b469-9da981e217d1",
+                            Slug = "mock923",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2820)
+                        },
+                        new
+                        {
+                            ProductId = 924L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f2775c0b-f774-4f62-846b-998071e854f8",
+                            Slug = "mock924",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2830)
+                        },
+                        new
+                        {
+                            ProductId = 925L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "fccba645-706e-4c8b-a365-a872810f3720",
+                            Slug = "mock925",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2840)
+                        },
+                        new
+                        {
+                            ProductId = 926L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ff3eba8c-e835-41a2-aac2-eb65acda5531",
+                            Slug = "mock926",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2850)
+                        },
+                        new
+                        {
+                            ProductId = 927L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "ee1500c3-e4f3-4c97-8095-a5c77e39206e",
+                            Slug = "mock927",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2860)
+                        },
+                        new
+                        {
+                            ProductId = 928L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "5dc5580d-041a-4d5b-9d17-a80c60ff10f7",
+                            Slug = "mock928",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2870)
+                        },
+                        new
+                        {
+                            ProductId = 929L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "64a676d9-abb3-43f7-ba4c-5eb7639b1097",
+                            Slug = "mock929",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2953)
+                        },
+                        new
+                        {
+                            ProductId = 930L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "090d37c4-c487-4e5e-aa48-41bf91c51152",
+                            Slug = "mock930",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2964)
+                        },
+                        new
+                        {
+                            ProductId = 931L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "431c9ba0-fc75-463a-b158-8a0f195826fb",
+                            Slug = "mock931",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2974)
+                        },
+                        new
+                        {
+                            ProductId = 932L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e1ebbd22-4537-453c-92f8-0d79b2f5ed83",
+                            Slug = "mock932",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2983)
+                        },
+                        new
+                        {
+                            ProductId = 933L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c5b6c4f7-d2af-4717-9232-e018eaf5e64d",
+                            Slug = "mock933",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(2993)
+                        },
+                        new
+                        {
+                            ProductId = 934L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "94590e5e-aee2-4caf-9b78-011ce0a71afc",
+                            Slug = "mock934",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3003)
+                        },
+                        new
+                        {
+                            ProductId = 935L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e643ae79-4ff4-4e9c-a786-2a49da525210",
+                            Slug = "mock935",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3013)
+                        },
+                        new
+                        {
+                            ProductId = 936L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3e656ca2-3315-4eab-aa5f-7957490fdd4a",
+                            Slug = "mock936",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3023)
+                        },
+                        new
+                        {
+                            ProductId = 937L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e868387e-fe0e-49fc-9b39-9fdb3d767157",
+                            Slug = "mock937",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3032)
+                        },
+                        new
+                        {
+                            ProductId = 938L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "386475d6-4c4f-4bcc-8d29-1898133370ad",
+                            Slug = "mock938",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3042)
+                        },
+                        new
+                        {
+                            ProductId = 939L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "199fa17a-d1f8-4116-a06b-9497c71ea988",
+                            Slug = "mock939",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3052)
+                        },
+                        new
+                        {
+                            ProductId = 940L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "86e1a487-43dd-4e87-bd64-f6f344e58085",
+                            Slug = "mock940",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3062)
+                        },
+                        new
+                        {
+                            ProductId = 941L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e5f429c3-d35f-4e86-be87-43800a07c142",
+                            Slug = "mock941",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3139)
+                        },
+                        new
+                        {
+                            ProductId = 942L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f7d5c510-d0e5-41f1-805c-792412677ef6",
+                            Slug = "mock942",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3149)
+                        },
+                        new
+                        {
+                            ProductId = 943L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "700790b7-0438-413f-8663-be1dbfbd2aca",
+                            Slug = "mock943",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3159)
+                        },
+                        new
+                        {
+                            ProductId = 944L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2f74b7b1-9a70-4249-903b-eee668a0f057",
+                            Slug = "mock944",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3169)
+                        },
+                        new
+                        {
+                            ProductId = 945L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "529d76c4-0dfe-4d69-bf05-39ae8b4a37ab",
+                            Slug = "mock945",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3179)
+                        },
+                        new
+                        {
+                            ProductId = 946L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "3cbba251-cb4a-4fd6-a5d3-cacb5023bd4e",
+                            Slug = "mock946",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3189)
+                        },
+                        new
+                        {
+                            ProductId = 947L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2c9b3385-8027-4984-a9aa-15abb09bdd35",
+                            Slug = "mock947",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3199)
+                        },
+                        new
+                        {
+                            ProductId = 948L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "029cd7b8-5eb4-45b8-b8db-84ce2accd329",
+                            Slug = "mock948",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3208)
+                        },
+                        new
+                        {
+                            ProductId = 949L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "aa5c411d-491d-43e6-a43e-43f510c5cece",
+                            Slug = "mock949",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3218)
+                        },
+                        new
+                        {
+                            ProductId = 950L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "be3dbb09-77d3-4a24-bfcc-53ba89b55a1b",
+                            Slug = "mock950",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3228)
+                        },
+                        new
+                        {
+                            ProductId = 951L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4d615601-3866-4684-9665-563f7d846511",
+                            Slug = "mock951",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3238)
+                        },
+                        new
+                        {
+                            ProductId = 952L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8a01ad2d-e7a3-4f4b-8dcf-3a0b43ef5caf",
+                            Slug = "mock952",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3248)
+                        },
+                        new
+                        {
+                            ProductId = 953L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "943aef68-c640-4b46-8021-73d5e35f1512",
+                            Slug = "mock953",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3292)
+                        },
+                        new
+                        {
+                            ProductId = 954L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "da1afdca-4cfa-4c64-8388-8f0b808ea02f",
+                            Slug = "mock954",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3303)
+                        },
+                        new
+                        {
+                            ProductId = 955L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b11b4225-52fe-45c2-8d29-622028da4d4a",
+                            Slug = "mock955",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3312)
+                        },
+                        new
+                        {
+                            ProductId = 956L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6b99b8d9-65c0-4a2f-8650-8ee999104a6a",
+                            Slug = "mock956",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3322)
+                        },
+                        new
+                        {
+                            ProductId = 957L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "456c5a67-922e-4679-9dbb-9e72fc22eafe",
+                            Slug = "mock957",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3332)
+                        },
+                        new
+                        {
+                            ProductId = 958L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "2ee689f5-7de9-404a-94c4-918eea12de76",
+                            Slug = "mock958",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3342)
+                        },
+                        new
+                        {
+                            ProductId = 959L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "01324829-3a28-4e8c-8d98-11c282f8b1b0",
+                            Slug = "mock959",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3351)
+                        },
+                        new
+                        {
+                            ProductId = 960L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "deb3d643-2630-40ba-bc83-2a0c970efc2e",
+                            Slug = "mock960",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3361)
+                        },
+                        new
+                        {
+                            ProductId = 961L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "38c1a4c9-11e7-4831-b0a6-2c166a727076",
+                            Slug = "mock961",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3371)
+                        },
+                        new
+                        {
+                            ProductId = 962L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "8062a24a-9525-432c-a148-d61eaa780525",
+                            Slug = "mock962",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3381)
+                        },
+                        new
+                        {
+                            ProductId = 963L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "00e90a4d-be63-4ee0-8d18-10132d02c377",
+                            Slug = "mock963",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3391)
+                        },
+                        new
+                        {
+                            ProductId = 964L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "026980db-c3f8-4787-b75c-f9ba748756dd",
+                            Slug = "mock964",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3400)
+                        },
+                        new
+                        {
+                            ProductId = 965L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0e7fd3b7-54e6-422d-8b88-c210fe36b8be",
+                            Slug = "mock965",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3444)
+                        },
+                        new
+                        {
+                            ProductId = 966L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "384a6689-e6a5-4e39-840f-a35dcaadc729",
+                            Slug = "mock966",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3455)
+                        },
+                        new
+                        {
+                            ProductId = 967L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1e56afdc-31d5-4a5e-a397-fe5dfcabb3fb",
+                            Slug = "mock967",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3465)
+                        },
+                        new
+                        {
+                            ProductId = 968L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "23eed892-9cbe-4dfb-96d3-4cbbe083fad5",
+                            Slug = "mock968",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3475)
+                        },
+                        new
+                        {
+                            ProductId = 969L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "82fb2886-ab9e-4a57-825c-895815293f6a",
+                            Slug = "mock969",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3485)
+                        },
+                        new
+                        {
+                            ProductId = 970L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "65ff0e64-e224-4ea3-941a-d62d4e8dec17",
+                            Slug = "mock970",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3495)
+                        },
+                        new
+                        {
+                            ProductId = 971L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "66674bd3-16db-4368-b7c6-5b3da1fe3a3d",
+                            Slug = "mock971",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3504)
+                        },
+                        new
+                        {
+                            ProductId = 972L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "0f13c031-7664-4bd0-9321-8787a9863d6e",
+                            Slug = "mock972",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3514)
+                        },
+                        new
+                        {
+                            ProductId = 973L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "621508bb-13b0-4835-b0ac-1c1785e2b0b9",
+                            Slug = "mock973",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3524)
+                        },
+                        new
+                        {
+                            ProductId = 974L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "805c35e5-8cd7-4f72-9d27-bb68d93b15e4",
+                            Slug = "mock974",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3534)
+                        },
+                        new
+                        {
+                            ProductId = 975L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "91f2626a-7a06-4a85-a081-9d4f66aad8e6",
+                            Slug = "mock975",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3544)
+                        },
+                        new
+                        {
+                            ProductId = 976L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "7208714d-00e0-4d28-a556-1e241b4d818d",
+                            Slug = "mock976",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3553)
+                        },
+                        new
+                        {
+                            ProductId = 977L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "1f1965c2-5f57-4e69-8fae-b2b02a6f2cf6",
+                            Slug = "mock977",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3598)
+                        },
+                        new
+                        {
+                            ProductId = 978L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "545e2df9-9e28-4720-b157-006edd59b7be",
+                            Slug = "mock978",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3608)
+                        },
+                        new
+                        {
+                            ProductId = 979L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "d8615e2d-1690-475d-a10f-65da5d9cda8d",
+                            Slug = "mock979",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3617)
+                        },
+                        new
+                        {
+                            ProductId = 980L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "58cb23a5-d126-41a3-8e95-55f23e4b61b6",
+                            Slug = "mock980",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3627)
+                        },
+                        new
+                        {
+                            ProductId = 981L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b68795e1-ea29-4382-9f5a-b5c4f8b0f199",
+                            Slug = "mock981",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3637)
+                        },
+                        new
+                        {
+                            ProductId = 982L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "32fc514f-f965-451e-9106-da91b45a73f6",
+                            Slug = "mock982",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3647)
+                        },
+                        new
+                        {
+                            ProductId = 983L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "195d9e48-69ba-4190-bfbe-4404ebaed53c",
+                            Slug = "mock983",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3657)
+                        },
+                        new
+                        {
+                            ProductId = 984L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "728d6598-315a-46de-8c38-1369ad73eda2",
+                            Slug = "mock984",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3666)
+                        },
+                        new
+                        {
+                            ProductId = 985L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "617ca1ae-e888-427a-818e-7cc08613a83f",
+                            Slug = "mock985",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3676)
+                        },
+                        new
+                        {
+                            ProductId = 986L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "bc683d77-4e08-4934-95b8-93aa1ff9f63e",
+                            Slug = "mock986",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3686)
+                        },
+                        new
+                        {
+                            ProductId = 987L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "b9d1a177-aef1-49e5-9dc9-5277f677f232",
+                            Slug = "mock987",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3696)
+                        },
+                        new
+                        {
+                            ProductId = 988L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "89f86075-62a3-4e28-98fa-420855d32c43",
+                            Slug = "mock988",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3705)
+                        },
+                        new
+                        {
+                            ProductId = 989L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "92f53490-5a37-4887-9f45-7764cadbe680",
+                            Slug = "mock989",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3752)
+                        },
+                        new
+                        {
+                            ProductId = 990L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "4790c2ce-c414-45f2-9fe6-dcd332be6938",
+                            Slug = "mock990",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3762)
+                        },
+                        new
+                        {
+                            ProductId = 991L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "60ef5436-4a19-460a-be9b-2d20253df0bd",
+                            Slug = "mock991",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3772)
+                        },
+                        new
+                        {
+                            ProductId = 992L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "c2737b23-391f-424c-af2c-963aa8081ba7",
+                            Slug = "mock992",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3782)
+                        },
+                        new
+                        {
+                            ProductId = 993L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f5e413fc-4f6c-41e1-88da-4648424cddb1",
+                            Slug = "mock993",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3792)
+                        },
+                        new
+                        {
+                            ProductId = 994L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "e4b72560-30e1-4d8d-8fde-9a6861ff9bc4",
+                            Slug = "mock994",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3802)
+                        },
+                        new
+                        {
+                            ProductId = 995L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "72f3bc14-065b-456f-8753-0036fe8f88c1",
+                            Slug = "mock995",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3811)
+                        },
+                        new
+                        {
+                            ProductId = 996L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "121eb5cc-75ce-4dcb-b958-87f324115040",
+                            Slug = "mock996",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3821)
+                        },
+                        new
+                        {
+                            ProductId = 997L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "59d0429a-87e2-4fba-b6bb-5b6948e8b753",
+                            Slug = "mock997",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3831)
+                        },
+                        new
+                        {
+                            ProductId = 998L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "6df81978-7962-4b03-ba1d-8c9b4e2168b6",
+                            Slug = "mock998",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3841)
+                        },
+                        new
+                        {
+                            ProductId = 999L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "f9340548-6221-4516-a896-caf3ba022882",
+                            Slug = "mock999",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3850)
+                        },
+                        new
+                        {
+                            ProductId = 1000L,
+                            AvailableUnits = 10,
+                            Description = "MOCK DESCRIPTION",
+                            Price = 10000m,
+                            ProductName = "MOCK PRODUCT NAME",
+                            Sku = "a83d8d45-1bdd-4187-92e5-325d3b9f226c",
+                            Slug = "mock1000",
+                            UpdatedAt = new DateTime(2024, 4, 24, 18, 25, 42, 657, DateTimeKind.Utc).AddTicks(3860)
                         });
                 });
 

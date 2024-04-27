@@ -16,12 +16,11 @@ public class AuthController : ControllerBase
         _tagRepository = tagRepository;
         _signInManager = signInManager;
     }
-    
 
     [HttpPost("/logout")]
     public async Task<IActionResult> Logout([FromBody] object empty)
     {
-        if (empty != null)
+        if (empty is not null)
         {
             await _signInManager.SignOutAsync();
             return Ok();

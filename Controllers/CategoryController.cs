@@ -70,7 +70,7 @@ public class CategoryController : Controller
         {
             var category = await _categoryService.RemoveCategory(categoryId);
 
-            if (category == false) return NotFound();
+            if (!category) return NotFound();
 
             return NoContent();
         }

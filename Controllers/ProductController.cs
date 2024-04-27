@@ -25,9 +25,9 @@ public class ProductController : Controller
         return Ok(product);
     }
     [HttpGet]
-    public async Task<IActionResult> GetAllProducts()
+    public async Task<IActionResult> GetProducts([FromQuery] int pageIndex, [FromQuery] int pageSize)
     {
-        var products = await _productService.GetAllProducts();
+        var products = await _productService.GetProducts(pageIndex, pageSize);
 
         return Ok(products);
     }

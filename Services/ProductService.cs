@@ -13,7 +13,8 @@ public class ProductService
     private readonly IFileRepository _fileRepository;
     private static readonly Random random = new Random();
 
-    public ProductService(IProductRepository productRepository, IImageRepository imageRepository, IFileRepository fileRepository)
+    public ProductService(IProductRepository productRepository, IImageRepository imageRepository, 
+    IFileRepository fileRepository)
     {
         _productRepository = productRepository;
         _imageRepository = imageRepository;
@@ -24,9 +25,13 @@ public class ProductService
     {
         return await _productRepository.GetProductById(productId);
     }
-        public async Task<IQueryable<Product>?> GetAllProducts()
+    public async Task<IQueryable<Product>?> GetAllProducts()
     {
         return await _productRepository.GetAllProducts();
+    }
+    public async Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize)
+    {
+        return await _productRepository.GetProducts(pageIndex, pageSize);
     }
     public async Task<Product> CreateProduct(ProductDto productDto)
     {
@@ -43,7 +48,8 @@ public class ProductService
         // check if all files given are valid images
         foreach (var image in images)
         {
-            if (_fileRepository.IsFileAnImage(image) == false) throw new FileIsNotAnImageException("Arquivo não é uma imagem.");
+            if (_fileRepository.IsFileAnImage(image) == false)
+                throw new FileIsNotAnImageException("Arquivo não é uma imagem.");
         }
         // if so continue
         foreach (var image in images)

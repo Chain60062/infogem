@@ -37,32 +37,26 @@ public partial class AppDbContext : IdentityDbContext<AppUser, IdentityRole<Guid
     public virtual DbSet<Tag> Tags { get; set; }
 
     public virtual DbSet<Payment> Payments { get; set; }
-
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
 
-        var product1 = new Product()
+        List<Product> products = new List<Product>();
+
+        for (int i = 1; i <= 1000; i++)
         {
-            ProductId = 1,
-            AvailableUnits = 12,
-            Description = "Apple Iphone 15",
-            Price = 12_200,
-            ProductName = "IPhone 15",
-            Sku = "ACZZH34M",
-            Slug = "iphone-15",
-        };
-        var product2 = new Product()
-        {
-            ProductId = 2,
-            AvailableUnits = 1200,
-            Description = "SSD Kingston com capacidade 256GB",
-            Price = 12_200,
-            ProductName = "SSD Kingston 256GB",
-            Sku = "CASDGA23J",
-            Slug = "ssd-kingston-256gb",
-        };
-        
-        builder.Entity<Product>().HasData(product1, product2);
+            products.Add(new Product
+            {
+                ProductId = i,
+                AvailableUnits = 10,
+                Description = "MOCK DESCRIPTION",
+                Price = 10_000,
+                ProductName = "MOCK PRODUCT NAME",
+                Sku = Guid.NewGuid().ToString(),
+                Slug = "mock" + i,
+            });
+        }
+
+        builder.Entity<Product>().HasData(products.ToArray());
     }
 }
