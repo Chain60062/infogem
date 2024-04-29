@@ -28,7 +28,7 @@ public class EFProductRepository : IProductRepository
     public async Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize)
     {
         //exemplo: user esta na pagina 3, 10 items por pagina, skip e take pegam a partir de (3 - 2) * 10 = 20
-        var products = await _db.Products.OrderBy(p => p.ProductId).Skip((pageIndex - 1) * pageSize).Take(pageSize).ToListAsync();
+        var products = await _db.Products.OrderBy(p => p.ProductId).Skip((pageIndex) * pageSize).Take(pageSize).ToListAsync();
 
         int count = await _db.Products.CountAsync();
         int totalPages = (int)Math.Ceiling(count / (double)pageSize);

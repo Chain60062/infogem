@@ -20,6 +20,19 @@ builder.Services.AddIdentityApiEndpoints<AppUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<AppDbContext>();
 builder.Services.AddRepositoryAndServiceLayers();// Extension method under Extensions/IServiceCollectionExtensions.cs
 builder.Services.AddProblemDetails();
+
+
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:4200");
+                      });
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -32,6 +45,8 @@ if (app.Environment.IsProduction())
 {
     app.UseHttpsRedirection();
 }
+
+app.UseCors(MyAllowSpecificOrigins);
 app.CustomMapIdentityApi<AppUser>();
 app.UseAuthentication();
 app.UseAuthorization();
