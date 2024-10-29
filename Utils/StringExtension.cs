@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+
 namespace InfoGem.Utils;
 public static class StringExtensions
 {

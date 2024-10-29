@@ -1,5 +1,4 @@
 using InfoGem.Data;
-using InfoGem.Exceptions;
 using InfoGem.Models;
 using InfoGem.Utils;
 using Microsoft.EntityFrameworkCore;
@@ -24,7 +23,7 @@ public class EFProductRepository : IProductRepository
         return product;
     }
 
-    public async Task<IQueryable<Product>?> GetAllProducts() => _db.Products.AsQueryable();
+    public IQueryable<Product>? GetAllProducts() => _db.Products.AsQueryable();
     public async Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize)
     {
         //exemplo: user esta na pagina 3, 10 items por pagina, skip e take pegam a partir de (3 - 2) * 10 = 20

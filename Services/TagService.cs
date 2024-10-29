@@ -15,8 +15,8 @@ public class TagService
         _tagRepository = tagRepository;
     }
 
-    public async Task<IQueryable<Tag>?> GetProductTags(long productId)
-        => await _tagRepository.GetProductTags(productId);
+    public IQueryable<Tag>? GetProductTags(long productId)
+        => _tagRepository.GetProductTags(productId);
 
     public async Task<Tag?> GetTag(long tagId) => await _tagRepository.GetTagById(tagId);
 

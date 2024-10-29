@@ -1,6 +1,8 @@
 using InfoGem.Data;
 using InfoGem.Models;
 
+namespace InfoGem.Repositories;
+
 public class EFAddressRepository : IAddressRepository
 {
     private readonly AppDbContext _db;

@@ -16,7 +16,7 @@ public class HomeController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<IActionResult> Home()
+    public IActionResult Home()
     {
         return Ok("Funciona");
     }

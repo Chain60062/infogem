@@ -1,5 +1,3 @@
-using InfoGem.Models;
-
 namespace InfoGem.Repositories;
 
 public interface IFileRepository

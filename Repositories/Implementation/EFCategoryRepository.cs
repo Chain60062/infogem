@@ -3,6 +3,7 @@ using InfoGem.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace InfoGem.Repositories;
+
 public class EFCategoryRepository : ICategoryRepository
 {
     private readonly AppDbContext _db;
@@ -17,7 +18,7 @@ public class EFCategoryRepository : ICategoryRepository
 
         return category?.Products.AsQueryable();
     }
-    public async Task<IQueryable<Category>?> GetAllCategories() => _db.Categories.AsQueryable();
+    public IQueryable<Category>? GetAllCategories() => _db.Categories.AsQueryable();
     public async Task<Category?> GetCategoryById(long categoryId) => await _db.Categories.FindAsync(categoryId);
     public async Task<Category?> GetCategoryBySlug(string slug) => await _db.Categories.FirstOrDefaultAsync(c => c.Slug == slug);
 

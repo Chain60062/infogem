@@ -1,12 +1,13 @@
 using InfoGem.Services;
 using Microsoft.AspNetCore.Mvc;
 using InfoGem.Dto;
+using Microsoft.AspNetCore.Authorization;
 
 namespace InfoGem.Controllers;
 
-
-[Route("api/carts")]
+[Authorize] //para adicionar autorização utilize Map{method}.RequireAuthorization() ou o atributo [Authorize]
 [ApiController]
+[Route("api/carts")]
 public class CartController : ControllerBase
 {
     private readonly CartService _cartService;

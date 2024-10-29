@@ -6,7 +6,6 @@ namespace InfoGem.Utils;
 public static class Slug{
     public static string ToSlug(this string text)
     {
-
         string str = AccentRemover.RemoveAccents(text).ToLower();
         // invalid chars           
         str = Regex.Replace(str, @"[^a-z0-9\s-]", "");

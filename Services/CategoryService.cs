@@ -14,7 +14,7 @@ public class CategoryService
         _categoryRepository = categoryRepository;
     }
 
-    public async Task<IQueryable<Category>?> GetAllCategories() => await _categoryRepository.GetAllCategories();
+    public IQueryable<Category>? GetAllCategories() => _categoryRepository.GetAllCategories();
 
     public async Task<IQueryable<Product>?> GetCategoryProducts(long categoryId) => await _categoryRepository.GetCategoryProducts(categoryId);
 

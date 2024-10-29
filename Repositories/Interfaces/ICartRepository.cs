@@ -1,5 +1,7 @@
 using InfoGem.Models;
 
+namespace InfoGem.Repositories;
+
 public interface ICartRepository
 {
     public Task<Cart?> GetUserCart(Guid userId);

@@ -1,7 +1,4 @@
-using InfoGem.Models;
-using InfoGem.Repositories;
-
-namespace Infogem.Repositories;
+namespace InfoGem.Repositories;
 
 public class EFFileRepository : IFileRepository
 {

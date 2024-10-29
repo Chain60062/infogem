@@ -57,10 +57,8 @@ public class EFOrderRepository : IOrderRepository
 
     public async Task<Order?> GetOrderById(long orderId) => await _db.Orders.FindAsync(orderId);
 
-    public async Task<IQueryable<Order>?> GetUserOrders(AppUser user)
-    {
-        return user.Orders.AsQueryable();
-    }
+    public  IQueryable<Order>? GetUserOrders(AppUser user)=> user.Orders.AsQueryable();
+
     private decimal GetGrandTotal(Order order)
     {
         decimal sum = 0;

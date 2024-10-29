@@ -22,7 +22,7 @@ public class EFTagRepository : ITagRepository
         return tag;
     }
 
-    public async Task<IQueryable<Tag>?> GetProductTags(long productId) => _db.Products.Where(p => p.ProductId == productId).SelectMany(p => p.Tags).AsQueryable();
+    public IQueryable<Tag>? GetProductTags(long productId) => _db.Products.Where(p => p.ProductId == productId).SelectMany(p => p.Tags).AsQueryable();
 
     public async Task<Tag?> GetTagById(long tagId) => await _db.Tags.FindAsync(tagId);
 

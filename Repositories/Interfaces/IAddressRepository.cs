@@ -1,5 +1,7 @@
 using InfoGem.Models;
 
+namespace InfoGem.Repositories;
+
 public interface IAddressRepository
 {
     public Task<IQueryable<Address>?> GetUserAddresses(Guid userId);

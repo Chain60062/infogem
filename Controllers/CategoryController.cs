@@ -18,9 +18,9 @@ public class CategoryController : Controller
         _categoryService = categoryService;
     }
     [HttpGet]
-    public async Task<IActionResult> GetAllCategories()
+    public IActionResult GetAllCategories()
     {
-        var categories = await _categoryService.GetAllCategories();
+        var categories = _categoryService.GetAllCategories();
 
         return Ok(categories);
     }

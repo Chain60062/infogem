@@ -2,6 +2,8 @@ using InfoGem.Data;
 using InfoGem.Models;
 using Microsoft.EntityFrameworkCore;
 
+namespace InfoGem.Repositories;
+
 public class EFCartRepository : ICartRepository
 {
     private readonly AppDbContext _db;

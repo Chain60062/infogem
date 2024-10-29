@@ -24,7 +24,7 @@ public class OrderService
 
         if (user is null) return null;
 
-        return await _orderRepository.GetUserOrders(user);
+        return  _orderRepository.GetUserOrders(user);
     }
 
     public async Task<Order?> CreateNewOrder(OrderDto orderDto)

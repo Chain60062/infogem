@@ -21,14 +21,11 @@ public class ProductService
         _fileRepository = fileRepository;
     }
 
-    public async Task<Product?> GetProductById(long productId)
-    {
-        return await _productRepository.GetProductById(productId);
-    }
-    public async Task<IQueryable<Product>?> GetAllProducts()
-    {
-        return await _productRepository.GetAllProducts();
-    }
+    public async Task<Product?> GetProductById(long productId)=>    
+        await _productRepository.GetProductById(productId);
+
+    public IQueryable<Product>? GetAllProducts()=> _productRepository.GetAllProducts();
+    
     public async Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize)
     {
         return await _productRepository.GetProducts(pageIndex, pageSize);

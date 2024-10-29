@@ -1,6 +1,5 @@
 using InfoGem.Services;
 using InfoGem.Repositories;
-using Infogem.Repositories;
 
 namespace Infogem.Utils;
 public static class IServiceCollectionExtensions

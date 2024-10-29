@@ -6,7 +6,7 @@ public interface IProductRepository
 {
     public Task<Product?> CreateNewProduct(Product product);
 
-    public Task<IQueryable<Product>?> GetAllProducts();
+    public IQueryable<Product>? GetAllProducts();
     public Task<PaginatedList<Product>?> GetProducts(int pageIndex, int pageSize);
 
     public Task<IQueryable<Image>?> GetProductImages(long productId);

@@ -1,4 +1,6 @@
 using InfoGem.Models;
+using InfoGem.Repositories;
+
 namespace InfoGem.Services;
 
 public class CartService

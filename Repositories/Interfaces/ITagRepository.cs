@@ -5,7 +5,7 @@ namespace InfoGem.Repositories;
 public interface ITagRepository
 {
     public Task<Tag?> CreateNewTag(Tag tag);
-    public Task<IQueryable<Tag>?> GetProductTags(long productId);
+    public IQueryable<Tag>? GetProductTags(long productId);
     public Task<Tag?> GetTagById(long cartId);
 
     public Task<bool> RemoveTagById(long cartId);
